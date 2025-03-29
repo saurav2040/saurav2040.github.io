@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Saurav Singh"
+  navbar:
+    left:
+      - text: "About Me"
+        href: about.qmd
+      - text: "Blogs"
+        href: index.qmd
+
+    right:
+      - icon: github
+        href: https://github.com/saurav2040
+      - icon: twitter
+        href: https://x.com/Saurav2023
+format:
+  html:
+    theme: minty
+    css: styles.css
+
+
+

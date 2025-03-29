@@ -1,0 +1,25 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/Saurav2023
+#    - icon: linkedin
+#      text: LinkedIn
+#      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com/saurav2040
+
+---
+
+Hi! I am Saurav.
+
+I'm a Computer scientist based in India. I love Deep learning, math, and wisdom literature.
+
+I'm currently on my arc to become an ML engineer .
+
+I believe in learn in public. As a result , I am documenting and sharing all my learnings here.
