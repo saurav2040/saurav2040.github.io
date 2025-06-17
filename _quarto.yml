@@ -10,16 +10,23 @@ website:
         href: about.qmd
       - text: "Blogs"
         href: index.qmd
+#      - text: "Learning ML"
+#        href: "learning-ml.qmd"
 
     right:
       - icon: github
         href: https://github.com/saurav2040
       - icon: twitter
         href: https://x.com/Saurav2023
+
 format:
   html:
-    theme: minty
-    css: styles.css
+    theme: sandstone  # cerulean, yeti
+    toc: true
+    toc-depth: 3
+    toc-title: Contents
+    toc-location: right
+    
 
 
 

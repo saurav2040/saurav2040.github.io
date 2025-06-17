@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Fastai Community, Shraey">
+<meta name="dcterms.date" content="2025-06-17">
+
+<title>How to study fastai – Saurav Singh</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-3f9740e16c5aa82324e2d2774081471a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Saurav Singh</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About Me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Blogs</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/saurav2040"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/Saurav2023"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">How to study fastai</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">guide</div>
+                <div class="quarto-category">fastai</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Fastai Community, Shraey </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 17, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#keep-going-untill-you-finish-the-course" id="toc-keep-going-untill-you-finish-the-course" class="nav-link active" data-scroll-target="#keep-going-untill-you-finish-the-course">Keep going Untill you finish the course !!</a></li>
+  <li><a href="#how-to-finish-a-fastai-lesson-step-by-step" id="toc-how-to-finish-a-fastai-lesson-step-by-step" class="nav-link" data-scroll-target="#how-to-finish-a-fastai-lesson-step-by-step">How to Finish a Fastai lesson step by step:</a></li>
+  <li><a href="#homework-in-fastai" id="toc-homework-in-fastai" class="nav-link" data-scroll-target="#homework-in-fastai">Homework (in Fastai)</a></li>
+  <li><a href="#how-to-not-procrastinate-fastai" id="toc-how-to-not-procrastinate-fastai" class="nav-link" data-scroll-target="#how-to-not-procrastinate-fastai">How to Not Procrastinate Fastai</a></li>
+  <li><a href="#strategies-to-browse-through-the-fastai-code" id="toc-strategies-to-browse-through-the-fastai-code" class="nav-link" data-scroll-target="#strategies-to-browse-through-the-fastai-code">Strategies to browse through the fastai code?</a></li>
+  <li><a href="#things-jeremy-says-to-do-in-fastai" id="toc-things-jeremy-says-to-do-in-fastai" class="nav-link" data-scroll-target="#things-jeremy-says-to-do-in-fastai">Things Jeremy Says to do (in fastai) :</a>
+  <ul class="collapse">
+  <li><a href="#lesson-1" id="toc-lesson-1" class="nav-link" data-scroll-target="#lesson-1">Lesson 1</a></li>
+  <li><a href="#lesson-2" id="toc-lesson-2" class="nav-link" data-scroll-target="#lesson-2">Lesson 2</a></li>
+  <li><a href="#lesson-3" id="toc-lesson-3" class="nav-link" data-scroll-target="#lesson-3">Lesson 3</a></li>
+  <li><a href="#lesson-4" id="toc-lesson-4" class="nav-link" data-scroll-target="#lesson-4">Lesson 4</a></li>
+  <li><a href="#lesson-5" id="toc-lesson-5" class="nav-link" data-scroll-target="#lesson-5">Lesson 5</a></li>
+  <li><a href="#lesson-6" id="toc-lesson-6" class="nav-link" data-scroll-target="#lesson-6">Lesson 6</a></li>
+  <li><a href="#lesson-7" id="toc-lesson-7" class="nav-link" data-scroll-target="#lesson-7">Lesson 7</a></li>
+  <li><a href="#lesson-8" id="toc-lesson-8" class="nav-link" data-scroll-target="#lesson-8">Lesson 8</a></li>
+  <li><a href="#lesson-8-part-2-2019" id="toc-lesson-8-part-2-2019" class="nav-link" data-scroll-target="#lesson-8-part-2-2019">Lesson 8 (part 2 , 2019)</a></li>
+  <li><a href="#lesson-9" id="toc-lesson-9" class="nav-link" data-scroll-target="#lesson-9">Lesson 9</a></li>
+  <li><a href="#lesson-10" id="toc-lesson-10" class="nav-link" data-scroll-target="#lesson-10">Lesson 10</a></li>
+  <li><a href="#lesson-11" id="toc-lesson-11" class="nav-link" data-scroll-target="#lesson-11">Lesson 11</a></li>
+  <li><a href="#lesson-12" id="toc-lesson-12" class="nav-link" data-scroll-target="#lesson-12">Lesson 12</a></li>
+  </ul></li>
+  <li><a href="#jeremy-howards-advice" id="toc-jeremy-howards-advice" class="nav-link" data-scroll-target="#jeremy-howards-advice">Jeremy Howard’s advice :</a>
+  <ul class="collapse">
+  <li><a href="#to-become-a-world-class-dl-practitioner" id="toc-to-become-a-world-class-dl-practitioner" class="nav-link" data-scroll-target="#to-become-a-world-class-dl-practitioner">To become a world class DL Practitioner</a></li>
+  <li><a href="#learning-by-discovery-how-to-learn-dl-in-fastai-way" id="toc-learning-by-discovery-how-to-learn-dl-in-fastai-way" class="nav-link" data-scroll-target="#learning-by-discovery-how-to-learn-dl-in-fastai-way">Learning by Discovery (How to learn DL in Fastai way)</a></li>
+  <li><a href="#fastai-lesson-0" id="toc-fastai-lesson-0" class="nav-link" data-scroll-target="#fastai-lesson-0">Fastai : Lesson 0</a></li>
+  <li><a href="#your-projects-and-mindset-1" id="toc-your-projects-and-mindset-1" class="nav-link" data-scroll-target="#your-projects-and-mindset-1">Your Projects and Mindset</a></li>
+  <li><a href="#tenacity-and-deep-learning" id="toc-tenacity-and-deep-learning" class="nav-link" data-scroll-target="#tenacity-and-deep-learning">Tenacity and Deep Learning</a></li>
+  <li><a href="#self-learning-tips" id="toc-self-learning-tips" class="nav-link" data-scroll-target="#self-learning-tips">Self-Learning Tips</a></li>
+  <li><a href="#you-dont-need-a-mastersphd-to-succeed-at-deep-learning" id="toc-you-dont-need-a-mastersphd-to-succeed-at-deep-learning" class="nav-link" data-scroll-target="#you-dont-need-a-mastersphd-to-succeed-at-deep-learning">You don’t need a Masters/PHD to succeed at deep learning</a></li>
+  </ul></li>
+  <li><a href="#zach-muellers-advice" id="toc-zach-muellers-advice" class="nav-link" data-scroll-target="#zach-muellers-advice">Zach Mueller’s advice</a>
+  <ul class="collapse">
+  <li><a href="#how-to-contribute-to-fastai-library" id="toc-how-to-contribute-to-fastai-library" class="nav-link" data-scroll-target="#how-to-contribute-to-fastai-library">How to contribute to Fastai library</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="keep-going-untill-you-finish-the-course" class="level3">
+<h3 class="anchored" data-anchor-id="keep-going-untill-you-finish-the-course">Keep going Untill you finish the course !!</h3>
+<p><img src="images/paste-1.png" class="img-fluid"></p>
+<ul>
+<li>You are not expected to remember everything. Yet.</li>
+<li>You are not expected to Understand everything. Yet.</li>
+<li>You are not expected to know Why everything works. Yet.</li>
+<li>Just be in situation where you can enter the code, run it, and something happening and you can start to experiment and get a feel for what’s going on &amp; then push on.
+<ul>
+<li><strong><em>Look at the inputs , Look at the outputs. Experiment with Code.</em></strong></li>
+</ul></li>
+<li><strong>Most of the successful Fastai students have watched the videos 3 times.</strong></li>
+</ul>
+</section>
+<section id="how-to-finish-a-fastai-lesson-step-by-step" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-finish-a-fastai-lesson-step-by-step">How to Finish a Fastai lesson step by step:</h3>
+<p><img src="images/paste-2.png" class="img-fluid"></p>
+<ol type="1">
+<li>📚 <strong>Watch the lecture.</strong></li>
+<li>👨‍💻 <strong>Open the lecture notebook and figure out how all the pieces fit together.</strong>
+<ul>
+<li>The idea is to run each line of code and look at the outputs.&nbsp;</li>
+<li>If you come across a function you have not previously encountered, this is a good time to read its documentation.&nbsp;</li>
+<li>How will the performance differ if you pass in different arguments or slightly tweak the hyperparameters?</li>
+<li>Add comments to the cell and explain what the cell does in your own words. If you do not understand, add a TODO on it.
+<ul>
+<li>Use doc(THING_I_WANT_TO_KNOW_MORE)</li>
+<li><code>doc(untar_data)</code></li>
+<li><code>?? untar_data</code>&nbsp;</li>
+<li><code>help(untar_data)</code></li>
+</ul></li>
+<li><strong>To start, focus on what things DO, not what they ARE</strong></li>
+<li><strong>Look over the source code and notebooks&nbsp;<em>often</em></strong> <em>==(zach mueller’s way)==</em>
+<ul>
+<li>How does x work. Why does x work. And why does doing y break x’s code? (What did I do wrong). Most of the time, simply tracing back what a function does answers most of my questions.</li>
+<li>And for the course notebooks, I still can’t remember how to write an image dataloader from memory so I cheat (oh no!). I try to not, and if it doesn’t quite work, the course notebooks show an example for most&nbsp;<em>any</em>&nbsp;problem so I debug there.</li>
+</ul></li>
+</ul></li>
+<li>👨‍💻 <strong>Once you understand the bigger picture, it’s time to reproduce the results.</strong>
+<ul>
+<li>To do so, open a new notebook and try to recreate the training pipeline that the lecture demonstrated.<br>
+</li>
+<li>&nbsp;It’s an open-book exercise – it’s okay if you need to look back at the lecture notebook, but the less you do so, the better.</li>
+<li>On the other hand, there are no limitations on reading the documentation or searching online. Both of these activities are encouraged and they closely resemble what programming feel like when it’s done completely on your own.</li>
+<li>Execute each one and explain what the code cell is doing &amp; why it is doing that in your own words.</li>
+<li>Any time that you feel unsure about why a particular step is being done, or how it works, or why the outputs are what you observe (or anything else), please ask on the forums.</li>
+<li>The test of whether you understand code is NOT to read it and think “yeah, that makes sense”.</li>
+<li><strong>The REAL test of whether you understand something is whether you can build it yourself.</strong></li>
+<li><em>There are 3 reasons for this :</em>
+<ul>
+<li>Recreating it from scratch , forces your brain to actively recall the info.</li>
+<li>It forces you to think about what step to take next, which ensures that you’re thinking carefully about the “process”.</li>
+<li><strong>Through experimenting with inputs and outputs you build the intuitive understanding of the various components of a neural network that is critical to developing your expertise.</strong></li>
+</ul></li>
+</ul></li>
+<li>📚 <strong>Read the Fastbook chapter related to the course lesson</strong>.</li>
+<li>📚 <strong>Review the questionare</strong> provided and try attempting to answer based on your understanding (It’s okay if you cannot answer all.)</li>
+<li>👨‍💻 <strong>Create the notebook but use a different dataset.</strong>
+<ul>
+<li>This time, we search for a similar dataset and test drive the technique we just learned about.<br>
+</li>
+<li>Your imagination is the only limit here. You could seek out a dataset online or you could put one together yourself.</li>
+<li>Creating a dataset is a great way to learn in general!&nbsp;</li>
+<li>Figuring out what data to include and how to assign labels makes you think through many important considerations for training your model.&nbsp;</li>
+<li>It is a great idea to include dataset creation at some point in your learning journey.<br>
+</li>
+<li>Alternatively, the fast.ai library provides access to many datasets used for research. You can download them to your machine with a single command.<br>
+</li>
+<li><strong>The idea is to systematically grow your skills.</strong><br>
+</li>
+<li><strong>You start in a controlled setting of the lecture notebook, learning the ins and outs of the technique that the lecture discussed.</strong><br>
+</li>
+<li><strong>With every new exercise, more of the training wheels come off, to the point where you’re doing everything on your own from start to finish.</strong></li>
+<li>This approach to learning works like a charm.<br>
+</li>
+<li>There are no hard and fast rules here and you are more than welcome to modify it as you go.<br>
+</li>
+<li>Being creative and coming up with exercises that are challenging and interesting to you is a very valuable skill in its own right; acquiring it will take your learning to the next level.<br>
+</li>
+<li>The result is always the same: to arrive at a place where you can comfortably apply the techniques you learn in the lectures to problems you haven’t previously seen.</li>
+</ul></li>
+<li>📚 <strong>Watch the lecture again more slowly.</strong>
+<ul>
+<li>Add ur learnings/todo/advice/homework etc to notes.</li>
+<li>Finish Lesson Summary Questions.</li>
+<li>Finish homeworks suggested by Jeremy, Radek..</li>
+</ul></li>
+<li>⭐ <strong>Practice</strong>
+<ul>
+<li>Re-Read the Chapter + Finish the questionnaire this time.</li>
+<li>Finish the Further research questions&nbsp;</li>
+<li>Finish aiquizzes , and add them to your notes.</li>
+<li>Finish tutorials at fastai.docs (vision, datablock, learner ..etc)</li>
+<li>Finish homeworks suggested by Jeremy, Radek,… Fastai community</li>
+<li><strong>Read the forum daily.</strong> Even a casual browse of a topic. I may not understand something people are talking about, but I know it exists and I can revisit it later if I need to</li>
+<li><strong>Essentially go through the notebooks and explore why what is doing what</strong>, <strong>play around with problem sets, and</strong> **keep looking back at the original notebooks until it becomes fluid</li>
+</ul></li>
+</ol>
+</section>
+<section id="homework-in-fastai" class="level3">
+<h3 class="anchored" data-anchor-id="homework-in-fastai">Homework (in Fastai)</h3>
+<blockquote class="blockquote">
+<p>Jeremy says : <strong>Advanced ideas can be extremely simple and effective when put in practice.</strong></p>
+</blockquote>
+<section id="writing-blogs" class="level4">
+<h4 class="anchored" data-anchor-id="writing-blogs">📝 Writing Blogs</h4>
+<ul>
+<li><strong>Write blogs</strong> geared towards those who either barely know what fastai is or are getting the basics to make sure I know it well enough and can explain it.
+<ul>
+<li>&nbsp;I found writing blogs have helped me figure out what’s the most important bits from lectures, the library, etc and also helps me to be able to explain it to others.</li>
+<li>To add to this point, it doesn’t even have to be a full blog. When you run into an issue, write a forum post detailing the problem and what the solution is. This helps a ton not only for people that come after you on the forums, but will also help yourself. I have started creating these whenever I start to have a problem and usually I am able to find the solution, but if you aren’t able to, it also is a great way to help people follow how you arrived at the issue you are having.</li>
+</ul></li>
+</ul>
+</section>
+<section id="participate-in-kaggle-competitions" class="level4">
+<h4 class="anchored" data-anchor-id="participate-in-kaggle-competitions">🦆 Participate in Kaggle Competitions</h4>
+<ul>
+<li>Even if you rank last in leaderboard - atleast come-up with end to end solution (i.e finish the competition)</li>
+<li>Learn a Lesson from Fastai and take a Kaggle competition based on the lesson.&nbsp;<strong>It will give you feedback on learning.</strong>
+<ul>
+<li>I would also add checking out the winning solutions on Kaggle. Some exercises I’ve enjoyed doing:
+<ul>
+<li>Annotating someone else’s kernel. Basically take their kernel and explain every line in markdown mode.</li>
+<li>Taking a public Kaggle kernel model, studying it, and then try to replicate it as quickly as possible without referencing the original. The penalty for cheating is you have to restart the notebook from scratch.</li>
+</ul></li>
+</ul></li>
+<li><strong>Focus on different datasets and trying to get the best results on those datasets.</strong> &nbsp;I am interested in X problems, so I find X datasets on Kaggle. And now there are a lot of Kaggle competitions going on as well.</li>
+</ul>
+</section>
+<section id="create-a-mini-projects-use-what-you-learnt." class="level4">
+<h4 class="anchored" data-anchor-id="create-a-mini-projects-use-what-you-learnt.">🧩 Create a mini projects &amp; use what you learnt.</h4>
+<ul>
+<li><strong>Create terrible mini-projects. But build them. Later come back and refactor them.</strong></li>
+<li><strong>Spend 1-2hrs a day on mini projects</strong> that I can get deep into for a month or two at most,</li>
+<li>Everyday, working 1-2 hrs on mini-projects, just exploring what some functions do, how they work, and applying it to any dataset I could find.</li>
+<li><strong>I’d explore pure pytorch code papers and try to migrate it to fastai.</strong>
+<ul>
+<li>Sometimes this is easy, eg the new optimizer LessW2020 got to work, where it’s a simple port of a function, other times it’s trying to pull full architectures from papers such as NTS-Net or Deep High Res. Again only working at most 2 hours a day so I don’t get too frustrated.</li>
+</ul></li>
+<li><strong>Sometimes, instead of applying what I’ve just learned to another application, I try to implement some Fastai functions myself without using Fastai library.</strong>
+<ul>
+<li>To have a better understanding of what’s hapenning behind the curtain. Because when Jeremy explains it it always seems brilliantly simple. But when you do it by yourself that’s another story. But be careful, hours pass quickly when doing this!</li>
+</ul></li>
+<li><strong>Make sure for every chapter of the Fastbook , you create some of kind of project</strong> (however small or silly it is Or its a direct copy of something else you found)</li>
+<li>**If you are low on inspiration :
+<ul>
+<li>Check out “Share you projects” on fastai forum.** There, you will find an assortment of ideas: blog posts, howtos, forum posts, GitHub repos, explainer videos, and Kaggle competitions.</li>
+<li>Explore what some functions do, how they work, and applying it to any dataset I could find.</li>
+</ul></li>
+<li><strong>Don’t focus on the perfect learning thing.</strong>* <strong>Focus on things that keeps you engaged.</strong></li>
+<li><strong>Building something from scratch &amp; putting it out in world and taking effective feedbacks from people.</strong></li>
+<li><strong>You are your own rival. Try to outperform yourself on your projects and you will see growth.</strong></li>
+</ul>
+</section>
+<section id="finish-a-great-project" class="level4">
+<h4 class="anchored" data-anchor-id="finish-a-great-project">💼 Finish a great project</h4>
+<ul>
+<li><strong>Focus on making one really great project that is really polished , which shows off my skills.</strong>
+<ul>
+<li>Polishing of really well means - to create really good documentation about it, really nice interface for it , make it as good as you can.</li>
+</ul></li>
+<li>The project need not be world changing OR something which no one ever built. Maybe its just like….Oh I really loved that thing that person built. Gosh! It would be a real stretch , If i could build it too !!</li>
+<li><strong>You are your own rival. Try to outperform yourself on your projects and you will see growth.</strong></li>
+<li><strong>Don’t be afraid to be curious.</strong>
+<ul>
+<li>Einstein once said “ The important thing is not to stop questioning. Curiosity has its own reason for existing.” This can come in many ways such as feature engineering, playing around with the number of variables, classes, hyperparameters tuning, etc. even if someone’s done it, assume their way may not be the best, and try to see if you can outthink it. Even if that somebody is yourself!&nbsp;</li>
+<li>I had a research project where I was trying to beat a baseline in random forests. I spent two months on it and couldn’t quite do it. I always fell 1-2% short.</li>
+<li>Then I had discovered a paper on feature engineering for sensors a few months later, revisited it with my new knowledge and practices and wound up blowing them out of the water!</li>
+<li><strong>Patience, persistence, and curiosity is everything</strong>. While I know a decent amount about the library, there is&nbsp;<strong>much</strong>&nbsp;I don’t know, and I always remember that to stay level-headed. <strong>Everyday I’m learning something new just by playing around.</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="your-projects-and-mindset" class="level4">
+<h4 class="anchored" data-anchor-id="your-projects-and-mindset">Your Projects and Mindset</h4>
+<ul>
+<li>Whether you’re excited to identify if plants are diseased from pictures of their leaves, diagnose TB from X-rays, or want a build a recommendation system of Books and Movies , we will get you using deep learning on your own problems (via pretrained models from others) as quickly as possible, and then will progressively drill into more details.</li>
+<li>You’ll learn how to use deep learning to solve your own problems at state-of-the-art accuracy.</li>
+<li><strong>It helps to focus on your hobbies and passions—setting yourself four or five little projects rather than striving to solve a big, grand problem tends to work better when you’re getting started.</strong></li>
+<li>Since it is easy to get stuck, trying to be too ambitious too early can often backfire. Then, once you’ve got the basics mastered, aim to complete something you’re really proud of !</li>
+<li><strong>Common character traits in the people who do well at deep learning include playfulness and curiosity.</strong>
+<ul>
+<li>The late physicist Richard Feynman is an example of someone we’d expect to be great at deep learning: his development of an understanding of the movement of subatomic particles came from his amusement at how plates wobble when they spin in the air.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="how-to-not-procrastinate-fastai" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-not-procrastinate-fastai">How to Not Procrastinate Fastai</h3>
+<ul>
+<li><strong>Keep a list of your own weaknesses &amp; auxiliary learning needs.</strong>
+<ul>
+<li>There are so many different technologies being combined here. Jupyter, python, git, regular expressions, libraries like numpy, pandas…etc, I think this creates pitfalls for students because it leads to them feeling very overwhelmed, and also spending too much time trying to master too many things instead of learning them as needed.<br>
+</li>
+<li>My approach to overcome the feeling of being overwhelmed, and the temptation to put off fast.ai for 3 months while learning all these other things, was to-</li>
+<li><strong>Make a big list of these things, decide how much time they’d take and how valuable they are (in order to prioritize) and then spend 10-20% of my time each week chipping away at them.</strong></li>
+<li>If I come across something in the course/notebooks that makes me feel like I need something more immediately, I prioritize that in my free study time for the week.</li>
+</ul></li>
+<li><strong>Try to apply these newly learnt concept/skill everday.</strong>
+<ul>
+<li>Test it, apply it, discuss it , teach it, write blogs on it etc.</li>
+<li>If doubt in using it, look up into docs.</li>
+</ul></li>
+</ul>
+</section>
+<section id="strategies-to-browse-through-the-fastai-code" class="level3">
+<h3 class="anchored" data-anchor-id="strategies-to-browse-through-the-fastai-code">Strategies to browse through the fastai code?</h3>
+<section id="jeremy" class="level4">
+<h4 class="anchored" data-anchor-id="jeremy">Jeremy :</h4>
+<ul>
+<li>I’d recommend finishing reading the book before diving too far into the library code, because in the book you’ll recreate many of the key classes in fastai from scratch.</li>
+<li>Once you’ve done that the fastai code will make much more sense since you’ll know what each bit is doing.</li>
+</ul>
+</section>
+<section id="zach-mueller" class="level4">
+<h4 class="anchored" data-anchor-id="zach-mueller"><a href="https://x.com/TheZachMueller/status/1380204285217103879">Zach Mueller</a></h4>
+<blockquote class="blockquote">
+<p>Finish <strong>Walk with Fastai</strong> courses - to understand Fastai library code + to transition to use Pytorch+fastai (best of both worlds)</p>
+</blockquote>
+<p>A list of the best (and partially biased) <span class="citation" data-cites="fastdotai">@fastdotai</span> resources, in no particular order, with descriptions and how I utilize them 🙂</p>
+<ul>
+<li><p><a href="https://docs.fast.ai">docs.fastai.ai</a> paired with their <a href="https://github.com/fastai/fastai/tree/master/nbs">source notebooks</a></p></li>
+<li><p>Looking from documentation to examples right away, and letting yourself get your hands dirty. The most common notebooks I go back to -&gt;</p>
+<ul>
+<li><a href="https://docs.fast.ai/tutorial.datablock.html">DataBlock:</a> Shows a variety of ways to create <span class="citation" data-cites="fastdotai">@fastdotai</span> DataBlock and DataLoaders with the midlevel API</li>
+<li><a href="https://docs.fast.ai/callback.core.html">Callback (Core):</a> Remembering the event trigger names, how they work, and quick links to other examples.</li>
+<li>And <a href="https://docs.fast.ai/learner.html">Learner</a>, as that’s the basics of everything <span class="citation" data-cites="fastdotai">@fastdotai</span> trains with.</li>
+</ul></li>
+<li><p>We can’t forget the <a href="https://forums.fast.ai">fastai forums !</a> Easily my one-stop-shop if I ever have a question about <em>anything</em> in fastai. Even if it’s just for a casual stroll through the forums, there is something available in there for everyone to learn with a welcoming community!</p></li>
+<li><p>Then of course <a href="https://nbdev.fast.ai">Nbdev</a> ; Coupled with <a href="https://fastcore.fast.ai">Fastcore</a></p>
+<ul>
+<li>Trailing back and forth between the two as I look into and use nbdev let’s me quickly see how fastai’s (suite) “magic” functions work, and let’s me learn how to utilize them more</li>
+</ul></li>
+<li><p>Then we have <span class="citation" data-cites="amaarora">@amaarora</span>’s timmdocs, an additional documentation to <span class="citation" data-cites="wightmanr">@wightmanr</span>’s timm library that he’s been doing an <em>excellent</em> job on: <a href="https://timm.fast.ai">timm.fast.ai</a></p></li>
+<li><p>Finally, we have my walkwithfastai <a href="https://walkwithfastai.com/revisited/">Walk with Fastai</a> which consists of numerous other tutorials and different DataBlock methods that aren’t shown in the fastai documentation, and also contains my API-forward approach towards teaching <span class="citation" data-cites="fastdotai">@fastdotai</span></p></li>
+</ul>
+</section>
+</section>
+<section id="things-jeremy-says-to-do-in-fastai" class="level2">
+<h2 class="anchored" data-anchor-id="things-jeremy-says-to-do-in-fastai">Things Jeremy Says to do (in fastai) :</h2>
+<blockquote class="blockquote">
+<p><strong>Listen to Jeremy</strong> — (said radek)</p>
+<p>I mean like really listen, to everything &nbsp;and spend your time how he suggests”. If he says, go code — do it. If he says “try blah”… go try blah.</p>
+<p>Most consistent regret: “I should have listened when Jeremy said don’t spend hours lost in theory trying to understand everything right away”.</p>
+</blockquote>
+<section id="lesson-1" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-1">Lesson 1</h3>
+<ol type="1">
+<li>Don’t try to stop and understand everything.</li>
+<li>Don’t waste your time, learn Jupyter keyboard shortcuts. Learn 4 to 5 each day.</li>
+<li>Please run the code, really run the code. Don’t go deep on theory. Play with the code, see what goes in and what comes out.</li>
+<li>Pick one project. Do it really well. Make it fantastic.</li>
+<li>Run this notebook (lesson1-pets.ipynb), but then get your own dataset and run it! (extra emphasis: do this!)</li>
+<li>If you have a lot of categories, don’t run confusion matrix, run… <code>interp.most_confused(min_val=n)</code></li>
+</ol>
+</section>
+<section id="lesson-2" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-2">Lesson 2</h3>
+<ol type="1">
+<li><p>If forum posts are overwhelming, click “summarize this topic” at the bottom of the first post.</p></li>
+<li><p>It’s okay to feel intimidated, there’s a lot, but just pick one piece and dig into it. Try to push a piece of code, or learn a concept like regular expressions, or create a classifier, or whatever.&nbsp;</p></li>
+<li><p>If you’re struck, keep going.</p></li>
+<li><p>If you’re not sure which learning rate is best from plot, try both and see.</p></li>
+<li><p>When you put a model into production, you probably want to use CPU for inference, except at massive scale. Context:&nbsp;<a href="https://youtu.be/ccMHJeQU4Qw?t=2308">Lesson 2: Putting Model into Production&nbsp;50</a></p></li>
+<li><p>Most organizations spend too much time gathering data. Get a small amount first, see how it goes.</p></li>
+</ol>
+</section>
+<section id="lesson-3" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-3">Lesson 3</h3>
+<ol type="1">
+<li>If you use a dataset, it would be very nice of you to cite the creator and thank them for their dataset.</li>
+<li>This week, see if you can come up with a problem that you would like to solve that is either multi-label classification or image regression or image segmentation or something like that and see if you can solve that problem. Context:&nbsp;<a href="https://youtu.be/MpZxV6DVsmM?t=7409">Fast.ai Lesson 3 Homework&nbsp;115</a></li>
+<li>Always use the same stats that the model was trained with. Context:&nbsp;<a href="https://youtu.be/MpZxV6DVsmM?t=6413">Lesson 3: Normalized data and ImageNet&nbsp;22</a></li>
+<li>In response to “Is there a reason you shouldn’t deliberately make lots of smaller datasets to step up from in tuning, let’s say 64x64 to 128x128 to 256x256?”: Yes you should totally do that, it works great, try it! Context:&nbsp;<a href="https://youtu.be/MpZxV6DVsmM?t=4252">Lesson 3: 64x64 vs 128x128 vs 256x256&nbsp;50</a></li>
+</ol>
+</section>
+<section id="lesson-4" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-4">Lesson 4</h3>
+<ol type="1">
+<li><p>If you’re doing NLP stuff, make sure you use all of the text you have (including unlabeled validation set) to train your model, because there’s no reason not to.&nbsp;<a href="https://youtu.be/9YK6AnqpuEA?t=1256">Lesson 4: A little NLP trick&nbsp;60</a></p></li>
+<li><p>In response to “What are the 10% of cases where you would not use neural nets”. You may as well try both. Try a random forest and try a neural net.&nbsp;<a href="https://youtu.be/9YK6AnqpuEA?t=2440">Lesson 4: How to know when to use neural nets&nbsp;48</a></p></li>
+<li><p>Use these terms (parameters, layers, activations…etc) and use them accurately.&nbsp;<a href="https://youtu.be/9YK6AnqpuEA?t=6015">Lesson 4: Important vocabulary for talking about ML&nbsp;44</a></p></li>
+</ol>
+</section>
+<section id="lesson-5" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-5">Lesson 5</h3>
+<ol type="1">
+<li><p>The answer to the question “Should I try&nbsp;<em>blah</em>?” is to try&nbsp;<em>blah</em>&nbsp;and see, that’s how you become a good practitioner.&nbsp;<a href="https://youtu.be/CJKnDu2dxOE?t=2800">Lesson 5: Should I try&nbsp;<em>blah</em>?&nbsp;27</a></p></li>
+<li><p>If you want to play around, try to create your own nn.linear class. You could create something called My_Linear and it will take you, depending on your PyTorch experience, an hour or two. We don’t want any of this to be magic and you know everything necessary to create this now. These are the things you should be doing for assignments this week, not so much new applications but trying to write more of these things from scratch and get them to work. Learn how to debug them and check them to see what’s going in and coming out.&nbsp;<a href="https://youtu.be/CJKnDu2dxOE?t=5431">Lesson 5 Assignment: Create your own version of nn.linear&nbsp;18</a></p></li>
+<li><p>A great assignment would be to take Lesson 2 SGD and try to add momentum to it. Or even the new notebook we have for MNIST, get rid of the Optim.SGD and write your own update function with momentum&nbsp;<a href="https://youtu.be/CJKnDu2dxOE?t=6792">Lesson 5: Another suggested assignment&nbsp;14</a></p></li>
+</ol>
+</section>
+<section id="lesson-6" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-6">Lesson 6</h3>
+<ol type="1">
+<li><p>Not an explicit “do this” but it feels like it fits here. “One of the big opportunities for research is to figure out how to do data augmentation for different domains. Almost nobody is looking at that and to me it is one of the biggest opportunities that could let you decrease data requirements by 5-10x.”&nbsp;<a href="https://youtu.be/hkBa9pU-H48?t=3852">Lesson 6: Data augmentation on inputs that aren’t images&nbsp;37</a></p></li>
+<li><p>If you take your time going through the convolution kernel section and the heatmap section of this notebook, running those lines of code and changing them around a bit. The most important thing to remember is shape (rank and dimensions of tensor). Try to think “why?”. Try going back to the printout of the summary, the list of the actual layers, the picture we drew and think about what’s going on.&nbsp;<a href="https://youtu.be/hkBa9pU-H48?t=6486">Lesson 6: Go through the convolution kernel and heatmap notebook&nbsp;17</a></p></li>
+</ol>
+</section>
+<section id="lesson-7" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-7">Lesson 7</h3>
+<ol type="1">
+<li><p>Not an explicit “do this” but it feels like it fits here. “One of the big opportunities for research is to figure out how to do data augmentation for different domains. Almost nobody is looking at that and to me it is one of the biggest opportunities that could let you decrease data requirements by 5-10x.”&nbsp;<a href="https://youtu.be/hkBa9pU-H48?t=3852">Lesson 6: Data augmentation on inputs that aren’t images&nbsp;37</a></p></li>
+<li><p>If you take your time going through the convolution kernel section and the heatmap section of this notebook, running those lines of code and changing them around a bit. The most important thing to remember is shape (rank and dimensions of tensor). Try to think “why?”. Try going back to the printout of the summary, the list of the actual layers, the picture we drew and think about what’s going on.&nbsp;<a href="https://youtu.be/hkBa9pU-H48?t=6486">Lesson 6: Go through the convolution kernel and heatmap notebook&nbsp;17</a></p></li>
+</ol>
+</section>
+<section id="lesson-8" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-8">Lesson 8</h3>
+<ol type="1">
+<li>Don’t let this lesson intimidate you. It’s meant to be intense in order to give you ideas to keep you busy before part two comes out.</li>
+</ol>
+<p>Parts 2-5 come from a great speech towards the end of the lesson. I’d highly recommend revisiting here:&nbsp;<a href="https://youtu.be/9spwoDYwW_I?t=7142">Lesson 7: What to do once you’ve completed Part 1&nbsp;34</a></p>
+<ol type="1">
+<li><p>Go back and watch the videos again. There will be bits where you now understand stuff you didn’t before.</p></li>
+<li><p>Write code and put it on GitHub. It doesn’t matter if it’s great code or not, writing it and sharing it is enough. You’ll get feedback from your peers that will help you improve.</p></li>
+<li><p>It’s a good time to start reading some of the papers introduced in the course. All the parts that say derivations/theorems/lemmas, feel free to skip, they will add nothing to your understanding of practical deep learning. Read the parts where they talk about why they are solving this problem and the results. Write summaries that will explain this to you of 6 months ago.</p></li>
+<li><p>Perhaps the most important is to get together with others. Learning works a lot better if you have that social experience. Start a book club, a study group, get involved in meetups, and build things. It doesn’t have to be amazing. Build something that will make the world slightly better, or will be slightly delightful to your two year old to see it. Just finish something, and then try to make it a bit better. Or get involved with fast.ai and helping develop the code and documentation. Check&nbsp;<a href="https://forums.fast.ai/t/dev-projects-index/29849">Dev Projects Index</a>&nbsp;on forums.</p></li>
+<li><p>In response to “What would you recommend doing/learning/practicing until the part 2 course starts?” “Just code. Just code all the time. Look at the shape of your inputs and outputs and make sure you know how to grab a mini-batch. There’s so much material that we’ve covered, if you can get to a pointwhere you can rebuild those notebooks from scratch without cheating too much, you’ll be in the top echelon of practitioners and you’ll be able to do all<br>
+of these things yourself and that’s really really rare.&nbsp;<a href="https://youtu.be/9spwoDYwW_I?t=7777">Lesson 7: What to do/learn/practice between now and Part 2&nbsp;31</a></p></li>
+</ol>
+</section>
+<section id="lesson-8-part-2-2019" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-8-part-2-2019">Lesson 8 (part 2 , 2019)</h3>
+<ol type="1">
+<li><p>The cutting edge of deep learning is really about engineering, not about papers. The difference between really effective people in deep learning and the rest is really about who can make things in code that work properly and there’s very few of those people.&nbsp;<a href="https://youtu.be/4u8FxNEDUeg?t=257">The Cutting Edge&nbsp;24</a></p></li>
+<li><p>There are many opportunities for you in this class. Experiment lots, particularly in your domain area. Write stuff down for the you of six months ago, that’s your audience. It doesn’t have to be perfect.&nbsp;<a href="https://youtu.be/4u8FxNEDUeg?t=1135">The Opportunities are Much Greater Now&nbsp;4</a></p></li>
+<li><p>If you don’t understand something from Part 1, go back and watch the video about that thing. Don’t just keep blasting forwards. Especially the later lessons of Part 1 where we went into more detail.&nbsp;<a href="https://youtu.be/4u8FxNEDUeg?t=1183">It’s Assumed You Understand Part 1&nbsp;1</a></p></li>
+<li><p>Overfit -&gt; Reduce Overfitting -&gt; There is no step 3. Remember overfitting doesn’t mean having a lower training loss than validation loss, that is normal. It means you have seen your validation error getting worse, until you see that happening you’re not overfitting.&nbsp;<a href="https://youtu.be/4u8FxNEDUeg?t=1267">3 Steps to Training a Really Good Model&nbsp;5</a></p></li>
+<li><p>Learn to pronounce Greek letters. A big part of reading papers is getting past the fear of Greek letters. It’s very hard to read something you can’t pronounce. You’re saying to yourself “squiggle bracket 1+squiggle G squiggle 1-squiggle.&nbsp;<a href="https://youtu.be/4u8FxNEDUeg?t=1391">Time to Start Reading Papers&nbsp;5</a></p></li>
+<li><p>Get very used to…</p>
+<ul>
+<li>PyTorch tensors</li>
+<li>‘.view()’, this is how we reshape vectors (e.g from 784 -&gt; 28*28)</li>
+<li>Matrix multiplications -&nbsp;<a href="http://matrixmultiplication.xyz/">Resource for Visualizing Matrix Multiplication&nbsp;2</a></li>
+<li>This equation&nbsp;<code>c[i,j] += a[i,k] * b[k,j]</code>&nbsp; <a href="https://youtu.be/4u8FxNEDUeg?t=2470">Equation Context&nbsp;3</a></li>
+</ul></li>
+<li><p>Homework: Take our most mind-bending broadcast and convince yourself of why it works. Put it in Excel, or do it on paper if it’s not already clear to you why this works.&nbsp;<a href="https://youtu.be/4u8FxNEDUeg?t=3921">Mind Bending Broadcast&nbsp;9</a></p></li>
+<li><p>Apply the simple broadcasting rules when working with higher ranked tensors. Don’t try to keep it all in your head. (rules are listed in notebook)&nbsp;<a href="https://youtu.be/4u8FxNEDUeg?t=3983">Apply the Broadcasting Rules&nbsp;1</a></p></li>
+<li><p>Always make sure your validation and training set were normalized in the same way.</p></li>
+<li><p>Reading papers from competition winners is a very very good idea.&nbsp;<a href="https://youtu.be/4u8FxNEDUeg?t=5532">Normal Papers vs Competition Papers&nbsp;20</a></p></li>
+<li><p>More Homework: Go read section 2.2 of the&nbsp;<a href="https://arxiv.org/abs/1502.01852">Resnet Paper&nbsp;3</a></p></li>
+<li><p>When you’re writing your own code, put some comments in your code to let the next person know what the hell you’re doing.&nbsp;<a href="https://youtu.be/4u8FxNEDUeg?t=6232">Jeremy Finds Undocumented Suboptimal Constant in PyTorch</a></p></li>
+<li><p>More Homework: If you don’t remember the chain rule, go to Khan Academy, they have a&nbsp;<a href="https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-2-new#ab-3-1a">great tutorial on the chain rule&nbsp;3</a></p></li>
+</ol>
+</section>
+<section id="lesson-9" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-9">Lesson 9</h3>
+<ol type="1">
+<li><p>When you see something in a library, don’t assume that it’s right or that it makes sense. When it comes to deep learning, none of us know what we’re doing. It doesn’t take too much to dig into it yourself.&nbsp;<a href="https://youtu.be/AcA8HAYh7IE?t=1387">Lesson 9: Don’t assume libraries are correct&nbsp;4</a></p></li>
+<li><p>I dont set a random seed, this is very intentional because I want to see variation in my model, I don’t want it to be hidden away behind a fixed seed.&nbsp;<a href="https://youtu.be/AcA8HAYh7IE?t=3493">Lesson 9: When not to use a seed&nbsp;3</a></p></li>
+<li><p>Coroutines in python are worth looking up and learning about, we’ll be using them lots.</p></li>
+<li><p>You can and should schedule everything, your dropout amount, what kind of data augmentation you do, weight decay, learning rate, momentum, everything. It’s very unlikely you would want the same hyperparameters throughout.&nbsp;<a href="https://youtu.be/AcA8HAYh7IE?t=7225">Lesson 9: Hyperparameter Scheduling&nbsp;3</a></p></li>
+</ol>
+</section>
+<section id="lesson-10" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-10">Lesson 10</h3>
+<ol type="1">
+<li><p>I want to remind you that it’s totally okay if you’re not keeping up with everything, I’m trying to give you enough to keep you busy until Part 2 next year, but don’t feel like you need to understand everything within a week of first hearing it.&nbsp;<a href="https://youtu.be/HR0lt1hlR6U?t=21">Lesson 10: Don’t worry&nbsp;1</a><br>
+<strong>Reminder:</strong>&nbsp;This was also&nbsp;<a href="https://youtu.be/ccMHJeQU4Qw?t=637">advice from Part 1 Lesson 2&nbsp;1</a>. If you’re here you got through that and you’ll get through this too!</p></li>
+<li><p>What will tend to happen with stuff in fast.ai is that we’ll start with something trivially easy and at some point in the next hour or two you might reach a point where you’re feeling totally lost, the trick is to go back to the point where it was trivially easy and figure out the bit where you suddenly noticed you were totally lost and find the bit in the middle where you kind of missed a bit because we are going to keep building up from trivially easy stuff.&nbsp;<a href="https://youtu.be/HR0lt1hlR6U?t=767">Lesson 10: Where’d you get lost?</a></p></li>
+<li><p>Dunder methods, there’s a particular list I suggest you know, and this is the list:&nbsp;<a href="https://www.youtube.com/watch?v=HR0lt1hlR6U&amp;feature=youtu.be&amp;t=1721">Lesson 10: Dunder Methods&nbsp;5</a></p></li>
+</ol>
+<ul>
+<li><code>__getitem__</code></li>
+<li><code>__getattr__</code></li>
+<li><code>__setattr__</code></li>
+<li><code>__del__</code></li>
+<li><code>__init__</code></li>
+<li><code>__new__</code></li>
+<li><code>__enter__</code></li>
+<li><code>__exit__</code></li>
+<li><code>__len__</code></li>
+<li><code>__repr__</code></li>
+<li><code>__str__</code></li>
+</ul>
+<ol start="4" type="1">
+<li>You need to be really good at browsing source code. This is a list of things you should know how to do in your editor of choice:&nbsp;<a href="https://www.youtube.com/watch?v=HR0lt1hlR6U&amp;feature=youtu.be&amp;t=1790">Lesson 10: What an editor needs&nbsp;4</a></li>
+</ol>
+<ul>
+<li>Jump to tag/symbol by with(with completions)</li>
+<li>Jump to current tag</li>
+<li>Jump to library tags</li>
+<li>Go back</li>
+<li>Search</li>
+<li>Outlining/folding</li>
+</ul>
+<ol type="1">
+<li><p>Standard deviation is more sensitive to outliers than mean absolute deviation. For that reason the mean absolute deviation is very often the thing you want to be using because, in ML, outliers are often more of a problem than a help. Mean absolute deviation is really underused, you should get used to it.&nbsp;<a href="https://www.youtube.com/watch?v=HR0lt1hlR6U&amp;feature=youtu.be&amp;t=2257">Lesson 10: Mean absolute deviation&nbsp;1</a></p></li>
+<li><p>Replacing things involving squares with things that use absolute values often works better. It’s a good tip to remember.&nbsp;<a href="https://www.youtube.com/watch?v=HR0lt1hlR6U&amp;feature=youtu.be&amp;t=2323">Lesson 10: Squares are for squares</a></p></li>
+<li><p>From now on, you’re not allowed to look at an equation, or type it in LaTeX without also typing it in python, actually calculating some values, and plotting it, because this is the only way we get a sense of what these variables and equations actually mean.&nbsp;<a href="https://www.youtube.com/watch?v=HR0lt1hlR6U&amp;feature=youtu.be&amp;t=2574">Lesson 10: Always play with equations</a></p></li>
+<li><p>Your problem to play with during the week is “how accurate can you make a model just using the layers we’ve created so far, and, for the ones that are great accuracy, what does the telemetry look like? How can you tell it’s going to be good? And then what insights can<br>
+you gain from that to make it even better? Try to beat me (0.9898 at best point, 0.9822 at end) You can beat it pretty easily with some playing around, but do some experiments.&nbsp;<a href="https://www.youtube.com/watch?v=HR0lt1hlR6U&amp;feature=youtu.be&amp;t=5819">Lesson 10: Toy Problem #1 (<strong>Homework</strong>)&nbsp;2</a></p></li>
+<li><p>Epsilon appears in lots of places in deep learning and is a fantastic hyperparameter that you should be using to train things better&nbsp;<a href="https://www.youtube.com/watch?v=HR0lt1hlR6U&amp;feature=youtu.be&amp;t=7369">Lesson 10: More about epsilon&nbsp;5</a></p></li>
+<li><p>It’s really good to create interesting little games to play, in research we call them toy problems. Almost everything in research is toy problems you come up with and try to find solutions to. Another toy problem to try during the week is, what’s the best accuracy you can get in a single epoch using whatever normalization you like and only architectures we’ve used up to lesson 7?&nbsp; <a href="https://www.youtube.com/watch?v=HR0lt1hlR6U&amp;feature=youtu.be&amp;t=8071">Lesson 10: Toy Problem #2 (<strong>Homework</strong>)&nbsp;3</a></p></li>
+</ol>
+</section>
+<section id="lesson-11" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-11">Lesson 11</h3>
+<ol type="1">
+<li><p>A big part of getting good at deep learning in your domain is knowing how to create small workable useful datasets. In your domain area, whether it’s audio or sanskrit texts, try to come up with a toy problem or two which you hope might give insight into your full problem.&nbsp;<a href="https://youtu.be/hPQKzsjTyyQ?t=849">Lesson 11: Small useful datasets&nbsp;4</a></p></li>
+<li><p>If you haven’t seen&nbsp;<code>compose</code>&nbsp;used in programming before, google it. It’s a super useful concept and it comes up all the time.&nbsp;<a href="https://youtu.be/hPQKzsjTyyQ?t=1881">Lesson 11: Compose&nbsp;10</a></p></li>
+<li><p>A great opportunity to contribute is using telemetry to view activations of different layers and seeing what happens experimentally. The theory people generally don’t know how to train models, and the practitioners forget about actually thinking about the foundations at all, but if you can combine the two and try some experiments to see what happens when you adjust weight decay, you can find some really interesting results.&nbsp;<a href="https://youtu.be/hPQKzsjTyyQ?t=5449">Lesson 11: Another opportunity&nbsp;2</a></p></li>
+<li><p>The trick to making Adam and Adam-like things work well is to make epsilon 0.1 (or between 1e-3 and 1e-1). Most people use 1e-7 and that’s never going to be a good idea.<br>
+<a href="https://youtu.be/hPQKzsjTyyQ?t=6212">Lesson 11: Another place where epsilon matters&nbsp;7</a></p></li>
+<li><p>When you’re augmenting your data, look at or listen to your augmented data. Don’t just chuck it in a model but look at the augmented output and try to find something to study to see if you’re losing information.&nbsp;<a href="https://youtu.be/hPQKzsjTyyQ?t=6965">Lesson 11: Mindful data augmentation&nbsp;1</a></p></li>
+<li><p>Image augmentation isn’t just about throwing some transformation functions in there, but think about when you’re going to do it because you have this pipeline where you start with bytes, which become floats. Think about where you’re gonna do the work. Do whatever you can while they’re still bytes, but be careful to not do anything that will cause rounding errors or saturation problems.&nbsp;<a href="https://youtu.be/hPQKzsjTyyQ?t=7131">Lesson 11: Optimizing data augmentation&nbsp;1</a></p></li>
+<li><p>When doing data augmentation on non-images, ask yourself what kind of changes could occur in data that wouldn’t cause the label to change but would still leave that data as a reasonable example that could show up in your dataset.&nbsp;<a href="https://youtu.be/hPQKzsjTyyQ?t=7363">Lesson 11: Data augmentation in other domains</a></p></li>
+</ol>
+</section>
+<section id="lesson-12" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-12">Lesson 12</h3>
+<ol type="1">
+<li><p>Be careful about using automated formatting and creating too many rules. Sometimes unconventional formatting can help you to understand your code better. This is the only way to make your code work. Debugging machine learning code is awful so you have to make sure the thing you write makes sense and is simple.&nbsp;<a href="https://youtu.be/vnOpEwmtFJ8?t=147">Lesson 12: Unconventional Formatting&nbsp;2</a></p></li>
+<li><p>The mixup paper is a pretty easy read by paper standards. I suggest you&nbsp;<a href="https://arxiv.org/abs/1710.09412">check it out.&nbsp;3</a></p></li>
+<li><p>Make your equations in code as close as possible to the paper you’re implementing. When you’re comparing something to a paper, you want something that you can look at and straightaway say “oh, that looks very familiar”. As long as it’s not familiar you may want to think about how to make it more familiar.&nbsp;<a href="https://youtu.be/vnOpEwmtFJ8?t=674">Lesson 12: When to use Greek Letters&nbsp;2</a></p></li>
+<li><p>Don’t listen to people in your organization saying we can’t start modeling until we do all this cleanup work. Start modeling right now, see if the results are okay, and if they are, maybe you can skip the cleanup or do them both simultaneously.</p></li>
+<li><p>Read the&nbsp;<a href="https://arxiv.org/abs/1812.01187">Bag of Tricks Paper&nbsp;8</a>&nbsp;and think about for each of those resnet tweaks, why did they do that? It wasn’t some brainless random search where they tried everything. They sat back and thought “how do we use all the inputs we have and take advantage of all the computation we are doing?” Spend time thinking about architectures and experimenting with them, it’s really important for effective practitioners to be able to write nice concise architectures so that you can change them and understand them.&nbsp;<a href="https://youtu.be/vnOpEwmtFJ8?t=2350">Lesson 12: Build Architectures Thoughtfully&nbsp;1</a></p></li>
+<li><p>A super important thing to remember if you’re doing fine-tuning is don’t ever freeze the weights in the batchnorm layers if you’re ever doing partial layer training.&nbsp;<a href="https://youtu.be/vnOpEwmtFJ8?t=3762">Lesson 12: Batchnorm Does Weird Things&nbsp;2</a></p></li>
+<li><p>The way to debug in DL is to not make mistakes in the first place. The only way to do that is to make your code so simple that it can’t have a mistake, and to check every single intermediate result along the way. You also need to be a great scientist, which means keeping a journal notebook to keep track of your results.&nbsp;<a href="https://youtu.be/vnOpEwmtFJ8?t=4177">Lesson 12: A War Story About DL Debugging&nbsp;6</a>&nbsp;(really long and detailed response that’s worth a second listen)</p></li>
+<li><p>When preprocessing data for neural nets, leave it as raw as you can is the rule of thumb.</p></li>
+<li><p>Anybody who has made it to lesson 12 in this course should be learning Swift for TensorFlow. This one comes with some great advice.</p></li>
+</ol>
+<ul>
+<li><p>Python’s days are numbered.</p></li>
+<li><p>DL libraries change all the time so if you’re spending all the time learning one library in one language, you won’t be prepared for that change.</p></li>
+<li><p>I’ve spent time using, in real world scenarios, at least a couple dozen languages, and each time I learn a new language, I become a better developer. It’s just a good idea to learn a new language</p></li>
+<li><p>If you’re hacking around over the coming months and you find things aren’t the way you want then you can, and should, change it.</p></li>
+</ul>
+</section>
+</section>
+<section id="jeremy-howards-advice" class="level2">
+<h2 class="anchored" data-anchor-id="jeremy-howards-advice">Jeremy Howard’s advice :</h2>
+<section id="to-become-a-world-class-dl-practitioner" class="level3">
+<h3 class="anchored" data-anchor-id="to-become-a-world-class-dl-practitioner">To become a world class DL Practitioner</h3>
+<ul>
+<li>Willing to learn</li>
+<li>Curiousity</li>
+<li>Tenacity</li>
+<li>Consistency (10,000 hrs)</li>
+</ul>
+</section>
+<section id="learning-by-discovery-how-to-learn-dl-in-fastai-way" class="level3">
+<h3 class="anchored" data-anchor-id="learning-by-discovery-how-to-learn-dl-in-fastai-way">Learning by Discovery (How to learn DL in Fastai way)</h3>
+<p><img src="images/paste-3.png" class="img-fluid"></p>
+<ul>
+<li><strong>In deep learning, it really helps if you have the motivation to fix your model to get it to do better. That’s when you start learning the relevant theory.</strong>
+<ul>
+<li>But you need to have the model in the first place. Learn almost everything through real examples.</li>
+<li>As we build out those examples, we go deeper and deeper, and we’ll show you how to make your projects better and better.</li>
+<li>This means that you’ll be gradually learning all the theoretical foundations you need, in context, in such a way that you’ll see why it matters and how it works.</li>
+</ul></li>
+</ul>
+</section>
+<section id="fastai-lesson-0" class="level3">
+<h3 class="anchored" data-anchor-id="fastai-lesson-0">Fastai : Lesson 0</h3>
+<ul>
+<li><strong>Schedule the course - how long will u take to finish each lesson.</strong>
+<ul>
+<li>on which day will u watch the Lesson , what will u do after watching Lesson (next steps) etc. (to avoid procrastination &amp; maintain consistency)</li>
+</ul></li>
+<li><strong>Don’t add too many fillers while doing the course</strong>
+<ul>
+<li>i need to learn all the numpy and pandas and matplotlib and python before i go to next lesson this will break the flow of your learning fastai</li>
+<li>Just learn enough so that you can search the thing whenever needed.</li>
+<li>if you start learning all the pandas features…it will alone 6 months.</li>
+<li>Just learn fundamentals and carry on training models (dooing DL).</li>
+</ul></li>
+<li><strong>Teaching the whole game</strong>
+<ul>
+<li>We’ll start off by showing you how to use a complete, working, usable, state-of-the-art deep learning network to solve real-world problems using simple, expressive tools.</li>
+<li>And then we’ll gradually dig deeper and deeper into understanding how those tools are made, and how the tools that make those tools are made, and so on…</li>
+</ul></li>
+<li><strong>The hardest part of deep learning is artisanal:</strong>
+<ul>
+<li>How do you know if you’ve got enough data, whether it is in the right format, if your model is training properly, and, if it’s not, what you should do about it? That is why we believe in learning by doing.</li>
+<li>As with basic data science skills,&nbsp;<strong>with deep learning you get better only through practical experience.</strong>&nbsp;Trying to spend too much time on the theory can be counterproductive.</li>
+<li><strong>The key is to just code and try to solve problems</strong>: the theory can come later, when you have context and motivation.</li>
+</ul></li>
+<li><strong>Get started with coding</strong>
+<ul>
+<li>Even if you are not good at coding -
+<ul>
+<li>Rather than thinking - it’s a shame “i don’t know coding”</li>
+<li>Now you have a really fun project (fastai) - to learn coding for &amp; from.</li>
+</ul></li>
+<li>Lots of people have become great coders while doing the course (Zach Mueller) . You’ll learn lots of CS like -
+<ul>
+<li>OOPs, Functional programming</li>
+<li>list comprehension</li>
+<li>gpu acceleration, software design, etc..</li>
+</ul></li>
+</ul></li>
+<li><strong>Don’t try to go in depth in Fastai library</strong>
+<ul>
+<li>Because , <strong>If you’ve finshed fastai part 1 , part 2 + live coding + fastbook</strong> + <strong>walk with fastai</strong>&nbsp; – <strong>Then, you’d have implemented all the fastai library (from scratch + all the Deep learning fundamentals.</strong>)</li>
+</ul></li>
+<li><strong>Utilize the Clean version of fastbook :</strong>
+<ul>
+<li>This notebook contains just code (no context).</li>
+<li>After reading the main fastbook , come to this version - see the code and before running the code…</li>
+<li><strong>Ask yourself</strong>
+<ul>
+<li>why is this cell here ?</li>
+<li>what’s it for ?</li>
+<li>what’s it gonna do ?</li>
+<li>what’s the input and output gonna look like ?</li>
+</ul></li>
+</ul></li>
+<li><strong>How to use the Provided Notebooks</strong>
+<ul>
+<li>Read through the notebook. If everything makes sense, put it aside and create a new notebook.</li>
+<li>Now try to code the same process as we went through in class.</li>
+<li>If you get stuck at any point, you can refer to the class notebook. Find the solution to what you are stuck on. Look up the relevant documentation. Put the class notebook aside again, go back to your notebook, and try to code the solution.</li>
+<li>If you are still stuck, you can refer to the class notebook again. Do not copy and paste the needed code. Instead, type it out yourself. Check that it runs. If so, try changing the inputs, and see if that effects the outputs as you expect.</li>
+<li>Any time that you feel unsure about why a particular step is being done, or how it works, or why the outputs are what you observe (or anything else), please ask on the forums. As I write this (week 3 of the course), there has not been a single question on the forums that has not been resolved!</li>
+</ul></li>
+<li><strong>There will be times when the journey feels hard.</strong>
+<ul>
+<li>Times when you feel stuck.&nbsp;<strong>Don’t give up!</strong></li>
+<li>Rewind through the book to find the last bit where you definitely weren’t stuck, and then read slowly through from there to find the first thing that isn’t clear.</li>
+<li><strong>Then try some code experiments yourself, and Google around for more tutorials</strong>&nbsp;on whatever the issue you’re stuck with is—often you’ll find a different angle on the material that might help it to click.</li>
+</ul></li>
+<li>Also,&nbsp;<strong>it’s expected and normal to not understand everything (especially the code) on first reading.</strong>
+<ul>
+<li>&nbsp;Trying to understand the material serially before proceeding can sometimes be hard. Sometimes things click into place after you get more context from parts down the road, from having a bigger picture. So if you do get stuck on a section, try moving on anyway and make a note to come back to it later.</li>
+</ul></li>
+</ul>
+</section>
+<section id="your-projects-and-mindset-1" class="level3">
+<h3 class="anchored" data-anchor-id="your-projects-and-mindset-1">Your Projects and Mindset</h3>
+<blockquote class="blockquote">
+<p>add these contents under one “Projects” section!</p>
+</blockquote>
+</section>
+<section id="tenacity-and-deep-learning" class="level3">
+<h3 class="anchored" data-anchor-id="tenacity-and-deep-learning">Tenacity and Deep Learning</h3>
+<ul>
+<li><p>The story of deep learning is one of tenacity and grit by a handful of dedicated researchers. After early hopes (and hype!), neural networks went out of favor in the 1990s and 2000s, and just a handful of researchers kept trying to make them work well. Three of them, Yann Lecun, Yoshua Bengio, and Geoffrey Hinton, were awarded the highest honor in computer science, the Turing Award (generally considered the “Nobel Prize of computer science”), in 2018 after triumphing despite the deep skepticism and disinterest of the wider machine learning and statistics community.</p></li>
+<li><p>Hinton has told of how academic papers showing dramatically better results than anything previously published would be rejected by top journals and conferences, just because they used a neural network. Lecun’s work on convolutional neural networks, which we will study in the next section, showed that these models could read hand‐ written text—something that had never been achieved before. However, his break‐ through was ignored by most researchers, even as it was used commercially to read 10% of the checks in the US!</p></li>
+<li><p>In addition to these three Turing Award winners, many other researchers have battled to get us to where we are today. For instance, Jurgen Schmidhuber (who many believe should have shared in the Turing Award) pioneered many important ideas, including working with his student Sepp Hochreiter on the long short-term memory (LSTM) architecture (widely used for speech recognition and other text modeling tasks, and used in the IMDb example in Chapter 1). Perhaps most important of all, Paul Werbos in 1974 invented backpropagation for neural networks, the technique shown in this chapter and used universally for training neural networks (Werbos 1994). His devel‐ opment was almost entirely ignored for decades, but today it is considered the most important foundation of modern AI.</p></li>
+<li><p><strong>There is a lesson here for all of us!</strong>&nbsp;On your deep learning journey, you will face many obstacles, both technical and (even more difficult) posed by people around you who don’t believe you’ll be successful. There’s one guaranteed way to fail, and that’s to stop trying.&nbsp;<strong>We’ve seen that the only consistent trait among every fast.ai student who’s gone on to be a world-class practitioner is that they are all very tenacious.</strong></p></li>
+</ul>
+<hr>
+<ul>
+<li><strong>Being tenacious also means</strong>&nbsp;…
+<ul>
+<li>Keep going (until u finish the course , project , competition)</li>
+<li>Keep coming back &amp; continue the Fastai Lessons (even if u took a break of 2-3 days or 2-3 years)</li>
+</ul></li>
+</ul>
+</section>
+<section id="self-learning-tips" class="level3">
+<h3 class="anchored" data-anchor-id="self-learning-tips">Self-Learning Tips</h3>
+<ul>
+<li><p><strong>Learn on demand</strong></p>
+<ul>
+<li>If you find you need to know some foundational skill, learn it at that time, and just what you need. A lot of students get lost in rabbit holes of foundational math study and never develop expertise in AI/ML as a result!</li>
+</ul></li>
+<li><p><strong>Doing an Actual Project by using something new.</strong></p>
+<ul>
+<li>I have a project to build , how can i use a new method, new library, new knowledge, new way to complete this project, automating something in the project , making it less complex etc.</li>
+</ul></li>
+<li><p>Learning compunds (grows exponentially) over time.</p></li>
+<li><p>Skills &gt; built on skills &gt; built on skills…makes you an expert.</p></li>
+<li><p>Deliberate practice :</p>
+<ul>
+<li>10,000 hours of&nbsp;Deliberate&nbsp;practice makes you Expert.</li>
+<li>Deliberate practice involves&nbsp;Continuously taking effective feedbacks.</li>
+<li>Example :
+<ul>
+<li>Learn a Lesson from Fastai and take a Kaggle competition based on the lesson.&nbsp;<strong>It will give you feedback on learning.</strong></li>
+<li>Building something from scratch &amp; putting it out in world and taking effective feedbacks from people.</li>
+</ul></li>
+</ul></li>
+<li><p>Stay Engaged</p>
+<ul>
+<li>Don’t focus on the perfect learning thing.</li>
+<li>Focus on things that keeps you engaged.</li>
+</ul></li>
+<li><p><strong>Creativity, Work-ethics, Problem-Solving Creation</strong></p>
+<ul>
+<li><strong>Inspiration is for amateurs</strong>&nbsp;— the rest of us just show up and get to work. And the belief that things will grow out of the activity itself and that you will — through work — bump into other possibilities and kick open other doors that you would never have dreamt of if you were just sitting around looking for a great ‘art idea.’ And the belief that process, in a sense, is liberating and that you don’t have to reinvent the wheel every day. Today, you know what you’ll do, you could be doing what you were doing yesterday, and tomorrow you are gonna do what you did today, and at least for a certain period of time you can just work. If you hang in there, you will get somewhere.</li>
+<li><strong>Problem Solving vs Problem Creation</strong>&nbsp;: I think our whole society is much too problem-<em>solving</em>&nbsp;oriented. It is far more interesting to participate in ‘problem creation’ … You know, ask yourself an interesting enough question and your attempt to find a tailor-made solution to that question will push you to a place where, pretty soon, you’ll find yourself all by your lonesome — which I think is a more interesting place to be.</li>
+</ul></li>
+<li><p><strong>Is spaced repetition useful for technical concepts/skills ?</strong></p>
+<ul>
+<li>Instead; Try to apply newly learnt concept/skill everday.</li>
+<li>Test it, apply it, discuss it , teach it, write blogs on it etc.</li>
+<li>If doubt in using it, look up into docs.</li>
+</ul></li>
+</ul>
+</section>
+<section id="you-dont-need-a-mastersphd-to-succeed-at-deep-learning" class="level3">
+<h3 class="anchored" data-anchor-id="you-dont-need-a-mastersphd-to-succeed-at-deep-learning">You don’t need a Masters/PHD to succeed at deep learning</h3>
+<ul>
+<li>Many important breakthroughs are made in research and industry by folks without a PhD, such as the paper “Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks”—one of the most influential papers of the last decade, with over 5,000 citations — which was written by <a href="https://www.trybackprop.com/blog/2024_06_09_you_dont_need_a_phd#alec-radford--ml-researcher-at-openai">Alec Radford</a> (a CS undergrad).</li>
+<li><strong>What you will need to do to succeed, however, is to apply what you learn in this Fastai course &amp; book to a personal project, and always persevere.</strong></li>
+</ul>
+</section>
+</section>
+<section id="zach-muellers-advice" class="level2">
+<h2 class="anchored" data-anchor-id="zach-muellers-advice">Zach Mueller’s advice</h2>
+<ul>
+<li><a href="https://x.com/TheZachMueller/status/1451941577841127433">How to get most out of Fastai courses – Zach Mueller</a></li>
+<li>Approaching each lesson slowly, and letting myself wander in the related concepts, learning as much as I could through online communities.</li>
+<li>What is CV? There’s this cool new model out, how would I use it in fastai? My first ever question on the fastai forums was even about debugging a model. But the key here is I didn’t rush things.</li>
+<li>I see far too often people give up and ask for help a day or so into a problem. When I started out, I didn’t ask for help about a week into it. And that’s because I was <sub>actively</sub> Googling the problem and any relation I could find on it. Not just limiting it to a fastai issue.</li>
+<li>Everyone wants to get there the fastest. And while yes you can, this is often met with others simply handing out the answers, and you not really “learning”. And what winds up happening is the same question gets asked again and again, because they didn’t take a step back and Explore the problem fully and find the root of the issue, or learn a concept that directly relates to it. I purposefully do not do this when someone asks for help, as it can hinder them long-term.</li>
+<li>Through attacking these problems and learning the fastai framework, I learned how to debug Python, how to work with PyTorch a little bit, and new concepts I had seen for the first time.</li>
+<li><strong>Take it slow, at your own pace. Debug things yourself and get good at standing on your own two feet. At a job, that’s what your life will be like.</strong></li>
+<li><strong><em>This is simply what helped me when I was starting:</em></strong>
+<ul>
+<li><strong>Taking it seriously, from the start</strong></li>
+<li><strong>Coming in with a curious mind</strong></li>
+<li><strong>Driven to see it through</strong></li>
+</ul></li>
+<li><strong>Go through the lectures and courses slowly, relistening and running the notebooks&nbsp;<em>often</em>&nbsp;.</strong></li>
+<li><strong>Essentially go through the notebooks and explore why what is doing what, play around with problem sets, and keep looking back at the original notebooks until it becomes fluid.</strong></li>
+</ul>
+<section id="how-to-contribute-to-fastai-library" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-contribute-to-fastai-library">How to contribute to Fastai library</h3>
+<ul>
+<li>If you have absolutely zero, I recommend watching the first few lectures in the latest part 2 (yes of a few years ago!). Since it’s building a library from scratch, Jeremy covers how he approaches software design, which can help you understand the design <a href="https://t.co/0gBk2Fc0oq">https://youtube.com/watch?v=4u8FxNEDUeg&amp;list=PLk25yLtQLOdzmwWy-gZx1kcPDX72NoELg</a></li>
+<li>From there, start small. Look at the simpler areas of the library, and try and add some documentation, etc. Then slowly build yourself towards not understanding how fastai works, but how the DESIGN process works. Apply yourself towards seeing how classes interact, etc.</li>
+<li>A little toying goes a long way. After getting comfortable in some specific area, try writing some newer functions, or perhaps try to fix a bug that got noticed. It will be challenging, and you probably will struggle a bit. It’s not easy and that’s okay. Why?</li>
+<li>With the discord, forums, and twitter combined, you can find someone (or many someones) to help you understand how to get from A -&gt; B, and that’s what’s wonderful about this community!</li>
+<li>To take that further, if the part 2 videos are still too high a level, try finding some educational tutorials and courses on Object Oriented Programming, and try and bring up your foundations (pun intended). You can stay in Python for those, so don’t listen to nay-sayers*</li>
+<li>*Other languages are important, and there is a strong belief in starting with C++ or Java as your first language, but I usually reserve that for if you’re actually a CS major or don’t know where to start (which you are Social Sciences learning ML, so that’s okay!)</li>
+<li>That’s my take on it from my own perspective and belief, I hope some others might be able to chime in on this! HTH :)</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

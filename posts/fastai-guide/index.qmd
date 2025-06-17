@@ -1,0 +1,547 @@
+---
+title: "How to study fastai"
+author: "Fastai Community, Shraey"
+date: "2025-06-17"
+categories: [guide, fastai]
+---
+
+### Keep going Untill you finish the course !!
+
+![](images/paste-1.png)
+
+-   You are not expected to remember everything. Yet.
+-   You are not expected to Understand everything. Yet.
+-   You are not expected to know Why everything works. Yet.
+-   Just be in situation where you can enter the code, run it, and something happening and you can start to experiment and get a feel for what's going on & then push on.
+    -   ***Look at the inputs , Look at the outputs. Experiment with Code.***
+-   **Most of the successful Fastai students have watched the videos 3 times.**
+
+### How to Finish a Fastai lesson step by step:
+
+![](images/paste-2.png)
+
+1.  📚 **Watch the lecture.**
+2.  👨‍💻 **Open the lecture notebook and figure out how all the pieces fit together.**
+    -   The idea is to run each line of code and look at the outputs. 
+    -   If you come across a function you have not previously encountered, this is a good time to read its documentation. 
+    -   How will the performance differ if you pass in different arguments or slightly tweak the hyperparameters?
+    -   Add comments to the cell and explain what the cell does in your own words. If you do not understand, add a TODO on it.
+        -   Use doc(THING_I_WANT_TO_KNOW_MORE)
+        -   `doc(untar_data)`
+        -   `?? untar_data` 
+        -   `help(untar_data)`
+    -   **To start, focus on what things DO, not what they ARE**
+    -   **Look over the source code and notebooks *often*** *==(zach mueller's way)==*
+        -   How does x work. Why does x work. And why does doing y break x’s code? (What did I do wrong). Most of the time, simply tracing back what a function does answers most of my questions.
+        -   And for the course notebooks, I still can’t remember how to write an image dataloader from memory so I cheat (oh no!). I try to not, and if it doesn’t quite work, the course notebooks show an example for most *any* problem so I debug there.
+3.  👨‍💻 **Once you understand the bigger picture, it’s time to reproduce the results.**
+    -   To do so, open a new notebook and try to recreate the training pipeline that the lecture demonstrated.\
+    -    It’s an open-book exercise – it’s okay if you need to look back at the lecture notebook, but the less you do so, the better.
+    -   On the other hand, there are no limitations on reading the documentation or searching online. Both of these activities are encouraged and they closely resemble what programming feel like when it’s done completely on your own.
+    -   Execute each one and explain what the code cell is doing & why it is doing that in your own words.
+    -   Any time that you feel unsure about why a particular step is being done, or how it works, or why the outputs are what you observe (or anything else), please ask on the forums.
+    -   The test of whether you understand code is NOT to read it and think "yeah, that makes sense".
+    -   **The REAL test of whether you understand something is whether you can build it yourself.**
+    -   *There are 3 reasons for this :*
+        -   Recreating it from scratch , forces your brain to actively recall the info.
+        -   It forces you to think about what step to take next, which ensures that you're thinking carefully about the "process".
+        -   **Through experimenting with inputs and outputs you build the intuitive understanding of the various components of a neural network that is critical to developing your expertise.**
+4.  📚 **Read the Fastbook chapter related to the course lesson**.
+5.  📚 **Review the questionare** provided and try attempting to answer based on your understanding (It’s okay if you cannot answer all.)
+6.  👨‍💻 **Create the notebook but use a different dataset.**
+    -   This time, we search for a similar dataset and test drive the technique we just learned about.\
+    -   Your imagination is the only limit here. You could seek out a dataset online or you could put one together yourself.
+    -   Creating a dataset is a great way to learn in general! 
+    -   Figuring out what data to include and how to assign labels makes you think through many important considerations for training your model. 
+    -   It is a great idea to include dataset creation at some point in your learning journey.\
+    -   Alternatively, the fast.ai library provides access to many datasets used for research. You can download them to your machine with a single command.\
+    -   **The idea is to systematically grow your skills.**\
+    -   **You start in a controlled setting of the lecture notebook, learning the ins and outs of the technique that the lecture discussed.**\
+    -   **With every new exercise, more of the training wheels come off, to the point where you’re doing everything on your own from start to finish.**
+    -   This approach to learning works like a charm.\
+    -   There are no hard and fast rules here and you are more than welcome to modify it as you go.\
+    -   Being creative and coming up with exercises that are challenging and interesting to you is a very valuable skill in its own right; acquiring it will take your learning to the next level.\
+    -   The result is always the same: to arrive at a place where you can comfortably apply the techniques you learn in the lectures to problems you haven’t previously seen.
+7.  📚 **Watch the lecture again more slowly.**
+    -   Add ur learnings/todo/advice/homework etc to notes.
+    -   Finish Lesson Summary Questions.
+    -   Finish homeworks suggested by Jeremy, Radek..
+8.  ⭐ **Practice**
+    -   Re-Read the Chapter + Finish the questionnaire this time.
+    -   Finish the Further research questions 
+    -   Finish aiquizzes , and add them to your notes.
+    -   Finish tutorials at fastai.docs (vision, datablock, learner ..etc)
+    -   Finish homeworks suggested by Jeremy, Radek,... Fastai community
+    -   **Read the forum daily.** Even a casual browse of a topic. I may not understand something people are talking about, but I know it exists and I can revisit it later if I need to
+    -   **Essentially go through the notebooks and explore why what is doing what**, **play around with problem sets, and** \*\*keep looking back at the original notebooks until it becomes fluid
+
+### Homework (in Fastai)
+
+> Jeremy says : **Advanced ideas can be extremely simple and effective when put in practice.**
+
+#### 📝 Writing Blogs
+
+-   **Write blogs** geared towards those who either barely know what fastai is or are getting the basics to make sure I know it well enough and can explain it.
+    -    I found writing blogs have helped me figure out what’s the most important bits from lectures, the library, etc and also helps me to be able to explain it to others.
+    -   To add to this point, it doesn’t even have to be a full blog. When you run into an issue, write a forum post detailing the problem and what the solution is. This helps a ton not only for people that come after you on the forums, but will also help yourself. I have started creating these whenever I start to have a problem and usually I am able to find the solution, but if you aren’t able to, it also is a great way to help people follow how you arrived at the issue you are having.
+
+#### 🦆 Participate in Kaggle Competitions
+
+-   Even if you rank last in leaderboard - atleast come-up with end to end solution (i.e finish the competition)
+-   Learn a Lesson from Fastai and take a Kaggle competition based on the lesson. **It will give you feedback on learning.**
+    -   I would also add checking out the winning solutions on Kaggle. Some exercises I’ve enjoyed doing:
+        -   Annotating someone else’s kernel. Basically take their kernel and explain every line in markdown mode.
+        -   Taking a public Kaggle kernel model, studying it, and then try to replicate it as quickly as possible without referencing the original. The penalty for cheating is you have to restart the notebook from scratch.
+-   **Focus on different datasets and trying to get the best results on those datasets.**  I am interested in X problems, so I find X datasets on Kaggle. And now there are a lot of Kaggle competitions going on as well.
+
+#### 🧩 Create a mini projects & use what you learnt.
+
+-   **Create terrible mini-projects. But build them. Later come back and refactor them.**
+-   **Spend 1-2hrs a day on mini projects** that I can get deep into for a month or two at most,
+-   Everyday, working 1-2 hrs on mini-projects, just exploring what some functions do, how they work, and applying it to any dataset I could find.
+-   **I’d explore pure pytorch code papers and try to migrate it to fastai.**
+    -   Sometimes this is easy, eg the new optimizer LessW2020 got to work, where it’s a simple port of a function, other times it’s trying to pull full architectures from papers such as NTS-Net or Deep High Res. Again only working at most 2 hours a day so I don’t get too frustrated.
+-   **Sometimes, instead of applying what I’ve just learned to another application, I try to implement some Fastai functions myself without using Fastai library.**
+    -   To have a better understanding of what’s hapenning behind the curtain. Because when Jeremy explains it it always seems brilliantly simple. But when you do it by yourself that’s another story. But be careful, hours pass quickly when doing this!
+-   **Make sure for every chapter of the Fastbook , you create some of kind of project** (however small or silly it is Or its a direct copy of something else you found)
+-   \*\*If you are low on inspiration :
+    -   Check out “Share you projects” on fastai forum.\*\* There, you will find an assortment of ideas: blog posts, howtos, forum posts, GitHub repos, explainer videos, and Kaggle competitions.
+    -   Explore what some functions do, how they work, and applying it to any dataset I could find.
+-   **Don’t focus on the perfect learning thing.**\* **Focus on things that keeps you engaged.**
+-   **Building something from scratch & putting it out in world and taking effective feedbacks from people.**
+-   **You are your own rival. Try to outperform yourself on your projects and you will see growth.**
+
+#### 💼 Finish a great project
+
+-   **Focus on making one really great project that is really polished , which shows off my skills.**
+    -   Polishing of really well means - to create really good documentation about it, really nice interface for it , make it as good as you can.
+-   The project need not be world changing OR something which no one ever built. Maybe its just like….Oh I really loved that thing that person built. Gosh! It would be a real stretch , If i could build it too !!
+-   **You are your own rival. Try to outperform yourself on your projects and you will see growth.**
+-   **Don’t be afraid to be curious.**
+    -   Einstein once said “ The important thing is not to stop questioning. Curiosity has its own reason for existing.” This can come in many ways such as feature engineering, playing around with the number of variables, classes, hyperparameters tuning, etc. even if someone’s done it, assume their way may not be the best, and try to see if you can outthink it. Even if that somebody is yourself! 
+    -   I had a research project where I was trying to beat a baseline in random forests. I spent two months on it and couldn’t quite do it. I always fell 1-2% short.
+    -   Then I had discovered a paper on feature engineering for sensors a few months later, revisited it with my new knowledge and practices and wound up blowing them out of the water!
+    -   **Patience, persistence, and curiosity is everything**. While I know a decent amount about the library, there is **much** I don’t know, and I always remember that to stay level-headed. **Everyday I’m learning something new just by playing around.**
+
+#### Your Projects and Mindset 
+- Whether you’re excited to identify if plants are diseased from pictures of their leaves, diagnose TB from X-rays, or want a build a recommendation system of Books and Movies , we will get you using deep learning on your own problems (via pretrained models from others) as quickly as possible, and then will progressively drill into more details.
+- You’ll learn how to use deep learning to solve your own problems at state-of-the-art accuracy.
+- **It helps to focus on your hobbies and passions—setting yourself four or five little projects rather than striving to solve a big, grand problem tends to work better when you’re getting started.** 
+- Since it is easy to get stuck, trying to be too ambitious too early can often backfire. Then, once you’ve got the basics mastered, aim to complete something you’re really proud of !
+- **Common character traits in the people who do well at deep learning include playfulness and curiosity.** 
+	- The late physicist Richard Feynman is an example of someone we’d expect to be great at deep learning: his development of an understanding of the movement of subatomic particles came from his amusement at how plates wobble when they spin in the air.
+
+### How to Not Procrastinate Fastai
+
+-   **Keep a list of your own weaknesses & auxiliary learning needs.**
+    -   There are so many different technologies being combined here. Jupyter, python, git, regular expressions, libraries like numpy, pandas…etc, I think this creates pitfalls for students because it leads to them feeling very overwhelmed, and also spending too much time trying to master too many things instead of learning them as needed.\
+    -   My approach to overcome the feeling of being overwhelmed, and the temptation to put off fast.ai for 3 months while learning all these other things, was to-
+    -   **Make a big list of these things, decide how much time they’d take and how valuable they are (in order to prioritize) and then spend 10-20% of my time each week chipping away at them.**
+    -   If I come across something in the course/notebooks that makes me feel like I need something more immediately, I prioritize that in my free study time for the week.
+-   **Try to apply these newly learnt concept/skill everday.**
+    -   Test it, apply it, discuss it , teach it, write blogs on it etc.
+    -   If doubt in using it, look up into docs.
+
+
+### Strategies to browse through the fastai code?
+
+#### Jeremy :
+
+-   I’d recommend finishing reading the book before diving too far into the library code, because in the book you’ll recreate many of the key classes in fastai from scratch.
+-   Once you’ve done that the fastai code will make much more sense since you’ll know what each bit is doing.
+
+#### [Zach Mueller](https://x.com/TheZachMueller/status/1380204285217103879)
+
+> Finish **Walk with Fastai** courses - to understand Fastai library code + to transition to use Pytorch+fastai (best of both worlds)
+
+A list of the best (and partially biased) 
+@fastdotai resources, in no particular order, with descriptions and how I utilize them 🙂
+
+- [docs.fastai.ai](https://docs.fast.ai) paired with their [source notebooks](https://github.com/fastai/fastai/tree/master/nbs)
+
+- Looking from documentation to examples right away, and letting yourself get your hands dirty. The most common notebooks I go back to ->
+
+    - [DataBlock: ](https://docs.fast.ai/tutorial.datablock.html) Shows a variety of ways to create @fastdotai DataBlock and DataLoaders with the midlevel API
+    - [Callback (Core):](https://docs.fast.ai/callback.core.html) Remembering the event trigger names, how they work, and quick links to other examples.
+    - And [Learner](https://docs.fast.ai/learner.html), as that's the basics of everything @fastdotai trains with.
+
+- We can't forget the [fastai forums !](https://forums.fast.ai) Easily my one-stop-shop if I ever have a question about *anything* in fastai. Even if it's just for a casual stroll through the forums, there is something available in there for everyone to learn with a welcoming community!
+
+- Then of course [Nbdev](https://nbdev.fast.ai) ; Coupled with [Fastcore](https://fastcore.fast.ai)
+    - Trailing back and forth between the two as I look into and use nbdev let's me quickly see how fastai's (suite) "magic" functions work, and let's me learn how to utilize them more
+
+- Then we have @amaarora's timmdocs, an additional documentation to @wightmanr's timm library that he's been doing an *excellent* job on: [timm.fast.ai](https://timm.fast.ai)
+
+- Finally, we have my walkwithfastai [Walk with Fastai](https://walkwithfastai.com/revisited/) which consists of numerous other tutorials and different DataBlock methods that aren't shown in the fastai documentation, and also contains my API-forward approach towards teaching 
+@fastdotai
+ 
+
+
+## Things Jeremy Says to do (in fastai) :
+
+> **Listen to Jeremy** — (said radek)
+>
+> I mean like really listen, to everything  and spend your time how he suggests”. If he says, go code — do it. If he says “try blah”… go try blah.
+>
+> Most consistent regret: “I should have listened when Jeremy said don’t spend hours lost in theory trying to understand everything right away”.
+
+### Lesson 1
+
+1.  Don’t try to stop and understand everything.
+2.  Don’t waste your time, learn Jupyter keyboard shortcuts. Learn 4 to 5 each day.
+3.  Please run the code, really run the code. Don’t go deep on theory. Play with the code, see what goes in and what comes out.
+4.  Pick one project. Do it really well. Make it fantastic.
+5.  Run this notebook (lesson1-pets.ipynb), but then get your own dataset and run it! (extra emphasis: do this!)
+6.  If you have a lot of categories, don’t run confusion matrix, run… `interp.most_confused(min_val=n)`
+
+### Lesson 2
+
+1.  If forum posts are overwhelming, click “summarize this topic” at the bottom of the first post.
+
+2.  It’s okay to feel intimidated, there’s a lot, but just pick one piece and dig into it. Try to push a piece of code, or learn a concept like regular expressions, or create a classifier, or whatever. 
+
+3.  If you're struck, keep going.
+
+4.  If you’re not sure which learning rate is best from plot, try both and see.
+
+5.  When you put a model into production, you probably want to use CPU for inference, except at massive scale. Context: [Lesson 2: Putting Model into Production 50](https://youtu.be/ccMHJeQU4Qw?t=2308)
+
+6.  Most organizations spend too much time gathering data. Get a small amount first, see how it goes.
+
+### Lesson 3
+
+1.  If you use a dataset, it would be very nice of you to cite the creator and thank them for their dataset.
+2.  This week, see if you can come up with a problem that you would like to solve that is either multi-label classification or image regression or image segmentation or something like that and see if you can solve that problem. Context: [Fast.ai Lesson 3 Homework 115](https://youtu.be/MpZxV6DVsmM?t=7409)
+3.  Always use the same stats that the model was trained with. Context: [Lesson 3: Normalized data and ImageNet 22](https://youtu.be/MpZxV6DVsmM?t=6413)
+4.  In response to “Is there a reason you shouldn’t deliberately make lots of smaller datasets to step up from in tuning, let’s say 64x64 to 128x128 to 256x256?”: Yes you should totally do that, it works great, try it! Context: [Lesson 3: 64x64 vs 128x128 vs 256x256 50](https://youtu.be/MpZxV6DVsmM?t=4252)
+
+### Lesson 4
+
+1.  If you’re doing NLP stuff, make sure you use all of the text you have (including unlabeled validation set) to train your model, because there’s no reason not to. [Lesson 4: A little NLP trick 60](https://youtu.be/9YK6AnqpuEA?t=1256)
+
+2.  In response to “What are the 10% of cases where you would not use neural nets”. You may as well try both. Try a random forest and try a neural net. [Lesson 4: How to know when to use neural nets 48](https://youtu.be/9YK6AnqpuEA?t=2440)
+
+3.  Use these terms (parameters, layers, activations…etc) and use them accurately. [Lesson 4: Important vocabulary for talking about ML 44](https://youtu.be/9YK6AnqpuEA?t=6015)
+
+### Lesson 5
+
+1.  The answer to the question “Should I try *blah*?” is to try *blah* and see, that’s how you become a good practitioner. [Lesson 5: Should I try *blah*? 27](https://youtu.be/CJKnDu2dxOE?t=2800)
+
+2.  If you want to play around, try to create your own nn.linear class. You could create something called My_Linear and it will take you, depending on your PyTorch experience, an hour or two. We don’t want any of this to be magic and you know everything necessary to create this now. These are the things you should be doing for assignments this week, not so much new applications but trying to write more of these things from scratch and get them to work. Learn how to debug them and check them to see what’s going in and coming out. [Lesson 5 Assignment: Create your own version of nn.linear 18](https://youtu.be/CJKnDu2dxOE?t=5431)
+
+3.  A great assignment would be to take Lesson 2 SGD and try to add momentum to it. Or even the new notebook we have for MNIST, get rid of the Optim.SGD and write your own update function with momentum [Lesson 5: Another suggested assignment 14](https://youtu.be/CJKnDu2dxOE?t=6792)
+
+### Lesson 6
+
+1.  Not an explicit “do this” but it feels like it fits here. “One of the big opportunities for research is to figure out how to do data augmentation for different domains. Almost nobody is looking at that and to me it is one of the biggest opportunities that could let you decrease data requirements by 5-10x.” [Lesson 6: Data augmentation on inputs that aren’t images 37](https://youtu.be/hkBa9pU-H48?t=3852)
+
+2.  If you take your time going through the convolution kernel section and the heatmap section of this notebook, running those lines of code and changing them around a bit. The most important thing to remember is shape (rank and dimensions of tensor). Try to think “why?”. Try going back to the printout of the summary, the list of the actual layers, the picture we drew and think about what’s going on. [Lesson 6: Go through the convolution kernel and heatmap notebook 17](https://youtu.be/hkBa9pU-H48?t=6486)
+
+### Lesson 7
+
+1.  Not an explicit “do this” but it feels like it fits here. “One of the big opportunities for research is to figure out how to do data augmentation for different domains. Almost nobody is looking at that and to me it is one of the biggest opportunities that could let you decrease data requirements by 5-10x.” [Lesson 6: Data augmentation on inputs that aren’t images 37](https://youtu.be/hkBa9pU-H48?t=3852)
+
+2.  If you take your time going through the convolution kernel section and the heatmap section of this notebook, running those lines of code and changing them around a bit. The most important thing to remember is shape (rank and dimensions of tensor). Try to think “why?”. Try going back to the printout of the summary, the list of the actual layers, the picture we drew and think about what’s going on. [Lesson 6: Go through the convolution kernel and heatmap notebook 17](https://youtu.be/hkBa9pU-H48?t=6486)
+
+### Lesson 8
+
+1.  Don’t let this lesson intimidate you. It’s meant to be intense in order to give you ideas to keep you busy before part two comes out.
+
+Parts 2-5 come from a great speech towards the end of the lesson. I’d highly recommend revisiting here: [Lesson 7: What to do once you’ve completed Part 1 34](https://youtu.be/9spwoDYwW_I?t=7142)
+
+1.  Go back and watch the videos again. There will be bits where you now understand stuff you didn’t before.
+
+2.  Write code and put it on GitHub. It doesn’t matter if it’s great code or not, writing it and sharing it is enough. You’ll get feedback from your peers that will help you improve.
+
+3.  It’s a good time to start reading some of the papers introduced in the course. All the parts that say derivations/theorems/lemmas, feel free to skip, they will add nothing to your understanding of practical deep learning. Read the parts where they talk about why they are solving this problem and the results. Write summaries that will explain this to you of 6 months ago.
+
+4.  Perhaps the most important is to get together with others. Learning works a lot better if you have that social experience. Start a book club, a study group, get involved in meetups, and build things. It doesn’t have to be amazing. Build something that will make the world slightly better, or will be slightly delightful to your two year old to see it. Just finish something, and then try to make it a bit better. Or get involved with fast.ai and helping develop the code and documentation. Check [Dev Projects Index](https://forums.fast.ai/t/dev-projects-index/29849) on forums.
+
+5.  In response to “What would you recommend doing/learning/practicing until the part 2 course starts?” "Just code. Just code all the time. Look at the shape of your inputs and outputs and make sure you know how to grab a mini-batch. There’s so much material that we’ve covered, if you can get to a pointwhere you can rebuild those notebooks from scratch without cheating too much, you’ll be in the top echelon of practitioners and you’ll be able to do all\
+    of these things yourself and that’s really really rare. [Lesson 7: What to do/learn/practice between now and Part 2 31](https://youtu.be/9spwoDYwW_I?t=7777)
+
+### Lesson 8 (part 2 , 2019)
+
+1.  The cutting edge of deep learning is really about engineering, not about papers. The difference between really effective people in deep learning and the rest is really about who can make things in code that work properly and there’s very few of those people. [The Cutting Edge 24](https://youtu.be/4u8FxNEDUeg?t=257)
+
+2.  There are many opportunities for you in this class. Experiment lots, particularly in your domain area. Write stuff down for the you of six months ago, that’s your audience. It doesn’t have to be perfect. [The Opportunities are Much Greater Now 4](https://youtu.be/4u8FxNEDUeg?t=1135)
+
+3.  If you don’t understand something from Part 1, go back and watch the video about that thing. Don’t just keep blasting forwards. Especially the later lessons of Part 1 where we went into more detail. [It’s Assumed You Understand Part 1 1](https://youtu.be/4u8FxNEDUeg?t=1183)
+
+4.  Overfit -\> Reduce Overfitting -\> There is no step 3. Remember overfitting doesn’t mean having a lower training loss than validation loss, that is normal. It means you have seen your validation error getting worse, until you see that happening you’re not overfitting. [3 Steps to Training a Really Good Model 5](https://youtu.be/4u8FxNEDUeg?t=1267)
+
+5.  Learn to pronounce Greek letters. A big part of reading papers is getting past the fear of Greek letters. It’s very hard to read something you can’t pronounce. You’re saying to yourself "squiggle bracket 1+squiggle G squiggle 1-squiggle. [Time to Start Reading Papers 5](https://youtu.be/4u8FxNEDUeg?t=1391)
+
+6.  Get very used to…
+
+    -   PyTorch tensors
+    -   ‘.view()’, this is how we reshape vectors (e.g from 784 -\> 28\*28)
+    -   Matrix multiplications - [Resource for Visualizing Matrix Multiplication 2](http://matrixmultiplication.xyz/)
+    -   This equation `c[i,j] += a[i,k] * b[k,j]`  [Equation Context 3](https://youtu.be/4u8FxNEDUeg?t=2470)
+
+7.  Homework: Take our most mind-bending broadcast and convince yourself of why it works. Put it in Excel, or do it on paper if it’s not already clear to you why this works. [Mind Bending Broadcast 9](https://youtu.be/4u8FxNEDUeg?t=3921)
+
+8.  Apply the simple broadcasting rules when working with higher ranked tensors. Don’t try to keep it all in your head. (rules are listed in notebook) [Apply the Broadcasting Rules 1](https://youtu.be/4u8FxNEDUeg?t=3983)
+
+9.  Always make sure your validation and training set were normalized in the same way.
+
+10. Reading papers from competition winners is a very very good idea. [Normal Papers vs Competition Papers 20](https://youtu.be/4u8FxNEDUeg?t=5532)
+
+11. More Homework: Go read section 2.2 of the [Resnet Paper 3](https://arxiv.org/abs/1502.01852)
+
+12. When you’re writing your own code, put some comments in your code to let the next person know what the hell you’re doing. [Jeremy Finds Undocumented Suboptimal Constant in PyTorch](https://youtu.be/4u8FxNEDUeg?t=6232)
+
+13. More Homework: If you don’t remember the chain rule, go to Khan Academy, they have a [great tutorial on the chain rule 3](https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-2-new#ab-3-1a)
+
+### Lesson 9
+
+1.  When you see something in a library, don’t assume that it’s right or that it makes sense. When it comes to deep learning, none of us know what we’re doing. It doesn’t take too much to dig into it yourself. [Lesson 9: Don’t assume libraries are correct 4](https://youtu.be/AcA8HAYh7IE?t=1387)
+
+2.  I dont set a random seed, this is very intentional because I want to see variation in my model, I don’t want it to be hidden away behind a fixed seed. [Lesson 9: When not to use a seed 3](https://youtu.be/AcA8HAYh7IE?t=3493)
+
+3.  Coroutines in python are worth looking up and learning about, we’ll be using them lots.
+
+4.  You can and should schedule everything, your dropout amount, what kind of data augmentation you do, weight decay, learning rate, momentum, everything. It’s very unlikely you would want the same hyperparameters throughout. [Lesson 9: Hyperparameter Scheduling 3](https://youtu.be/AcA8HAYh7IE?t=7225)
+
+### Lesson 10
+
+1.  I want to remind you that it’s totally okay if you’re not keeping up with everything, I’m trying to give you enough to keep you busy until Part 2 next year, but don’t feel like you need to understand everything within a week of first hearing it. [Lesson 10: Don’t worry 1](https://youtu.be/HR0lt1hlR6U?t=21)\
+    **Reminder:** This was also [advice from Part 1 Lesson 2 1](https://youtu.be/ccMHJeQU4Qw?t=637). If you’re here you got through that and you’ll get through this too!
+
+2.  What will tend to happen with stuff in fast.ai is that we’ll start with something trivially easy and at some point in the next hour or two you might reach a point where you’re feeling totally lost, the trick is to go back to the point where it was trivially easy and figure out the bit where you suddenly noticed you were totally lost and find the bit in the middle where you kind of missed a bit because we are going to keep building up from trivially easy stuff. [Lesson 10: Where’d you get lost?](https://youtu.be/HR0lt1hlR6U?t=767)
+
+3.  Dunder methods, there’s a particular list I suggest you know, and this is the list: [Lesson 10: Dunder Methods 5](https://www.youtube.com/watch?v=HR0lt1hlR6U&feature=youtu.be&t=1721)
+
+-   `__getitem__`
+-   `__getattr__`
+-   `__setattr__`
+-   `__del__`
+-   `__init__`
+-   `__new__`
+-   `__enter__`
+-   `__exit__`
+-   `__len__`
+-   `__repr__`
+-   `__str__`
+
+4.  You need to be really good at browsing source code. This is a list of things you should know how to do in your editor of choice: [Lesson 10: What an editor needs 4](https://www.youtube.com/watch?v=HR0lt1hlR6U&feature=youtu.be&t=1790)
+
+-   Jump to tag/symbol by with(with completions)
+-   Jump to current tag
+-   Jump to library tags
+-   Go back
+-   Search
+-   Outlining/folding
+
+1.  Standard deviation is more sensitive to outliers than mean absolute deviation. For that reason the mean absolute deviation is very often the thing you want to be using because, in ML, outliers are often more of a problem than a help. Mean absolute deviation is really underused, you should get used to it. [Lesson 10: Mean absolute deviation 1](https://www.youtube.com/watch?v=HR0lt1hlR6U&feature=youtu.be&t=2257)
+
+2.  Replacing things involving squares with things that use absolute values often works better. It’s a good tip to remember. [Lesson 10: Squares are for squares](https://www.youtube.com/watch?v=HR0lt1hlR6U&feature=youtu.be&t=2323)
+
+3.  From now on, you’re not allowed to look at an equation, or type it in LaTeX without also typing it in python, actually calculating some values, and plotting it, because this is the only way we get a sense of what these variables and equations actually mean. [Lesson 10: Always play with equations](https://www.youtube.com/watch?v=HR0lt1hlR6U&feature=youtu.be&t=2574)
+
+4.  Your problem to play with during the week is "how accurate can you make a model just using the layers we’ve created so far, and, for the ones that are great accuracy, what does the telemetry look like? How can you tell it’s going to be good? And then what insights can\
+    you gain from that to make it even better? Try to beat me (0.9898 at best point, 0.9822 at end) You can beat it pretty easily with some playing around, but do some experiments. [Lesson 10: Toy Problem #1 (**Homework**) 2](https://www.youtube.com/watch?v=HR0lt1hlR6U&feature=youtu.be&t=5819)
+
+5.  Epsilon appears in lots of places in deep learning and is a fantastic hyperparameter that you should be using to train things better [Lesson 10: More about epsilon 5](https://www.youtube.com/watch?v=HR0lt1hlR6U&feature=youtu.be&t=7369)
+
+6.  It’s really good to create interesting little games to play, in research we call them toy problems. Almost everything in research is toy problems you come up with and try to find solutions to. Another toy problem to try during the week is, what’s the best accuracy you can get in a single epoch using whatever normalization you like and only architectures we’ve used up to lesson 7?  [Lesson 10: Toy Problem #2 (**Homework**) 3](https://www.youtube.com/watch?v=HR0lt1hlR6U&feature=youtu.be&t=8071)
+
+### Lesson 11
+
+1.  A big part of getting good at deep learning in your domain is knowing how to create small workable useful datasets. In your domain area, whether it’s audio or sanskrit texts, try to come up with a toy problem or two which you hope might give insight into your full problem. [Lesson 11: Small useful datasets 4](https://youtu.be/hPQKzsjTyyQ?t=849)
+
+2.  If you haven’t seen `compose` used in programming before, google it. It’s a super useful concept and it comes up all the time. [Lesson 11: Compose 10](https://youtu.be/hPQKzsjTyyQ?t=1881)
+
+3.  A great opportunity to contribute is using telemetry to view activations of different layers and seeing what happens experimentally. The theory people generally don’t know how to train models, and the practitioners forget about actually thinking about the foundations at all, but if you can combine the two and try some experiments to see what happens when you adjust weight decay, you can find some really interesting results. [Lesson 11: Another opportunity 2](https://youtu.be/hPQKzsjTyyQ?t=5449)
+
+4.  The trick to making Adam and Adam-like things work well is to make epsilon 0.1 (or between 1e-3 and 1e-1). Most people use 1e-7 and that’s never going to be a good idea.\
+    [Lesson 11: Another place where epsilon matters 7](https://youtu.be/hPQKzsjTyyQ?t=6212)
+
+5.  When you’re augmenting your data, look at or listen to your augmented data. Don’t just chuck it in a model but look at the augmented output and try to find something to study to see if you’re losing information. [Lesson 11: Mindful data augmentation 1](https://youtu.be/hPQKzsjTyyQ?t=6965)
+
+6.  Image augmentation isn’t just about throwing some transformation functions in there, but think about when you’re going to do it because you have this pipeline where you start with bytes, which become floats. Think about where you’re gonna do the work. Do whatever you can while they’re still bytes, but be careful to not do anything that will cause rounding errors or saturation problems. [Lesson 11: Optimizing data augmentation 1](https://youtu.be/hPQKzsjTyyQ?t=7131)
+
+7.  When doing data augmentation on non-images, ask yourself what kind of changes could occur in data that wouldn’t cause the label to change but would still leave that data as a reasonable example that could show up in your dataset. [Lesson 11: Data augmentation in other domains](https://youtu.be/hPQKzsjTyyQ?t=7363)
+
+### Lesson 12
+
+1.  Be careful about using automated formatting and creating too many rules. Sometimes unconventional formatting can help you to understand your code better. This is the only way to make your code work. Debugging machine learning code is awful so you have to make sure the thing you write makes sense and is simple. [Lesson 12: Unconventional Formatting 2](https://youtu.be/vnOpEwmtFJ8?t=147)
+
+2.  The mixup paper is a pretty easy read by paper standards. I suggest you [check it out. 3](https://arxiv.org/abs/1710.09412)
+
+3.  Make your equations in code as close as possible to the paper you’re implementing. When you’re comparing something to a paper, you want something that you can look at and straightaway say “oh, that looks very familiar”. As long as it’s not familiar you may want to think about how to make it more familiar. [Lesson 12: When to use Greek Letters 2](https://youtu.be/vnOpEwmtFJ8?t=674)
+
+4.  Don’t listen to people in your organization saying we can’t start modeling until we do all this cleanup work. Start modeling right now, see if the results are okay, and if they are, maybe you can skip the cleanup or do them both simultaneously.
+
+5.  Read the [Bag of Tricks Paper 8](https://arxiv.org/abs/1812.01187) and think about for each of those resnet tweaks, why did they do that? It wasn’t some brainless random search where they tried everything. They sat back and thought “how do we use all the inputs we have and take advantage of all the computation we are doing?” Spend time thinking about architectures and experimenting with them, it’s really important for effective practitioners to be able to write nice concise architectures so that you can change them and understand them. [Lesson 12: Build Architectures Thoughtfully 1](https://youtu.be/vnOpEwmtFJ8?t=2350)
+
+6.  A super important thing to remember if you’re doing fine-tuning is don’t ever freeze the weights in the batchnorm layers if you’re ever doing partial layer training. [Lesson 12: Batchnorm Does Weird Things 2](https://youtu.be/vnOpEwmtFJ8?t=3762)
+
+7.  The way to debug in DL is to not make mistakes in the first place. The only way to do that is to make your code so simple that it can’t have a mistake, and to check every single intermediate result along the way. You also need to be a great scientist, which means keeping a journal notebook to keep track of your results. [Lesson 12: A War Story About DL Debugging 6](https://youtu.be/vnOpEwmtFJ8?t=4177) (really long and detailed response that’s worth a second listen)
+
+8.  When preprocessing data for neural nets, leave it as raw as you can is the rule of thumb.
+
+9.  Anybody who has made it to lesson 12 in this course should be learning Swift for TensorFlow. This one comes with some great advice.
+
+-   Python’s days are numbered.
+
+-   DL libraries change all the time so if you’re spending all the time learning one library in one language, you won’t be prepared for that change.
+
+-   I’ve spent time using, in real world scenarios, at least a couple dozen languages, and each time I learn a new language, I become a better developer. It’s just a good idea to learn a new language
+
+-   If you’re hacking around over the coming months and you find things aren’t the way you want then you can, and should, change it.
+
+## Jeremy Howard's advice :
+
+### To become a world class DL Practitioner
+
+-   Willing to learn
+-   Curiousity
+-   Tenacity
+-   Consistency (10,000 hrs)
+
+### Learning by Discovery (How to learn DL in Fastai way)
+
+![](images/paste-3.png)
+
+-   **In deep learning, it really helps if you have the motivation to fix your model to get it to do better. That’s when you start learning the relevant theory.**
+    -   But you need to have the model in the first place. Learn almost everything through real examples.
+    -   As we build out those examples, we go deeper and deeper, and we’ll show you how to make your projects better and better.
+    -   This means that you’ll be gradually learning all the theoretical foundations you need, in context, in such a way that you’ll see why it matters and how it works.
+
+### Fastai : Lesson 0
+
+-   **Schedule the course - how long will u take to finish each lesson.**
+    -   on which day will u watch the Lesson , what will u do after watching Lesson (next steps) etc. (to avoid procrastination & maintain consistency)
+-   **Don't add too many fillers while doing the course**
+    -   i need to learn all the numpy and pandas and matplotlib and python before i go to next lesson this will break the flow of your learning fastai
+    -   Just learn enough so that you can search the thing whenever needed.
+    -   if you start learning all the pandas features...it will alone 6 months.
+    -   Just learn fundamentals and carry on training models (dooing DL).
+-   **Teaching the whole game**
+    -   We’ll start off by showing you how to use a complete, working, usable, state-of-the-art deep learning network to solve real-world problems using simple, expressive tools.
+    -   And then we’ll gradually dig deeper and deeper into understanding how those tools are made, and how the tools that make those tools are made, and so on…
+-   **The hardest part of deep learning is artisanal:**
+    -   How do you know if you’ve got enough data, whether it is in the right format, if your model is training properly, and, if it’s not, what you should do about it? That is why we believe in learning by doing.
+    -   As with basic data science skills, **with deep learning you get better only through practical experience.** Trying to spend too much time on the theory can be counterproductive.
+    -   **The key is to just code and try to solve problems**: the theory can come later, when you have context and motivation.
+-   **Get started with coding**
+    -   Even if you are not good at coding -
+        -   Rather than thinking - it’s a shame “i don’t know coding”
+        -   Now you have a really fun project (fastai) - to learn coding for & from.
+    -   Lots of people have become great coders while doing the course (Zach Mueller) . You’ll learn lots of CS like -
+        -   OOPs, Functional programming
+        -   list comprehension
+        -   gpu acceleration, software design, etc..
+-   **Don't try to go in depth in Fastai library**
+    -   Because , **If you’ve finshed fastai part 1 , part 2 + live coding + fastbook** + **walk with fastai**  -- **Then, you’d have implemented all the fastai library (from scratch + all the Deep learning fundamentals.**)
+-   **Utilize the Clean version of fastbook :**
+    -   This notebook contains just code (no context).
+    -   After reading the main fastbook , come to this version - see the code and before running the code…
+    -   **Ask yourself**
+        -   why is this cell here ?
+        -   what’s it for ?
+        -   what’s it gonna do ?
+        -   what’s the input and output gonna look like ?
+-   **How to use the Provided Notebooks**
+    -   Read through the notebook. If everything makes sense, put it aside and create a new notebook.
+    -   Now try to code the same process as we went through in class.
+    -   If you get stuck at any point, you can refer to the class notebook. Find the solution to what you are stuck on. Look up the relevant documentation. Put the class notebook aside again, go back to your notebook, and try to code the solution.
+    -   If you are still stuck, you can refer to the class notebook again. Do not copy and paste the needed code. Instead, type it out yourself. Check that it runs. If so, try changing the inputs, and see if that effects the outputs as you expect.
+    -   Any time that you feel unsure about why a particular step is being done, or how it works, or why the outputs are what you observe (or anything else), please ask on the forums. As I write this (week 3 of the course), there has not been a single question on the forums that has not been resolved!
+-   **There will be times when the journey feels hard.**
+    -   Times when you feel stuck. **Don’t give up!**
+    -   Rewind through the book to find the last bit where you definitely weren’t stuck, and then read slowly through from there to find the first thing that isn’t clear.
+    -   **Then try some code experiments yourself, and Google around for more tutorials** on whatever the issue you’re stuck with is—often you’ll find a different angle on the material that might help it to click.
+-   Also, **it’s expected and normal to not understand everything (especially the code) on first reading.**
+    -    Trying to understand the material serially before proceeding can sometimes be hard. Sometimes things click into place after you get more context from parts down the road, from having a bigger picture. So if you do get stuck on a section, try moving on anyway and make a note to come back to it later.
+
+### Your Projects and Mindset
+
+> add these contents under one "Projects" section!
+
+### Tenacity and Deep Learning
+
+-   The story of deep learning is one of tenacity and grit by a handful of dedicated researchers. After early hopes (and hype!), neural networks went out of favor in the 1990s and 2000s, and just a handful of researchers kept trying to make them work well. Three of them, Yann Lecun, Yoshua Bengio, and Geoffrey Hinton, were awarded the highest honor in computer science, the Turing Award (generally considered the “Nobel Prize of computer science”), in 2018 after triumphing despite the deep skepticism and disinterest of the wider machine learning and statistics community.
+
+-   Hinton has told of how academic papers showing dramatically better results than anything previously published would be rejected by top journals and conferences, just because they used a neural network. Lecun’s work on convolutional neural networks, which we will study in the next section, showed that these models could read hand‐ written text—something that had never been achieved before. However, his break‐ through was ignored by most researchers, even as it was used commercially to read 10% of the checks in the US!
+
+-   In addition to these three Turing Award winners, many other researchers have battled to get us to where we are today. For instance, Jurgen Schmidhuber (who many believe should have shared in the Turing Award) pioneered many important ideas, including working with his student Sepp Hochreiter on the long short-term memory (LSTM) architecture (widely used for speech recognition and other text modeling tasks, and used in the IMDb example in Chapter 1). Perhaps most important of all, Paul Werbos in 1974 invented backpropagation for neural networks, the technique shown in this chapter and used universally for training neural networks (Werbos 1994). His devel‐ opment was almost entirely ignored for decades, but today it is considered the most important foundation of modern AI.
+
+-   **There is a lesson here for all of us!** On your deep learning journey, you will face many obstacles, both technical and (even more difficult) posed by people around you who don’t believe you’ll be successful. There’s one guaranteed way to fail, and that’s to stop trying. **We’ve seen that the only consistent trait among every fast.ai student who’s gone on to be a world-class practitioner is that they are all very tenacious.**
+
+------------------------------------------------------------------------
+
+-   **Being tenacious also means** …
+    -   Keep going (until u finish the course , project , competition)
+    -   Keep coming back & continue the Fastai Lessons (even if u took a break of 2-3 days or 2-3 years)
+
+### Self-Learning Tips
+
+-   **Learn on demand**
+
+    -   If you find you need to know some foundational skill, learn it at that time, and just what you need. A lot of students get lost in rabbit holes of foundational math study and never develop expertise in AI/ML as a result!
+
+-   **Doing an Actual Project by using something new.**
+
+    -   I have a project to build , how can i use a new method, new library, new knowledge, new way to complete this project, automating something in the project , making it less complex etc.
+
+-   Learning compunds (grows exponentially) over time.
+
+-   Skills \> built on skills \> built on skills…makes you an expert.
+
+-   Deliberate practice :
+
+    -   10,000 hours of Deliberate practice makes you Expert.
+    -   Deliberate practice involves Continuously taking effective feedbacks.
+    -   Example :
+        -   Learn a Lesson from Fastai and take a Kaggle competition based on the lesson. **It will give you feedback on learning.**
+        -   Building something from scratch & putting it out in world and taking effective feedbacks from people.
+
+-   Stay Engaged
+
+    -   Don’t focus on the perfect learning thing.
+    -   Focus on things that keeps you engaged.
+
+-   **Creativity, Work-ethics, Problem-Solving Creation**
+
+    -   **Inspiration is for amateurs** — the rest of us just show up and get to work. And the belief that things will grow out of the activity itself and that you will — through work — bump into other possibilities and kick open other doors that you would never have dreamt of if you were just sitting around looking for a great ‘art idea.’ And the belief that process, in a sense, is liberating and that you don’t have to reinvent the wheel every day. Today, you know what you’ll do, you could be doing what you were doing yesterday, and tomorrow you are gonna do what you did today, and at least for a certain period of time you can just work. If you hang in there, you will get somewhere.
+    -   **Problem Solving vs Problem Creation** : I think our whole society is much too problem-*solving* oriented. It is far more interesting to participate in ‘problem creation’ … You know, ask yourself an interesting enough question and your attempt to find a tailor-made solution to that question will push you to a place where, pretty soon, you’ll find yourself all by your lonesome — which I think is a more interesting place to be.
+
+-   **Is spaced repetition useful for technical concepts/skills ?**
+
+    -   Instead; Try to apply newly learnt concept/skill everday.
+    -   Test it, apply it, discuss it , teach it, write blogs on it etc.
+    -   If doubt in using it, look up into docs.
+
+### You don't need a Masters/PHD to succeed at deep learning
+
+-   Many important breakthroughs are made in research and industry by folks without a PhD, such as the paper “Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks”—one of the most influential papers of the last decade, with over 5,000 citations — which was written by [Alec Radford](https://www.trybackprop.com/blog/2024_06_09_you_dont_need_a_phd#alec-radford--ml-researcher-at-openai) (a CS undergrad).
+-   **What you will need to do to succeed, however, is to apply what you learn in this Fastai course & book to a personal project, and always persevere.**
+
+## Zach Mueller's advice
+
+-   [How to get most out of Fastai courses -- Zach Mueller](https://x.com/TheZachMueller/status/1451941577841127433)
+-   Approaching each lesson slowly, and letting myself wander in the related concepts, learning as much as I could through online communities.
+-   What is CV? There's this cool new model out, how would I use it in fastai? My first ever question on the fastai forums was even about debugging a model. But the key here is I didn't rush things.
+-   I see far too often people give up and ask for help a day or so into a problem. When I started out, I didn't ask for help about a week into it. And that's because I was ~actively~ Googling the problem and any relation I could find on it. Not just limiting it to a fastai issue.
+-   Everyone wants to get there the fastest. And while yes you can, this is often met with others simply handing out the answers, and you not really "learning". And what winds up happening is the same question gets asked again and again, because they didn't take a step back and Explore the problem fully and find the root of the issue, or learn a concept that directly relates to it. I purposefully do not do this when someone asks for help, as it can hinder them long-term.
+-   Through attacking these problems and learning the fastai framework, I learned how to debug Python, how to work with PyTorch a little bit, and new concepts I had seen for the first time.
+-   **Take it slow, at your own pace. Debug things yourself and get good at standing on your own two feet. At a job, that's what your life will be like.**
+-   ***This is simply what helped me when I was starting:***
+    -   **Taking it seriously, from the start**
+    -   **Coming in with a curious mind**
+    -   **Driven to see it through**
+-   **Go through the lectures and courses slowly, relistening and running the notebooks *often* .**
+-   **Essentially go through the notebooks and explore why what is doing what, play around with problem sets, and keep looking back at the original notebooks until it becomes fluid.**
+
+### How to contribute to Fastai library
+
+-   If you have absolutely zero, I recommend watching the first few lectures in the latest part 2 (yes of a few years ago!). Since it's building a library from scratch, Jeremy covers how he approaches software design, which can help you understand the design [https://youtube.com/watch?v=4u8FxNEDUeg&list=PLk25yLtQLOdzmwWy-gZx1kcPDX72NoELg](https://t.co/0gBk2Fc0oq)
+-   From there, start small. Look at the simpler areas of the library, and try and add some documentation, etc. Then slowly build yourself towards not understanding how fastai works, but how the DESIGN process works. Apply yourself towards seeing how classes interact, etc.
+-   A little toying goes a long way. After getting comfortable in some specific area, try writing some newer functions, or perhaps try to fix a bug that got noticed. It will be challenging, and you probably will struggle a bit. It's not easy and that's okay. Why?
+-   With the discord, forums, and twitter combined, you can find someone (or many someones) to help you understand how to get from A -\> B, and that's what's wonderful about this community!
+-   To take that further, if the part 2 videos are still too high a level, try finding some educational tutorials and courses on Object Oriented Programming, and try and bring up your foundations (pun intended). You can stay in Python for those, so don't listen to nay-sayers\*
+-   \*Other languages are important, and there is a strong belief in starting with C++ or Java as your first language, but I usually reserve that for if you're actually a CS major or don't know where to start (which you are Social Sciences learning ML, so that's okay!)
+-   That's my take on it from my own perspective and belief, I hope some others might be able to chime in on this! HTH :)
+

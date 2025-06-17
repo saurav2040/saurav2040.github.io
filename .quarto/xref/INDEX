@@ -10,5 +10,14 @@
   },
   "posts/welcome/index.qmd": {
     "index.html": "73c660b4"
+  },
+  "learning-ml.qmd": {
+    "learning-ml.html": "424a19cc"
+  },
+  "posts/mle-guide/index.qmd": {
+    "index.html": "b5955df0"
+  },
+  "posts/fastai-guide/index.qmd": {
+    "index.html": "686be150"
   }
 }
