@@ -1,0 +1,18 @@
+---
+title: "How to Create a Custom Section in Quarto"
+date: 2024-06-17
+categories: [quarto, blog]
+image: "computer.png"
+---
+
+
+
+Today I learned how to create custom blog sections in quarto blogsite (eg: TILs )
+
+-   Create `tils.qmd` in root directory of quarto project
+    -   ![](images/paste-4.png)
+-   Create a tils folder in root directory
+    -   Now you can add new TIL posts as sub-folders & .qmd files within them.
+    -   ![](images/paste-2.png)
+-   Update quarto yaml file
+    -   ![](images/paste-3.png)

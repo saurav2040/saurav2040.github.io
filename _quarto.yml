@@ -1,24 +1,25 @@
 project:
   type: website
   output-dir: docs
+  
 
 website:
-  title: "Saurav Singh"
+  title: "Shraey"
   navbar:
     left:
       - text: "About Me"
         href: about.qmd
       - text: "Blogs"
         href: index.qmd
-#      - text: "Learning ML"
-#        href: "learning-ml.qmd"
+      - text: "TILs"
+        href: tils.qmd
 
     right:
       - icon: github
         href: https://github.com/saurav2040
       - icon: twitter
         href: https://x.com/Saurav2023
-
+    listing-pages: true
 format:
   html:
     theme: sandstone  # cerulean, yeti

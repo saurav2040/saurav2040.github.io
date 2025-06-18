@@ -1518,16 +1518,39 @@ This post is not meant to discourage anyone. AI/ML is still a nascent field with
     -   “Isn’t it too late for me to switch careers?”
 -   Thankfully, all these questions can be approached in the same way.
 
-### **How writing saved my sanity**
+#### How writing saved my sanity
 
 -   Earlier in my career at Microsoft, I wanted my day to day tasks to align perfectly with my interests at the time. This is a challenging proposition as projects take a long time to deliver whereas my interests are a lot more fickle often influenced by whatever happens to be favored by the Hacker News ranking algorithm.
+
 -   Why can’t I find someone to talk about causality libraries to, isn’t there anyone building a category theory deep learning library, what about differentiable differential equations?
+
 -   Thankfully I’ve learnt that it is both unfair to expect my colleagues to share all my interests but it’s also counterproductive. Instead, it’s best to reach out and meet people online that are already doing the kind of work I find interesting.
+
 -   The key to getting people to respond is asking interesting questions and the best way to ask interesting questions is to have a good high level overview of a field and the best way to do that is to write a blogpost or make a video about the topic.
+
 -   Writing has a ridiculous number of hidden advantages from clarifying your thinking to making your name more recognizable online but it’s by far the best way to meet like minded people online.
 
-h docs and pursue through Arxiv and Github for anything that looks interesting. - If you want career advice, you can write a good question to people you admire on Twitter on LinkedIn..\
-- **Your goal should be to apply to jobs with a portfolio not a CV.** - However, a portfolio is much harder to beef up than a CV because you need to actually produce lots of visible work. - But before you actually produce unique and valuable work you need to learn how to at least copy the work of others. So share what you learn and turn it into an asset, whether it’s a Tweet, YouTube video, Twitch livestream — keeping a public journal of everything interesting you’ve been learning will keep you motivated and give you an easy way to actually start producing unique and valuable work. - The point is that you can produce an impressive portfolio regardless of whether you choose to attend college or not. - So instead of spending months trying to crack coding interviews or spamming recruiters — - **Start building a portfolio of things you’re learning, modify them and eventually make them better. You’ll learn more, meet like minded peers, get hiring managers reaching out to you and most importantly you’ll be far happier.** - Optimizing for an amazing CV has a tremendous amount of luck involved, optimizing for a portfolio is entirely within your control — you just need to spend a few minutes everyday. - Don’t stress if the outcome doesn’t match your expectations, maybe you won’t develop a widely popular open source library but here’s a secret neither have most hiring managers. - Consider that there’s only a few hundred popular open source projects that exist at any given time and each of those libraries is generally maintained by 1–2 people (including Pytorch) so the reality is most people can’t actually produce robust open source software even though lots of people think it. It doesn’t mean you shouldn’t try. You’ll still learn a lot by trying and if you succeed you may not need a job. - Does this approach work for everyone? Probably not. But it worked for me so I can’t help but recommend it. However, I don’t buy the time that portfolios bias towards rich candidates with lots of free time — tech interviews take loads of time to prepare and also bias towards rich candidates with lots of free time. The difference is portfolios are actually indicative of ability.
+- If you want career advice, you can write a good question to people you admire on Twitter on LinkedIn.
+
+#### Your goal should be to apply to jobs with a portfolio not a CV.
+
+- However, a portfolio is much harder to beef up than a CV because you need to actually produce lots of visible work. 
+
+- But before you actually produce unique and valuable work you need to learn how to at least copy the work of others. So share what you learn and turn it into an asset, whether it’s a Tweet, YouTube video, Twitch livestream — keeping a public journal of everything interesting you’ve been learning will keep you motivated and give you an easy way to actually start producing unique and valuable work. 
+
+- The point is that you can produce an impressive portfolio regardless of whether you choose to attend college or not. 
+
+- So instead of spending months trying to crack coding interviews or spamming recruiters — - **Start building a portfolio of things you’re learning, modify them and eventually make them better. You’ll learn more, meet like minded peers, get hiring managers reaching out to you and most importantly you’ll be far happier.** 
+
+- Optimizing for an amazing CV has a tremendous amount of luck involved, optimizing for a portfolio is entirely within your control — you just need to spend a few minutes everyday. 
+
+- Don’t stress if the outcome doesn’t match your expectations, maybe you won’t develop a widely popular open source library but here’s a secret neither have most hiring managers. 
+
+- Consider that there’s only a few hundred popular open source projects that exist at any given time and each of those libraries is generally maintained by 1–2 people (including Pytorch) so the reality is most people can’t actually produce robust open source software even though lots of people think it. It doesn’t mean you shouldn’t try. You’ll still learn a lot by trying and if you succeed you may not need a job. 
+
+- Does this approach work for everyone? Probably not. But it worked for me so I can’t help but recommend it. However, I don’t buy the time that portfolios bias towards rich candidates with lots of free time 
+
+-  tech interviews take loads of time to prepare and also bias towards rich candidates with lots of free time. The difference is portfolios are actually indicative of ability.
 
 ### How I Read Technical Books
 
