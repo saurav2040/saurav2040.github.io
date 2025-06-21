@@ -40,5 +40,11 @@
   },
   "private/mle-guide/index.qmd": {
     "index.html": "b44bd50c"
+  },
+  "tils/fastai_ch2/02_Lesson--Deployment.ipynb": {
+    "02_Lesson--Deployment.html": "7f723b26"
+  },
+  "tils/fastai_ch2/ch2.ipynb": {
+    "ch2.html": "2f2e7678"
   }
 }

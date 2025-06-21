@@ -1,14 +1,15 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/tils.html",
     "items": [
-      "/posts/fastai-guide/index.html"
+      "/tils/fastai_ch2/ch2.html",
+      "/tils/new_til/index.html"
     ]
   },
   {
-    "listing": "/tils.html",
+    "listing": "/index.html",
     "items": [
-      "/tils/new_til/index.html"
+      "/posts/fastai-guide/index.html"
     ]
   }
 ]

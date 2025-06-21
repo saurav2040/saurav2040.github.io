@@ -4,7 +4,7 @@
       "posts"
     ],
     "tils.qmd": [
-      "tils/**/*.qmd"
+      "tils/**/*.{qmd,ipynb}"
     ]
   }
 }

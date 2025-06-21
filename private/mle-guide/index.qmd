@@ -9,6 +9,8 @@ sidebar: true
 
 ## Motivation
 
+-   ![](images/paste-24.png){width="638"}
+
 -   The magic you are looking for ; is in **just doing things**.
 
     -   You gain so much more data by doing the thing than by thinking about doing the thing.
@@ -19,13 +21,20 @@ sidebar: true
     -   You sit and wonder why you aren't seeing success.
     -   Whilst there is a pile of difficult tasks that you are avoiding that will push you closer to your goals.
 
-    <div>
+-   Things I learnt by teaching others \~ (Umar Jamil)
 
-    > -   Action Brings Results !
-    >     -   All the succesful people across all domains have a common trait.
-    >     -   They act, act a lot, iterate quickly and don’t really care what others think.
+    -   Most people struggle to learn not because they lack intellectual capacity. But because their inner voice keeps telling them they're not smart enough.
 
-    </div>
+    -   **How to shut the inner voice : Work on Hard things and build confidence.** No other way.
+
+<div>
+
+> Action Brings Results !
+>
+> -   All the successful people across all domains have a common trait.
+> -   They act, act a lot, iterate quickly and don’t really care what others think.
+
+</div>
 
 ## Andrej Karpathy
 
@@ -80,12 +89,28 @@ sidebar: true
     -   When you're working on a project - You know what you need and you're learning it on demand and you're just trying to get it to work!
     -   Publishing it online , makes you think - how to make it really good.
 
+### How to become a cracked ML Engineer
+
+The most concise piece of advice I can give you:
+
+1.  Find a project you care about
+2.  Learn stuff "on-demand" that will take you to the completion of the project
+3.  Announce your project to the world (GitHub, social) - build those public creds
+4.  Repeat 1. - increase the scale / ambition. Rinse and repeat
+
+**Example :** `find a project that requires efficiency and that would, without an efficient implementation, annoy the hell out of you. Loading that long array of images is ultra slow? Go and learn, on-demand, better algorithms and solve your problem.`
+
+-   You can just do things.
+-   Ignore the gate-keepers.
+
 ### On Shortification of Learning & "How to actually Learn"
 
 -   Learning is not supposed to be fun. It doesn't have to be actively not fun either, but the primary feeling should be that of effort.
 -   It should look a lot less like that "10 minute full body" workout and a lot more like a serious session at the gym. You want the mental equivalent of sweating.
 -   So for those who actually want to learn. Unless you are trying to learn something narrow and specific, close those tabs with quick blog posts. Close those tabs of "Learn XYZ in 10 minutes".
 -   Consider the opportunity cost of snacking and seek the meal - the textbooks, docs, papers, manuals, longform. Allocate a 4 hour window. Don't just read, take notes, re-read, re-phrase, process, manipulate, learn.
+
+
 
 ## Yoobin Ray
 
@@ -160,19 +185,6 @@ sidebar: true
 -   **eat, sleep, read research papers, reimplement paper baselines and novel models in PyTorch, repeat.**
 -   **I fought procrastination by not giving myself any other options** -- I literally locked myself in the library study room without my phone many nights or I would deliberately go to a different campus without my phone.
 
-### How to become a cracked ML Engineer
-
-The most concise piece of advice I can give you:
-
-1.  Find a project you care about
-2.  Learn stuff "on-demand" that will take you to the completion of the project
-3.  Announce your project to the world (GitHub, social) - build those public creds
-4.  Repeat 1. - increase the scale / ambition. Rinse and repeat
-
-**Example :** `find a project that requires efficiency and that would, without an efficient implementation, annoy the hell out of you. Loading that long array of images is ultra slow? Go and learn, on-demand, better algorithms and solve your problem.`
-
--   You can just do things.
--   Ignore the gate-keepers.
 
 ### Different types of MLEs
 
@@ -1530,27 +1542,27 @@ This post is not meant to discourage anyone. AI/ML is still a nascent field with
 
 -   Writing has a ridiculous number of hidden advantages from clarifying your thinking to making your name more recognizable online but it’s by far the best way to meet like minded people online.
 
-- If you want career advice, you can write a good question to people you admire on Twitter on LinkedIn.
+-   If you want career advice, you can write a good question to people you admire on Twitter on LinkedIn.
 
 #### Your goal should be to apply to jobs with a portfolio not a CV.
 
-- However, a portfolio is much harder to beef up than a CV because you need to actually produce lots of visible work. 
+-   However, a portfolio is much harder to beef up than a CV because you need to actually produce lots of visible work.
 
-- But before you actually produce unique and valuable work you need to learn how to at least copy the work of others. So share what you learn and turn it into an asset, whether it’s a Tweet, YouTube video, Twitch livestream — keeping a public journal of everything interesting you’ve been learning will keep you motivated and give you an easy way to actually start producing unique and valuable work. 
+-   But before you actually produce unique and valuable work you need to learn how to at least copy the work of others. So share what you learn and turn it into an asset, whether it’s a Tweet, YouTube video, Twitch livestream — keeping a public journal of everything interesting you’ve been learning will keep you motivated and give you an easy way to actually start producing unique and valuable work.
 
-- The point is that you can produce an impressive portfolio regardless of whether you choose to attend college or not. 
+-   The point is that you can produce an impressive portfolio regardless of whether you choose to attend college or not.
 
-- So instead of spending months trying to crack coding interviews or spamming recruiters — - **Start building a portfolio of things you’re learning, modify them and eventually make them better. You’ll learn more, meet like minded peers, get hiring managers reaching out to you and most importantly you’ll be far happier.** 
+-   So instead of spending months trying to crack coding interviews or spamming recruiters — - **Start building a portfolio of things you’re learning, modify them and eventually make them better. You’ll learn more, meet like minded peers, get hiring managers reaching out to you and most importantly you’ll be far happier.**
 
-- Optimizing for an amazing CV has a tremendous amount of luck involved, optimizing for a portfolio is entirely within your control — you just need to spend a few minutes everyday. 
+-   Optimizing for an amazing CV has a tremendous amount of luck involved, optimizing for a portfolio is entirely within your control — you just need to spend a few minutes everyday.
 
-- Don’t stress if the outcome doesn’t match your expectations, maybe you won’t develop a widely popular open source library but here’s a secret neither have most hiring managers. 
+-   Don’t stress if the outcome doesn’t match your expectations, maybe you won’t develop a widely popular open source library but here’s a secret neither have most hiring managers.
 
-- Consider that there’s only a few hundred popular open source projects that exist at any given time and each of those libraries is generally maintained by 1–2 people (including Pytorch) so the reality is most people can’t actually produce robust open source software even though lots of people think it. It doesn’t mean you shouldn’t try. You’ll still learn a lot by trying and if you succeed you may not need a job. 
+-   Consider that there’s only a few hundred popular open source projects that exist at any given time and each of those libraries is generally maintained by 1–2 people (including Pytorch) so the reality is most people can’t actually produce robust open source software even though lots of people think it. It doesn’t mean you shouldn’t try. You’ll still learn a lot by trying and if you succeed you may not need a job.
 
-- Does this approach work for everyone? Probably not. But it worked for me so I can’t help but recommend it. However, I don’t buy the time that portfolios bias towards rich candidates with lots of free time 
+-   Does this approach work for everyone? Probably not. But it worked for me so I can’t help but recommend it. However, I don’t buy the time that portfolios bias towards rich candidates with lots of free time
 
--  tech interviews take loads of time to prepare and also bias towards rich candidates with lots of free time. The difference is portfolios are actually indicative of ability.
+-   tech interviews take loads of time to prepare and also bias towards rich candidates with lots of free time. The difference is portfolios are actually indicative of ability.
 
 ### How I Read Technical Books
 
@@ -1716,163 +1728,156 @@ Well, here's the steps to get good at that: 1. **Download a paper** 2. **Impleme
 
 #### Research without a PHD
 
-- [Shape Suffixes — Good Coding Style \| by Noam Shazeer \| Medium](https://medium.com/@NoamShazeer/shape-suffixes-good-coding-style-f836e72e24fd)
-- Noam Shazeer didn't even finished his bachelors degree. 
-	- (co)Inventor of (Transformer), MoE, Multihead Attention, Multiquery Attention, Tensor-Parallel LLM Training, SwiGLU, etc. Previously @Google, 
-	- He built @Character.AI
-- Sarah Pan - works at answer.ai (as a researcher) just after highschool.
-	- She learnt Deep learning with Fastai course part 1 + 2
-- Alec Radford during his undergrad, created DCGAN, core-contributer to initial Pytorch, built GPT1-2.
--  **Not having a PHD degree is not issue. 
-- **Just build a strong portfolio** with projects, opensource-contribs, blogs etc.
+-   [Shape Suffixes — Good Coding Style \| by Noam Shazeer \| Medium](https://medium.com/@NoamShazeer/shape-suffixes-good-coding-style-f836e72e24fd)
+-   Noam Shazeer didn't even finished his bachelors degree.
+    -   (co)Inventor of (Transformer), MoE, Multihead Attention, Multiquery Attention, Tensor-Parallel LLM Training, SwiGLU, etc. Previously @Google,
+    -   He built @Character.AI
+-   Sarah Pan - works at answer.ai (as a researcher) just after highschool.
+    -   She learnt Deep learning with Fastai course part 1 + 2
+-   Alec Radford during his undergrad, created DCGAN, core-contributer to initial Pytorch, built GPT1-2.
+-   \*\*Not having a PHD degree is not issue.
+-   **Just build a strong portfolio** with projects, opensource-contribs, blogs etc.
 
 #### Lessons learned as a Research Scientist
 
-- Follow a T-shaped learning (as Andrew Ng told in his Career in ML lecture)
-	- Have some fundamental knowledge in CV, NLP, DL, classical ML, GPU programming..etc
-	- And Build Expertise in one of them.
+-   Follow a T-shaped learning (as Andrew Ng told in his Career in ML lecture)
+    -   Have some fundamental knowledge in CV, NLP, DL, classical ML, GPU programming..etc
+    -   And Build Expertise in one of them.
 
 ### How Andrej taught himself ML engineering
 
-- Don't start coding without an end goal.
-- Coding Llama from scratch - is great to learn LLM fundamentals.
-- But nobody will ever pay you to code llama from scratch you know what they will pay you for is take llama and try to quantize it in such a way that it retains as much as per the performance as possible 
-- So always build things whatever it is at an API level at the machine learning level with an end goal
-	- **for example:** imagine you are creating a company for a machine learning model inference who do you need the guy who on hugging phase just on a weekend delivered a quantized version of a model that you want to put on your service or the guy who can code llama and never quantize the model and never influenced the model ever in his life so building means do something with an end goal
-	- think always in this terms of business like I am going to launch a business that is doing machine learning inference or trying to solve a problem What problems will I have I will have probably the problem of okay how can we Host this model and make it as fast as possible or there is a new model and this context length is only 8K can we take it to 16k so let me do it.
-	- I know they follow tutorials and they make projects yes but you are just copying some code that is online did you actually deliver something because if I am the founder of a startup I can do that myself I need people who solve problems for me 
-	- So learn to solve problems 
-		- Take any model and you start beating a benchmark 
-		- You take a model and you say okay this model is not really performing on a medical data so let me take a data set on medical data and try to improve the performance of this model on medical data trying to retain as much knowledge as possible 
-		- The Learning Journey that will take you to beat The Benchmark will be enough for you to enter this field
-- that's what karpathy did. He wanted to learn about training of language models so he started writing a little script in Python to train a language model then he was pissed off because he said I don't really understand what is happening under the hood then he started coding it in C and it called the he called his repository llm.c
-- then he realized hey I can train this stuff I can understand this stuff and people start contributing to it and then he realized hey there are these things called cuda kernels I can write these Cuda kernels and they make it go fast then he realized hey I can go very deep into kernels so just by teaching himself something which is I want to train a model and this is the problem I want to solve and I want to do it the fastest way possible he teach him self all the field actually he teach himself all the things that he needed to master this field.
+-   Don't start coding without an end goal.
+-   Coding Llama from scratch - is great to learn LLM fundamentals.
+-   But nobody will ever pay you to code llama from scratch you know what they will pay you for is take llama and try to quantize it in such a way that it retains as much as per the performance as possible
+-   So always build things whatever it is at an API level at the machine learning level with an end goal
+    -   **for example:** imagine you are creating a company for a machine learning model inference who do you need the guy who on hugging phase just on a weekend delivered a quantized version of a model that you want to put on your service or the guy who can code llama and never quantize the model and never influenced the model ever in his life so building means do something with an end goal
+    -   think always in this terms of business like I am going to launch a business that is doing machine learning inference or trying to solve a problem What problems will I have I will have probably the problem of okay how can we Host this model and make it as fast as possible or there is a new model and this context length is only 8K can we take it to 16k so let me do it.
+    -   I know they follow tutorials and they make projects yes but you are just copying some code that is online did you actually deliver something because if I am the founder of a startup I can do that myself I need people who solve problems for me
+    -   So learn to solve problems
+        -   Take any model and you start beating a benchmark
+        -   You take a model and you say okay this model is not really performing on a medical data so let me take a data set on medical data and try to improve the performance of this model on medical data trying to retain as much knowledge as possible
+        -   The Learning Journey that will take you to beat The Benchmark will be enough for you to enter this field
+-   that's what karpathy did. He wanted to learn about training of language models so he started writing a little script in Python to train a language model then he was pissed off because he said I don't really understand what is happening under the hood then he started coding it in C and it called the he called his repository llm.c
+-   then he realized hey I can train this stuff I can understand this stuff and people start contributing to it and then he realized hey there are these things called cuda kernels I can write these Cuda kernels and they make it go fast then he realized hey I can go very deep into kernels so just by teaching himself something which is I want to train a model and this is the problem I want to solve and I want to do it the fastest way possible he teach him self all the field actually he teach himself all the things that he needed to master this field.
 
 ### Hardest challenges
 
-- When you nobody and want to enter AI field - you get inferiority complex. 
-  How to tackle it ?
-	- By Believing in yourself -- By putting yourself in challenges & coming out of it.
-	- example :
-	- Take challenges  
-		-  **Finish Fastai part 1,2 courses & Fastbook**.
-		- **100 days CUDA challenge**
-		- **take up Kaggle competition** - and atleast come up with end to end solution.
-		- **finish the Andrej's NN zero to hero course.**
-- **How to read MML (mathematics for machine learning) book**
-	- Try to read the applied chapter + the maths concepts needed (together)
-	- The Bottom Up (goal based approach)
-- **How to extract as much knowledge from the little resources ?**
-	- This is a fundamental research skill. 
-	- eg: Implementing Transformer paper without watching any tutorial (just by reading paper and code)
-	- How to do it ?
-		- **Whenever you want to learn something - ground your learning path around A GOAL.**
+-   When you nobody and want to enter AI field - you get inferiority complex. How to tackle it ?
+    -   By Believing in yourself -- By putting yourself in challenges & coming out of it.
+    -   example :
+    -   Take challenges
+        -   **Finish Fastai part 1,2 courses & Fastbook**.
+        -   **100 days CUDA challenge**
+        -   **take up Kaggle competition** - and atleast come up with end to end solution.
+        -   **finish the Andrej's NN zero to hero course.**
+-   **How to read MML (mathematics for machine learning) book**
+    -   Try to read the applied chapter + the maths concepts needed (together)
+    -   The Bottom Up (goal based approach)
+-   **How to extract as much knowledge from the little resources ?**
+    -   This is a fundamental research skill.
+    -   eg: Implementing Transformer paper without watching any tutorial (just by reading paper and code)
+    -   How to do it ?
+        -   **Whenever you want to learn something - ground your learning path around A GOAL.**
 
 ### Umar's journey : learning CUDA, triton & Flash Attention
 
-- **What is CUDA, Triton, Flash Attention ? **
-	- **Flash Attention** is an optimised implementation of attention mechanism used in Transformers to make better use of GPU compute power. In the paper it's refer to an "I/O-Aware" algorithm.
-	- **CUDA** is a software stack from NVIDIA to write GPU kernels for NVIDIA GPUs.
-	  Other GPU manufacturers have their own software stack (the equivalent for AMD GPUs is ROCm)
-	- Triton is a software stack that compiles GPU kernels written in Python into native code for the underlying GPU hardware (CUDA, ROCm, both compatible as of now.)
-- **I want to learn Triton : How do I start ?**  
-	- Before you start learning anything , ask yourself : 
-	  "Why do I want to study triton ?"
-		- In Umar's case : he like experimenting with new architectures and with new architectures you may need new kernels for accelerating the training process. Too many times I was blocked because i didn't know how to edit/debug the [[Kernel]]s.
-	- Now its time to go to > [Triton's website](https://triton-lang.org/main/programming-guide/chapter-1/introduction.html)
-	- Oh! I am confused what's this ?
-- **You can never get lost: What's this ?**
-	- Anytime you are blocked somewhere and you don't understand something - you can always prompt 
-	- And you can never be blocked - because you can keep prompting untill you're unlocked !  They will put you in right direction.
-	- Prompt >> [[What is Triton and How can i learn it ?]]
-- **Get your hands dirty !!**
-	- You learn more by doing things and not just studying it (conceptually).
-	- Look at Triton Tutorials.
-- **Set yourself a goal/dream**
-	- Umar saw [Fused Attention](https://triton-lang.org/main/getting-started/tutorials/06-fused-attention.html#sphx-glr-getting-started-tutorials-06-fused-attention-py) coded in 400 lines of python code - and made a goal to understand it + re-implement it himself (in his Triton learning journey).
-		- Prompt >> [[How is Flash attention and fused attention related ?]]
-	- **Always "Have a goal when you learn things"**
-	- Don't just learn Triton. 
-	- Learn Triton in order to understand the Fused Attention.
-- **Why having an objective is important when learning ?**
-	- You always have something to measure against.
-	- You never get lost.
-	- It gives you sense of satisfaction when you reach your goal.
-	- Intermediate Goals also helps alot.
-- **Learning Strategy:** Avoid being influenced by others' tutorials initially. Challenge yourself. Define the "rules" of your learning challenge
-	- What are the rules of this objective ?
-	- Am I allowed to read papers, watch tutorials, blogs, code ?
-	- The difficulty of the challenge you choose - you'll improve confidence+competence accordingly..
-- **Practical Steps:** Started with the "vector addition" tutorial on the Triton website. 
-	- Now we are trying to do the vector addition tutorial and we found an obstacle (Encountered concepts like pointers, block size, and thread IDs.) and we found resources about on how to kind of overcome this obstacle 
-	- **Overcoming Obstacles:** When blocked, use the debugger or prompt LLMs to identify missing knowledge.
-	- **Targeted Learning:** 
-		- You are doing triton , to understand flash attention
-		- You are doing vector addition (implemented in Triton's first tutorial, on triton website) 
-		
-	- **Learn just what you need , no more, no less**
-	- When seeking external resources (like the "Programming Massively Parallel Processors" book), learn only what's relevant to the immediate task (just learn enough for us to understand the things that are relevant to the vector addition only)
-	- I went to pmpp I I learned the first two chapters I think enough for you to understand vector addition and to give you a little intuition on all the concept that you need to at least understand fully.
-- **Final Boss:** Finish the tutorials, then move on to the "final boss" - flash attention.
-	- When we start reading (Flash Attention) paper, we encounter so many new terms... So let's go down rabbit holes ?
-	- Untill now - our strategy was - every time we encounter an obstacle - we ask chatgpt for directions ; overcome the obstacle and go back to objective.
-	- **Paper Reading strategy is different**.
-		- **Learn to handle the uncertainity.**
-			- Read the entire paper , top to bottom , even if you understand 5% of it.
-			- While reading the paper , you're constantly reminded of how many things you don't understand and this makes you uncomfortable: its fine. Keep Going On!
-			- Once you reach the end , you'll have a clear vision of what you don't know, and now you can come up with a plan for how to fill your knowledge gaps.
-			- Tip: **Highlight with different colors** >> [[Color coding research papers]]
-				- things you don't understand at all and you'd like to learn 
-				- things you don't understand and you're fine not understanding (because maybe are not so relevant for your journey)
-				- things that you already know & you'd like to improve your knowledge on, etc.
-			-  plus your brain is actually very smart at connecting dots even on things that you are not not fully familiar with.
-			- **Don't highlight while reading.. Highlight after reading.**
-				-  because this forces you to go through it again of course not every paper you can do it like this so it depends really on the level of depth that you want to reach
-			- **Read the paper atleast 3 times -- end to end.**
-				- Now you know your objective - to understand all the necessary concepts/parts of this paper.
-				- Now you can go into rabbit hole of learning each of those concepts & you always comeback to the paper.
-- **Learning Roadmap:** Built a roadmap by identifying knowledge gaps in the Flash Attention paper (softmax, online softmax, GPU programming, backpropagation).
-- **What ingredients do we need to understand FA ?**
-	- Attention mechanism
-		- Softmax
-		- Safe Softmax
-		- Online Softmax
-	- GPU programming
-		- HBM and Shared memory
-		- Tiling
-		- Tensor shapes
-		- CUDA/Triton
-	- Backpropagation
-		- Gradients
-- **First Boss :** Softmax
-	- If you go to the[ flash attention paper ](https://arxiv.org/abs/2205.14135), the key challenge in implementing Flash Attention, particularly related to computing softmax when processing attention matrices in blocks. 
-	- The core issue with block-wise computation of attention is handling the softmax normalization factor correctly.
-	- The problem arises because softmax requires knowledge of all values in a row to compute the normalization denominator (the sum of exponentials). When processing in blocks to save memory, you don't have all values available at once.
-	- ![[Pasted image 20250310193729.png]]
-- **The two weapons to fight softmax :**
-	- [Self-Attention Does NOT need O(n^2 ) memory](https://arxiv.org/pdf/2112.05682v2)
-	- [Online normalizer calculation for softmax](https://arxiv.org/abs/1805.02867)
-- **Reading is not enough. You need *Active Learning.***
-	- If there is an algorithm , code it.
-	- if there is an algorithm , test it on paper.
-	- if there is a proof :
-		- re-write it yourself on paper , the first time.
-		- if you want deeper understanding, try to redo the proof without having it infront of you.
-		
-- **but I still didn't understand it... What should I do ?**
-	- Imagine you studied the online softmax, coded the algorithm, did the proof  by yourself, but you still can't figure out how it may be connected to FA .. 
-	  What should you do ? Should you keep studying "online softmax" or should you continue ?
-	- After a reasonable time spent on a problem , **Continue Forward**  and accept the uncertainity & the possibilty that you may have to go back to it again in future.
-	- **Iterative Learning:** Go back and forth between different resources (e.g., the Flash Attention paper and the online softmax paper) to reinforce understanding.
-		- what I do usually in these cases is go back and forth so I go to the flash attention paper try to understand how it's used then if I don't fully understand go back to the online softmax because every time you go back and forth 
-		- so when you go back to the online softmax from the flashh attention paper you are reinforcing your learning of the flashh attention by trying to make it work with whatever you're learning from the online softmax.
-	- **Combining Code and Theory**: Alternate between reading the paper and examining the code for new architectures.
-		-  When I read a new architecture paper ,i don't fully understand it just by reading the paper. Hence i go back and forth between the code and the paper.
-		- Sometimes The code is very cryptic as its written by researchers , not by good engineers, hence learn from paper and code together.
--  **Block Matrix Multiplication:** Learned about block matrix multiplication, crucial for understanding Flash Attention's block-by-block computation.
-- **Tensor Shapes and Strides:** Understanding tensor shapes and strides is essential for GPU programming, as GPUs work with memory pointers.
-- **Backpropagation:** The most challenging part, requiring understanding of gradients and chain rule.
-
+-   **What is CUDA, Triton, Flash Attention ?**
+    -   **Flash Attention** is an optimised implementation of attention mechanism used in Transformers to make better use of GPU compute power. In the paper it's refer to an "I/O-Aware" algorithm.
+    -   **CUDA** is a software stack from NVIDIA to write GPU kernels for NVIDIA GPUs. Other GPU manufacturers have their own software stack (the equivalent for AMD GPUs is ROCm)
+    -   Triton is a software stack that compiles GPU kernels written in Python into native code for the underlying GPU hardware (CUDA, ROCm, both compatible as of now.)
+-   **I want to learn Triton : How do I start ?**
+    -   Before you start learning anything , ask yourself : "Why do I want to study triton ?"
+        -   In Umar's case : he like experimenting with new architectures and with new architectures you may need new kernels for accelerating the training process. Too many times I was blocked because i didn't know how to edit/debug the \[\[Kernel\]\]s.
+    -   Now its time to go to \> [Triton's website](https://triton-lang.org/main/programming-guide/chapter-1/introduction.html)
+    -   Oh! I am confused what's this ?
+-   **You can never get lost: What's this ?**
+    -   Anytime you are blocked somewhere and you don't understand something - you can always prompt
+    -   And you can never be blocked - because you can keep prompting untill you're unlocked ! They will put you in right direction.
+    -   Prompt \>\> \[\[What is Triton and How can i learn it ?\]\]
+-   **Get your hands dirty !!**
+    -   You learn more by doing things and not just studying it (conceptually).
+    -   Look at Triton Tutorials.
+-   **Set yourself a goal/dream**
+    -   Umar saw [Fused Attention](https://triton-lang.org/main/getting-started/tutorials/06-fused-attention.html#sphx-glr-getting-started-tutorials-06-fused-attention-py) coded in 400 lines of python code - and made a goal to understand it + re-implement it himself (in his Triton learning journey).
+        -   Prompt \>\> \[\[How is Flash attention and fused attention related ?\]\]
+    -   **Always "Have a goal when you learn things"**
+    -   Don't just learn Triton.
+    -   Learn Triton in order to understand the Fused Attention.
+-   **Why having an objective is important when learning ?**
+    -   You always have something to measure against.
+    -   You never get lost.
+    -   It gives you sense of satisfaction when you reach your goal.
+    -   Intermediate Goals also helps alot.
+-   **Learning Strategy:** Avoid being influenced by others' tutorials initially. Challenge yourself. Define the "rules" of your learning challenge
+    -   What are the rules of this objective ?
+    -   Am I allowed to read papers, watch tutorials, blogs, code ?
+    -   The difficulty of the challenge you choose - you'll improve confidence+competence accordingly..
+-   **Practical Steps:** Started with the "vector addition" tutorial on the Triton website.
+    -   Now we are trying to do the vector addition tutorial and we found an obstacle (Encountered concepts like pointers, block size, and thread IDs.) and we found resources about on how to kind of overcome this obstacle
+    -   **Overcoming Obstacles:** When blocked, use the debugger or prompt LLMs to identify missing knowledge.
+    -   **Targeted Learning:**
+        -   You are doing triton , to understand flash attention
+        -   You are doing vector addition (implemented in Triton's first tutorial, on triton website)
+    -   **Learn just what you need , no more, no less**
+    -   When seeking external resources (like the "Programming Massively Parallel Processors" book), learn only what's relevant to the immediate task (just learn enough for us to understand the things that are relevant to the vector addition only)
+    -   I went to pmpp I I learned the first two chapters I think enough for you to understand vector addition and to give you a little intuition on all the concept that you need to at least understand fully.
+-   **Final Boss:** Finish the tutorials, then move on to the "final boss" - flash attention.
+    -   When we start reading (Flash Attention) paper, we encounter so many new terms... So let's go down rabbit holes ?
+    -   Untill now - our strategy was - every time we encounter an obstacle - we ask chatgpt for directions ; overcome the obstacle and go back to objective.
+    -   **Paper Reading strategy is different**.
+        -   **Learn to handle the uncertainity.**
+            -   Read the entire paper , top to bottom , even if you understand 5% of it.
+            -   While reading the paper , you're constantly reminded of how many things you don't understand and this makes you uncomfortable: its fine. Keep Going On!
+            -   Once you reach the end , you'll have a clear vision of what you don't know, and now you can come up with a plan for how to fill your knowledge gaps.
+            -   Tip: **Highlight with different colors** \>\> \[\[Color coding research papers\]\]
+                -   things you don't understand at all and you'd like to learn
+                -   things you don't understand and you're fine not understanding (because maybe are not so relevant for your journey)
+                -   things that you already know & you'd like to improve your knowledge on, etc.
+            -    plus your brain is actually very smart at connecting dots even on things that you are not not fully familiar with.
+            -   **Don't highlight while reading.. Highlight after reading.**
+                -    because this forces you to go through it again of course not every paper you can do it like this so it depends really on the level of depth that you want to reach
+            -   **Read the paper atleast 3 times -- end to end.**
+                -   Now you know your objective - to understand all the necessary concepts/parts of this paper.
+                -   Now you can go into rabbit hole of learning each of those concepts & you always comeback to the paper.
+-   **Learning Roadmap:** Built a roadmap by identifying knowledge gaps in the Flash Attention paper (softmax, online softmax, GPU programming, backpropagation).
+-   **What ingredients do we need to understand FA ?**
+    -   Attention mechanism
+        -   Softmax
+        -   Safe Softmax
+        -   Online Softmax
+    -   GPU programming
+        -   HBM and Shared memory
+        -   Tiling
+        -   Tensor shapes
+        -   CUDA/Triton
+    -   Backpropagation
+        -   Gradients
+-   **First Boss :** Softmax
+    -   If you go to the[flash attention paper](https://arxiv.org/abs/2205.14135), the key challenge in implementing Flash Attention, particularly related to computing softmax when processing attention matrices in blocks.
+    -   The core issue with block-wise computation of attention is handling the softmax normalization factor correctly.
+    -   The problem arises because softmax requires knowledge of all values in a row to compute the normalization denominator (the sum of exponentials). When processing in blocks to save memory, you don't have all values available at once.
+    -   \![\[Pasted image 20250310193729.png\]\]
+-   **The two weapons to fight softmax :**
+    -   [Self-Attention Does NOT need O(n\^2 ) memory](https://arxiv.org/pdf/2112.05682v2)
+    -   [Online normalizer calculation for softmax](https://arxiv.org/abs/1805.02867)
+-   **Reading is not enough. You need *Active Learning.***
+    -   If there is an algorithm , code it.
+    -   if there is an algorithm , test it on paper.
+    -   if there is a proof :
+        -   re-write it yourself on paper , the first time.
+        -   if you want deeper understanding, try to redo the proof without having it infront of you.
+-   **but I still didn't understand it... What should I do ?**
+    -   Imagine you studied the online softmax, coded the algorithm, did the proof by yourself, but you still can't figure out how it may be connected to FA .. What should you do ? Should you keep studying "online softmax" or should you continue ?
+    -   After a reasonable time spent on a problem , **Continue Forward** and accept the uncertainity & the possibilty that you may have to go back to it again in future.
+    -   **Iterative Learning:** Go back and forth between different resources (e.g., the Flash Attention paper and the online softmax paper) to reinforce understanding.
+        -   what I do usually in these cases is go back and forth so I go to the flash attention paper try to understand how it's used then if I don't fully understand go back to the online softmax because every time you go back and forth
+        -   so when you go back to the online softmax from the flashh attention paper you are reinforcing your learning of the flashh attention by trying to make it work with whatever you're learning from the online softmax.
+    -   **Combining Code and Theory**: Alternate between reading the paper and examining the code for new architectures.
+        -   When I read a new architecture paper ,i don't fully understand it just by reading the paper. Hence i go back and forth between the code and the paper.
+        -   Sometimes The code is very cryptic as its written by researchers , not by good engineers, hence learn from paper and code together.
+-   **Block Matrix Multiplication:** Learned about block matrix multiplication, crucial for understanding Flash Attention's block-by-block computation.
+-   **Tensor Shapes and Strides:** Understanding tensor shapes and strides is essential for GPU programming, as GPUs work with memory pointers.
+-   **Backpropagation:** The most challenging part, requiring understanding of gradients and chain rule.
 
 ### What should I learn next ?
 

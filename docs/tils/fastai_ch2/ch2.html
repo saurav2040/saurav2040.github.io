@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Shraey">
+<meta name="dcterms.date" content="2024-06-17">
+<meta name="description" content="A summary of Chapter 2 from the Fastai book, covering the basics of deep learning and neural networks.">
 
-<title>About – Shraey</title>
+<title>Fastai Chapter 2 – Shraey</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,24 +23,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3f9740e16c5aa82324e2d2774081471a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-3f9740e16c5aa82324e2d2774081471a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,14 +107,14 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Shraey</span>
     </a>
   </div>
@@ -87,15 +125,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tils.html"> 
+    <a class="nav-link" href="../../tils.html"> 
 <span class="menu-text">TILs</span></a>
   </li>  
 </ul>
@@ -118,57 +156,308 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Fastai Chapter 2</h1>
+                  <div>
+        <div class="description">
+          A summary of Chapter 2 from the Fastai book, covering the basics of deep learning and neural networks.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Fastai</div>
+                <div class="quarto-category">notes</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Shraey </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 17, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#lesson-2-deployment" id="toc-lesson-2-deployment" class="nav-link active" data-scroll-target="#lesson-2-deployment">Lesson 2 : Deployment</a>
+  <ul class="collapse">
+  <li><a href="#todo" id="toc-todo" class="nav-link" data-scroll-target="#todo">Todo :</a></li>
+  <li><a href="#notebook-excercise" id="toc-notebook-excercise" class="nav-link" data-scroll-target="#notebook-excercise">Notebook excercise</a></li>
+  <li><a href="#lecture-notes" id="toc-lecture-notes" class="nav-link" data-scroll-target="#lecture-notes">Lecture Notes</a></li>
+  <li><a href="#book-notes" id="toc-book-notes" class="nav-link" data-scroll-target="#book-notes">Book Notes</a>
+  <ul class="collapse">
+  <li><a href="#jargon" id="toc-jargon" class="nav-link" data-scroll-target="#jargon">Jargon</a></li>
+  <li><a href="#questionare" id="toc-questionare" class="nav-link" data-scroll-target="#questionare">Questionare</a></li>
+  <li><a href="#further-research" id="toc-further-research" class="nav-link" data-scroll-target="#further-research">Further Research</a></li>
+  </ul></li>
+  <li><a href="#fastai-forumdiscord" id="toc-fastai-forumdiscord" class="nav-link" data-scroll-target="#fastai-forumdiscord">Fastai Forum/Discord</a></li>
+  <li><a href="#tils" id="toc-tils" class="nav-link" data-scroll-target="#tils">TILS</a></li>
+  <li><a href="#mini-project" id="toc-mini-project" class="nav-link" data-scroll-target="#mini-project">Mini Project</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="profile.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
-<style>
-body {
-    background-image: url('background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-/* Optional: Add overlay for better text readability */
-.quarto-container {
-    background-color: rgba(260, 260, 260, 0.79);
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
-}
-</style>
-<p>Hi! I am Saurav.</p>
-<p>I’m a Computer scientist based in India. I love Deep learning, math, and wisdom literature.</p>
-<p>I’m currently on my arc to become an ML engineer .</p>
-<p>I believe in learn in public. As a result , I am documenting and sharing all my learnings here.</p>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://x.com/Saurav2023" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://github.com/saurav2040" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
+
+
+
+<section id="lesson-2-deployment" class="level1">
+<h1>Lesson 2 : Deployment</h1>
+<section id="todo" class="level2">
+<h2 class="anchored" data-anchor-id="todo">Todo :</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Watch the lecture once.</label></li>
+<li><label><input type="checkbox">Run the Bear Classifier notebook &amp; figure out how all the pieces fit together.</label></li>
+<li><label><input type="checkbox">Reproduce the Bear classifier model + clean the data + re-train the model</label></li>
+<li><label><input type="checkbox">Deploy the Bear model on HF spaces &amp; try the model</label></li>
+<li><label><input type="checkbox">Read the chapter 2 fastbook</label>
+<ul>
+<li>Review the questionare.</li>
+<li>Read the chapter 2 + <strong>take book notes <em>using cornell method</em>.</strong></li>
+<li>Try to answer the questionare.</li>
+</ul></li>
+<li><label><input type="checkbox">Create another notebook using a different dataset.</label></li>
+<li><label><input type="checkbox">Watch the lecture again + take lecture notes.</label></li>
+<li><label><input type="checkbox">Finish the “Questionare + Further research”</label></li>
+<li><label><input type="checkbox">Finish <a href="https://aiquizzes.com/knowledgebase">AIquizzes</a> - Lesson 2</label></li>
+<li><label><input type="checkbox"><strong>Learn any concepts/lib used in the lecture</strong></label>
+<ul>
+<li>a</li>
+<li>b</li>
+<li>Finish Lesson 1 TODOs also</li>
+</ul></li>
+<li><label><input type="checkbox">Read the Fastai Forum discussion on lesson 2</label>
+<ul class="task-list">
+<li><label><input type="checkbox">Take imp/helpful notes,ideas from discussions.</label></li>
+<li><label><input type="checkbox">Do the homeworks of Radek, Jeremy, Sanyam, Tanishq etc…</label></li>
+</ul></li>
+<li><label><input type="checkbox">Walk with Fastai Lesson 1 - all 3 parts (optional)</label></li>
+<li><label><input type="checkbox"><a href="https://docs.fast.ai/tutorial.vision.html#classifying-breeds">Computer vision intro – fastai</a></label>
+<ul class="task-list">
+<li><label><input type="checkbox">Try to recreate these models - without looking at it</label></li>
+<li><label><input type="checkbox">Create notebooks but use a different dataset</label></li>
+</ul></li>
+<li><label><input type="checkbox">ankify notes</label></li>
+</ul>
+</section>
+<section id="notebook-excercise" class="level2">
+<h2 class="anchored" data-anchor-id="notebook-excercise">Notebook excercise</h2>
+<div id="4f517321" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> fastbook</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>fastbook.setup_book()</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fastbook <span class="im">import</span> <span class="op">*</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
+<div id="7883cf40" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fastai.vision.<span class="bu">all</span> <span class="im">import</span> <span class="op">*</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
- <!-- /main -->
+<div id="d051e127" class="cell" data-execution_count="3">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fastcore.<span class="bu">all</span> <span class="im">import</span> <span class="op">*</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="lecture-notes" class="level2">
+<h2 class="anchored" data-anchor-id="lecture-notes">Lecture Notes</h2>
+</section>
+<section id="book-notes" class="level2">
+<h2 class="anchored" data-anchor-id="book-notes">Book Notes</h2>
+<section id="jargon" class="level3">
+<h3 class="anchored" data-anchor-id="jargon">Jargon</h3>
+</section>
+<section id="questionare" class="level3">
+<h3 class="anchored" data-anchor-id="questionare">Questionare</h3>
+<ol type="1">
+<li><p>Where do text models currently have a major deficiency?</p>
+<ul>
+<li>a</li>
+<li>b</li>
+<li>c</li>
+<li>d</li>
+</ul></li>
+</ol>
+<hr>
+<ol start="2" type="1">
+<li>What are possible negative societal implications of text generation models?</li>
+</ol>
+<hr>
+<ol start="3" type="1">
+<li>In situations where a model might make mistakes, and those mistakes could be harmful, what is a good alternative to automating a process?</li>
+</ol>
+<hr>
+<ol start="4" type="1">
+<li>What kind of tabular data is deep learning particularly good at?</li>
+</ol>
+<hr>
+<ol start="5" type="1">
+<li>What’s a key downside of directly using a deep learning model for recommendation systems?</li>
+</ol>
+<hr>
+<ol start="6" type="1">
+<li>What are the steps of the Drivetrain Approach?</li>
+</ol>
+<hr>
+<ol start="7" type="1">
+<li>How do the steps of the Drivetrain Approach map to a recommendation system?</li>
+</ol>
+<hr>
+<ol start="8" type="1">
+<li>Create an image recognition model using data you curate, and deploy it on the web.</li>
+</ol>
+<hr>
+<ol start="9" type="1">
+<li>What is <code>DataLoaders</code>?</li>
+</ol>
+<hr>
+<ol start="10" type="1">
+<li>What four things do we need to tell fastai to create <code>DataLoaders</code>?</li>
+</ol>
+<hr>
+<ol start="11" type="1">
+<li>What does the <code>splitter</code> parameter to <code>DataBlock</code> do?</li>
+</ol>
+<hr>
+<ol start="12" type="1">
+<li>How do we ensure a random split always gives the same validation set?</li>
+</ol>
+<hr>
+<ol start="13" type="1">
+<li>What letters are often used to signify the independent and dependent variables?</li>
+</ol>
+<hr>
+<ol start="14" type="1">
+<li>What’s the difference between the crop, pad, and squish resize approaches? When might you choose one over the others?</li>
+</ol>
+<hr>
+<ol start="15" type="1">
+<li>What is data augmentation? Why is it needed?</li>
+</ol>
+<hr>
+<ol start="16" type="1">
+<li>Provide an example of where the bear classification model might work poorly in production, due to structural or style differences in the training data.</li>
+</ol>
+<hr>
+<ol start="17" type="1">
+<li>What is the difference between <code>item_tfms</code> and <code>batch_tfms</code>?</li>
+</ol>
+<hr>
+<ol start="18" type="1">
+<li>What is a confusion matrix?</li>
+</ol>
+<hr>
+<ol start="19" type="1">
+<li>What does <code>export</code> save?</li>
+</ol>
+<hr>
+<ol start="20" type="1">
+<li>What is it called when we use a model for making predictions, instead of training?</li>
+</ol>
+<hr>
+<ol start="21" type="1">
+<li>What are IPython widgets? 22. When would you use a CPU for deployment? When might a GPU be better?</li>
+</ol>
+<hr>
+<ol start="23" type="1">
+<li>What are the downsides of deploying your app to a server, instead of to a client (or edge) device such as a phone or PC?</li>
+</ol>
+<hr>
+<ol start="24" type="1">
+<li>What are three examples of problems that could occur when rolling out a bear warning system in practice? 25. What is out-of-domain data?</li>
+</ol>
+<hr>
+<ol start="26" type="1">
+<li>What is domain shift?</li>
+</ol>
+<hr>
+<ol start="27" type="1">
+<li><p>What are the three steps in the deployment process?</p>
+<ul>
+<li>a</li>
+<li>b</li>
+<li>c</li>
+</ul></li>
+</ol>
+</section>
+<section id="further-research" class="level3">
+<h3 class="anchored" data-anchor-id="further-research">Further Research</h3>
+<ol type="1">
+<li>Consider how the Drivetrain Approach maps to a project or problem you’re interested in.</li>
+</ol>
+<hr>
+<ol start="2" type="1">
+<li>When might it be best to avoid certain types of data augmentation?</li>
+</ol>
+<hr>
+<ol start="3" type="1">
+<li>For a project you’re interested in applying deep learning to, consider the thought experiment, “What would happen if it went really, really well?”</li>
+</ol>
+<hr>
+<ol start="4" type="1">
+<li>Start a blog and write your first blog post. For instance, write about what you think deep learning might be useful for in a domain you’re interested in.</li>
+</ol>
+</section>
+</section>
+<section id="fastai-forumdiscord" class="level2">
+<h2 class="anchored" data-anchor-id="fastai-forumdiscord">Fastai Forum/Discord</h2>
+<ul>
+<li>Notes, Experiments, Q&amp;As important / related to this lesson.</li>
+</ul>
+</section>
+<section id="tils" class="level2">
+<h2 class="anchored" data-anchor-id="tils">TILS</h2>
+<ul>
+<li>Exploring Fastai Docs Tutorials.</li>
+<li>Experiments I did.</li>
+<li>Learnings/Quirks I had.</li>
+</ul>
+</section>
+<section id="mini-project" class="level2">
+<h2 class="anchored" data-anchor-id="mini-project">Mini Project</h2>
+<ul>
+<li>Finish a mini-project based on this lesson.
+<ul>
+<li>Kaggle dataset/problem</li>
+<li>Implement Lesson Notebook with different dataset.</li>
+</ul></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -189,6 +478,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
