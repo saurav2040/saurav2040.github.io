@@ -11,21 +11,32 @@ sidebar: true
 
 -   ![](images/paste-24.png){width="638"}
 
--   The magic you are looking for ; is in **just doing things**.
+
+-   The magic you are looking for ; is in ***just doing things***.
 
     -   You gain so much more data by doing the thing than by thinking about doing the thing.
     -   As Fast.ai taught us - **Advanced ideas can be extremely simple and effective when put in practice.**
 
--   The magic you are looking for ; is in **the work you are avoiding.**
+-   The magic you are looking for ; is in ***the work you are avoiding.***
 
     -   You sit and wonder why you aren't seeing success.
     -   Whilst there is a pile of difficult tasks that you are avoiding that will push you closer to your goals.
+
+- In general, **You should focus on systems (what you are doing to get the job) rather than goals (getting the job). The former is within your control, the latter is not.** 
+
+    - Just Finish what you started. Finish the Fastai courses + Andrej's NNs zero to hero + build projects. This is in your control. This will get you a job (not sitting and overthinking.)
 
 -   Things I learnt by teaching others \~ (Umar Jamil)
 
     -   Most people struggle to learn not because they lack intellectual capacity. But because their inner voice keeps telling them they're not smart enough.
 
     -   **How to shut the inner voice : Work on Hard things and build confidence.** No other way.
+
+
+- [Depth-First Procrastination](https://borretti.me/article/depth-first-procrastination)
+    - You start with a high-level goal , and rather than taking the optimal route, a combination of intellectual curiosity and anxiety about standing on shaky foundations leads you to spawn subgoal after subgoal after subgoal, until you hit rock bottom and you find yourself doing some task so distantly related to the original goal you’re in another universe entirely.
+
+    - And it’s always bullshit. Labouring in obscurity on some grandiose scheme for years is overrated. Tighten the feedback loop: trim the fat, ship, react, iterate. Do or die.
 
 <div>
 
@@ -69,9 +80,10 @@ sidebar: true
 1.  **Snowball your Projects**
     -   Keep on building projects. Just keep the momentum going…
 
-    -   Some of those projects may end upto nothing, But some of those projects will snowball into bigger and interesting projects.
+    -   Some of those projects may end upto nothing, But some of those projects will snowball into bigger and interesting projects. 
 
-    -   Example : Andrej started with game programming tutorials → Started to love teaching → taught CS231n → Neural Nets zero to hero → LLM101n course - At OpenAI , a reddit chatbot project → when transformers came out → became GPT 1,2,3,4 …
+    - Example:  Andrej started with game programming tutorials → Started to love teaching → taught CS231n → Neural Nets zero to hero → LLM101n course 
+    - At OpenAI , a reddit chatbot project → when transformers came out → became GPT 1,2,3,4 …
 
 ![](images/paste-1.png){width="443"}
 

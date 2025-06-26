@@ -2,6 +2,7 @@
   {
     "listing": "/tils.html",
     "items": [
+      "/tils/quotes/quotes.html",
       "/tils/fastai_ch2/ch2.html",
       "/tils/new_til/index.html"
     ]

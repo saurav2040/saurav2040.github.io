@@ -46,5 +46,11 @@
   },
   "tils/fastai_ch2/ch2.ipynb": {
     "ch2.html": "2f2e7678"
+  },
+  "private/quotes/quotes.qmd": {
+    "quotes.html": "325e39a2"
+  },
+  "tils/quotes/quotes.qmd": {
+    "quotes.html": "1cc8431d"
   }
 }

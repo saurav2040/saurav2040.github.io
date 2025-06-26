@@ -1,0 +1,22 @@
+---
+title: "Favorite Quotes"
+author: "My Idols"
+date: 2025-06-22
+categories: [quotes]
+image: "socrate.jpg"
+description: "Favourite Quotes"
+sidebar: true
+---
+
+## Thoughts from internet :
+
+### [Depth-First Procrastination](https://borretti.me/article/depth-first-procrastination)
+
+-   You start with a high-level goal , and rather than taking the optimal route, a combination of intellectual curiosity and anxiety about standing on shaky foundations leads you to spawn subgoal after subgoal after subgoal, until you hit rock bottom and you find yourself doing some task so distantly related to the original goal you’re in another universe entirely.
+
+-   And it’s always bullshit. Labouring in obscurity on some grandiose scheme for years is overrated. Tighten the feedback loop: trim the fat, ship, react, iterate. Do or die.
+
+## Ayn Rand
+
+-   “\[Dean\] “My dear fellow, who will let you?”\
+    \[Roark\] “That’s not the point. The point is, who will stop me?”
