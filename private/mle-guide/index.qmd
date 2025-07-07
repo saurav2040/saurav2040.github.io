@@ -11,7 +11,6 @@ sidebar: true
 
 -   ![](images/paste-24.png){width="638"}
 
-
 -   The magic you are looking for ; is in ***just doing things***.
 
     -   You gain so much more data by doing the thing than by thinking about doing the thing.
@@ -22,9 +21,11 @@ sidebar: true
     -   You sit and wonder why you aren't seeing success.
     -   Whilst there is a pile of difficult tasks that you are avoiding that will push you closer to your goals.
 
-- In general, **You should focus on systems (what you are doing to get the job) rather than goals (getting the job). The former is within your control, the latter is not.** 
+-   Motivation isn’t the key — action is. You need action to get motivated, not the other way around. Sitting around and waiting for something to happen never got me.
 
-    - Just Finish what you started. Finish the Fastai courses + Andrej's NNs zero to hero + build projects. This is in your control. This will get you a job (not sitting and overthinking.)
+-   In general, **You should focus on systems (what you are doing to get the job) rather than goals (getting the job). The former is within your control, the latter is not.**
+
+    -   Just Finish what you started. Finish the Fastai courses + Andrej's NNs zero to hero + build projects. This is in your control. This will get you a job (not sitting and overthinking.)
 
 -   Things I learnt by teaching others \~ (Umar Jamil)
 
@@ -32,11 +33,11 @@ sidebar: true
 
     -   **How to shut the inner voice : Work on Hard things and build confidence.** No other way.
 
+-   [Depth-First Procrastination](https://borretti.me/article/depth-first-procrastination)
 
-- [Depth-First Procrastination](https://borretti.me/article/depth-first-procrastination)
-    - You start with a high-level goal , and rather than taking the optimal route, a combination of intellectual curiosity and anxiety about standing on shaky foundations leads you to spawn subgoal after subgoal after subgoal, until you hit rock bottom and you find yourself doing some task so distantly related to the original goal you’re in another universe entirely.
+    -   You start with a high-level goal , and rather than taking the optimal route, a combination of intellectual curiosity and anxiety about standing on shaky foundations leads you to spawn subgoal after subgoal after subgoal, until you hit rock bottom and you find yourself doing some task so distantly related to the original goal you’re in another universe entirely.
 
-    - And it’s always bullshit. Labouring in obscurity on some grandiose scheme for years is overrated. Tighten the feedback loop: trim the fat, ship, react, iterate. Do or die.
+    -   And it’s always bullshit. Labouring in obscurity on some grandiose scheme for years is overrated. Tighten the feedback loop: trim the fat, ship, react, iterate. Do or die.
 
 <div>
 
@@ -80,10 +81,11 @@ sidebar: true
 1.  **Snowball your Projects**
     -   Keep on building projects. Just keep the momentum going…
 
-    -   Some of those projects may end upto nothing, But some of those projects will snowball into bigger and interesting projects. 
+    -   Some of those projects may end upto nothing, But some of those projects will snowball into bigger and interesting projects.
 
-    - Example:  Andrej started with game programming tutorials → Started to love teaching → taught CS231n → Neural Nets zero to hero → LLM101n course 
-    - At OpenAI , a reddit chatbot project → when transformers came out → became GPT 1,2,3,4 …
+    -   Example: Andrej started with game programming tutorials → Started to love teaching → taught CS231n → Neural Nets zero to hero → LLM101n course
+
+    -   At OpenAI , a reddit chatbot project → when transformers came out → became GPT 1,2,3,4 …
 
 ![](images/paste-1.png){width="443"}
 
@@ -121,8 +123,6 @@ The most concise piece of advice I can give you:
 -   It should look a lot less like that "10 minute full body" workout and a lot more like a serious session at the gym. You want the mental equivalent of sweating.
 -   So for those who actually want to learn. Unless you are trying to learn something narrow and specific, close those tabs with quick blog posts. Close those tabs of "Learn XYZ in 10 minutes".
 -   Consider the opportunity cost of snacking and seek the meal - the textbooks, docs, papers, manuals, longform. Allocate a 4 hour window. Don't just read, take notes, re-read, re-phrase, process, manipulate, learn.
-
-
 
 ## Yoobin Ray
 
@@ -196,7 +196,6 @@ The most concise piece of advice I can give you:
 
 -   **eat, sleep, read research papers, reimplement paper baselines and novel models in PyTorch, repeat.**
 -   **I fought procrastination by not giving myself any other options** -- I literally locked myself in the library study room without my phone many nights or I would deliberately go to a different campus without my phone.
-
 
 ### Different types of MLEs
 
@@ -1907,3 +1906,150 @@ Well, here's the steps to get good at that: 1. **Download a paper** 2. **Impleme
 -   **Building Confidence**:\* Confidence comes from doing hard things, and pushing yourself further.
 -   **Leaderboard Participation**:\* Encourages participating in the GPU Mode leaderboard, even if not fully confident. The only failure is not showing up.
 -   **10,000 Hours Rule:**\* Is the only rule that matters in life.
+
+# How to learn
+
+## How to get maximum knowledge wrt time
+
+-   The most valuable kind of knowledge is the type you get from experience. So how do you get a ton of it?
+
+-   `Answer :` **Maximize doing new unfamiliar things.** You’ll get lots of new, useful, experience-based knowledge. The kind you get from years of experience. The kind you cant find on Google.
+
+-   Experience comes from experiencing things, not from time. If you passively wait around, you’ll barely get any. The opposite is true, too – if you actively seek out experience, you’ll get way more of it.
+
+-   **Experience-based info**
+
+    -   Experience-based info is the extremely valuable type of info you get from doing new, different things.
+    -   \![\[Pasted image 20250703091152.png\]\]
+
+-   **Some forms of experience-based info you might learn from new things:**
+
+    -   useful details that fill in a map of the territory your business operates in, showing you better directions to move in (this is why pivots happen)
+    -   knowledge that a specific fear you had is not actually anything to be afraid of
+    -   a skill (knowledge of how to do something) that permanently increases what you’re able to do
+
+-   **The fog –** **why this works** ?
+
+    -   You typically can’t **think** your way to experience-based information.
+    -   Imagine you’re in a thick fog where you can only see two steps ahead. You can’t just stare into it longer and expect to see further. Only after moving forward a few steps will you see what it concealed.
+    -   This is why overperfecting before taking action is an antipattern; you’re trying to see 10 moves deep into the fog by squinting harder, rather than taking a single step forward, usually out of fear.
+
+-   **Its about experiences, NOT time**
+
+    -   Gaining experience isn’t a function of time, but rather how many new experiences you have.
+    -   if you don’t have new experiences, you will not gain experience-based knowledge
+    -   if you have only a few new experiences, you will gain a bit of experience-based knowledge
+    -   if you have a lot of new experiences, you will gain a lot of experience-based knowledge
+    -   To exploit this, get in the habit of maximizing the amount of new experiences you have.
+
+-   **Experience-based knowledge is valuable, but why?**
+
+    -   Maybe because it takes energy to get (doing things, overcoming fears, overcoming fixed-ness), so it filters many people out of knowing it, therefore giving whoever has it a large competitive advantage.
+
+#### Ideas for how to do this
+
+-   The idea is to do lots of new, unfamiliar stuff that falls *outside of the distribution* of what you typically do.
+
+1.  Do something you’ve already done, but more extreme
+    -   create a much bigger project than you have before
+    -   try working for a longer stretch of time than you’re used to
+    -   etc
+2.  Do something of a very different nature from what you’ve already done
+    -   make a project that requires skills you don’t have but could get
+    -   take an action that puts you in a new environment or context
+    -   do something you’ve been afraid to try for a while, that you usually find complex ways around doing
+    -   etc
+
+-   Be creative with coming up with new ways to do new things. It’s a skill you can improve through practice.
+
+#### Specific Examples of Uses
+
+Tremendously increase your skillset by speedrunning as many out-of-personal-distribution projects as possible.
+
+-   Completing projects 15% outside of your skillset expands your skillset by 15%. Using the rule of 72, this doubles your skillset every 5 projects.
+-   the projects take more time every iteration, but you also get faster at doing them.
+-   Speedrun this to get really, really good at programming.
+-   As a side effect, you’ll build up a massive portfolio. This can help you land jobs, especially if the projects require the same tools/skills you’d use on the job you’re applying for. Make sure to actually finish projects. Avoid ‘shiny object syndrome’.
+    -   **Shiny object syndrome** refers to the tendency to constantly chase after new, exciting opportunities or ideas while abandoning previous projects before completing them.
+
+#### Curing/preventing overfitting
+
+-   Overfitting is when your mental models become aligned with your limited sample of experiences to the detriment of their alignment with the real world.
+-   This can happen if all you do is read information on the internet about how the world is (which, in moderation, is useful!) without going outside and getting information from new, different experiences.
+-   **Overfitting can cause (and be caused by) irrational fear**
+    -   Overfitting can have negative consequences, such as overblown fear, and fear of things you shouldn’t be afraid of.
+-   **Preventing/curing irrational fears**
+    -   In ML, adding more training data is a common strategy to prevent models from overfitting.
+    -   There are two main tactics that have helped me overcome overfitting-based fear. The first is to come to terms with the risks. The second is to touch grass. This is the main idea behind exposure therapy – get experience related to the fears you know are irrational, and they will dissolve
+
+## How I Cured My Procrastination
+
+-   The method is to **get in the habit of starting everything immediately and chunking it out so you finish early**.
+-   ![](images/paste-25.png){width="586"}
+-   The goal is to repeatedly show your brain that work is awesome, so it likes it and goes for it. Work should be a long, warm bath, not a burn on a hot stove.
+-   1. **Get in the habit of starting everything immediately**
+-   **2. Break every medium-to-large task into chunks over time, and finish early**
+    -   Start every task immediately, and if it’s medium-to-large sized, break it up into chunks (of meaningful size). Do one chunk every day, or week, whatever you choose, so that you finish early.
+    -    if your chunks are too small to make meaningful progress, you won’t feel much of a reward. The chunks don’t have to be hard! They just have to make you feel like you really truly got something done.
+-   **3. STOP after you finish a chunk** `< most imp`
+    -   You will likely not want to stop after you complete a chunk. After all why shouldn’t you? Why not keep going and finish the whole paper right now while you’re in the zone?
+    -   Because not getting what you want builds anticipation. And this further conditions your brain to want work and the rewards that come with it. The goal isn’t to get the work done, it’s to cure procrastination so you can have tons of freedom and live out an adventure. Stop. After. Each. Chunk. Stop. Seriously.
+-   **4. Continue doing this, forever**
+    -   Even if you stop doing it for periods of time, get back into it, even if its been months.
+
+## How to overcome plateaus
+
+-   A great way to break through plateaus is to improve fundamentals. Either improve ones you suck at, or find new ones you’re not aware of and get good at them.
+-   **overcome plateaus by getting large improvements from finding (and then training) core concepts you’re currently overlooking.**
+-   What are Fundamentals ?
+    -   For any concept, the fundamentals are the subconcepts make up large fractions of it.
+    -   Generally, learning them provides the fastest increases in competency.
+    -   **Amdahl’s Law:** Improvement to a system’s subcomponent can improve the whole system by how much of a fraction the subcomponent is.
+    -   ![](images/paste-26.png){width="468"}
+    -   Some fundamentals are very obvious. Others are extremely hard to notice. Even though they’re right under your nose.
+-   **Get skilled at finding core concepts, and then target them for the fastest improvement in learning.**
+    -   Strengthening fundamentals can be done recursively, because each concept is composed of subconcepts, whose impact seems to (from my observation) have a power law distribution (meaning, the 80/20 Pareto principle works on them).
+    -   You may find that sometimes, your concept is 90% composed of a subconcept 10 layers of recursion down.
+-   **Examples of easy to find fundamentals**
+    -   **Writing examples:** have a title, have good grammar, write something interesting
+    -   **Programming examples:** programming language, common algorithms/data structures, time and space complexity, ML/DL fundamental concepts used everywhere...
+-   **Examples of hard to see core concepts**
+    -   **Programming examples:** building new things to learn new skills, learning to navigate up/down abstractions quickly etc..
+    -   **Techniques to find overlooked fundamentals**
+        -   Listen for words experts commonly use, then double down on understanding those concepts
+        -   Read Fundamental Books.
+        -   Build Something from scratch.
+-   **Zeroth principle analysis**
+    -   Recursively break a concept into its subcomponents by asking ‘**origin questions**’ and putting energy into figuring out specific and actionable answers, rather than general useless ones.
+    -   **It’s just first principles analysis, but you don’t stop going deeper when the questions get extremely tough to give specific, actionable answers to.**
+-   What are **‘origin questions’**?
+    -   Origin questions are ***any question*** that probes into the nature of there a thing came from. “Why”, “how”, “what”, etc
+
+## How to understand/retain complex concepts 10x better ?
+
+**`The whole idea`: compress the concept by repeatedly practicing explaining it until you understand it from first principles**
+
+1) Try to explain the concept as best as you can (ideally out loud, as this is much more effective). Pretend you’re having an imaginary conversation where you are explaining the concept to someone else.
+
+2) While explaining the concept, focus on making it easier for them to understand.
+
+3) Repeat this over and over, iteratively refining your explanation of the concept to give increasingly compressed and effective explanations. _(Ideally continue until you can explain it from first principles only_)
+
+- Over several repetitions, you will end up with a significantly simpler understanding of the concept than when you started, allowing you to mentally work with it much more efficiently. Use this to get an extremely effective understanding of any concept.
+- For a new concept, the first time you do this will be the hardest. but it gets easier after very few repetitions. you’ll quickly see it becoming easier after the first few iterations.
+- You will hit road bumps when teaching/explaining. These will require you to figure out questions about the concept you’re learning. Part of the process is answering these questions, however long it takes to figure out how to answer it with specificity from first principles
+- `Example >> `  I read an article called [The First Law of Complexodynamics](https://scottaaronson.blog/?p=762). In the article there was the concept of the ‘sophistication’ of a string. This was very foreign to me, and hard for me to understand, but I gained a decent understanding of it by using this (`Explaining till First Principles`) technique for about **20 iterations**. Eventually I went from barely being able to understand it to being able to teach it to my dad, who is not a computer scientist and has no idea who Kolmogorov is or what strings are.
+
+## A habit to make learning much more fun and effective
+
+**The habit:**
+
+1. **Every time** you hear a new term/concept, look it up immediately
+2. As you read about it, you’ll form questions and find more new, unfamiliar ideas/terms. Look up the ones that interest you the most
+3. Repeat (recursive)
+---
+- Going down a rabbit hole for every unfamiliar concept (or any concept you choose, really) will lead you to learn a ton and have a lot of fun. This will make you remember the initial concept waaaay better, with more detail/meaning, and you’ll learn more than just that one concept.
+- It’ll also (hopefully) make you enjoy learning more (in general), which is a huge long-term advantage that will make you learn more effectively.
+- **Interest is a huge learning advantage.** Fostering interest is one of the most powerful ways to get good at something over the long run.
+	- When you get very interested in something, your mind gets better at understanding it in the background. It’s almost like your mind becomes altered to be better at learning it.
+
