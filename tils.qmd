@@ -1,5 +1,5 @@
 ---
-title: "TILs"
+title: "Today I Learned"
 listing:
   contents: tils/**/*.{qmd,ipynb}
   type: default
@@ -7,6 +7,7 @@ listing:
   categories: true
   sort-ui: false
   filter-ui: false
-page-layout: full
-title-block-banner: true
+
+page-layout: article
+title-block-banner: false
 ---

@@ -4,7 +4,7 @@ project:
   
 
 website:
-  title: "Shraey"
+  title: "Saurav"
   navbar:
     left:
       - text: "About Me"
@@ -22,6 +22,7 @@ website:
     listing-pages: true
 format:
   html:
+    css: custom.css
     theme: sandstone  # cerulean, yeti
     toc: true
     toc-depth: 3
