@@ -8,8 +8,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/fastai-guide/index.html",
-      "/posts/mle-guide/index.html"
+      "/posts/mle-guide/index.html",
+      "/posts/fastai-guide/index.html"
     ]
   }
 ]
