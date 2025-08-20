@@ -1,6 +1,6 @@
 ---
 title: "The Cracked MLE Guide"
-author: "MLE Experts"
+author: "Saurav Singh, MLE Experts"
 date: "2025-06-16"
 categories: [mle,guide]
 image: "image.jpg"

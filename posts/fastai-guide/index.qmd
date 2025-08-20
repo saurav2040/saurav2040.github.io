@@ -1,6 +1,6 @@
 ---
 title: "How to study fastai"
-author: "Fastai Community, Shraey"
+author: "Saurav Singh"
 date: "2025-06-17"
 categories: [guide, fastai]
 ---
