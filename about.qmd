@@ -6,7 +6,7 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: https://x.com/Saurav2023
+      href: https://x.com/Shraey2026
 #    - icon: linkedin
 #      text: LinkedIn
 #      href: https://linkedin.com
