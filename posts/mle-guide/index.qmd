@@ -151,6 +151,60 @@ The most concise piece of advice I can give you:
 -   So for those who actually want to learn. Unless you are trying to learn something narrow and specific, close those tabs with quick blog posts. Close those tabs of "Learn XYZ in 10 minutes".
 -   Consider the opportunity cost of snacking and seek the meal - the textbooks, docs, papers, manuals, longform. Allocate a 4 hour window. Don't just read, take notes, re-read, re-phrase, process, manipulate, learn.
 
+
+## Soumith Chintala (Pytorch Creator)
+
+### His Journey to Deep Learning
+
+- Soumith went to study at NYU because he found out about Yann Lecun (after doing a google search). Ended up meeting Yann (simply by emailing him and asking! ). 
+
+- Soumith admitted to Yann that he knew nothing about neural networks so Yann offered help with one of his Phd students. 
+
+- When Soumith graduated from NYU he couldn’t find any jobs in DL since it wasn’t really a “thing” at the time and positions for DL engineers didn’t exist. 
+
+- Later he realized that Yann had co-founded a startup and was using neural networks so Soumith ended up initially working there. 
+
+- Eventually, Yann was recruited to head up the FB AI Research Lab and he invited Soumith to join him (once again). 
+
+**KEY TAKEAWAY:**
+
+- Don’t be afraid to admit when you don’t know something (be honest with yourself and others - don’t pretend to know) and most importantly don’t be afraid to ask for help! 
+- All it took was Soumith taking that first step in emailing to Yann that kickstarted his whole career path and eventually creating Pytorch. 
+- Of course, this is not to say that he has most definitely earned everything that he has gained today and must have worked extremely hard to get to the level he is currently at.
+
+### Soumith's advice to start a career in Deep Learning ? 
+
+- You don’t need a 4 year education to learn about and become good at deep learning and neural networks (high school math level)
+
+- You definitely don’t need a Phd. No-one on the Pytorch team had a Phd and they still turned out fine. 
+
+- However, doing a course is not enough, you have to apply what you learn.
+That means creating Github projects, writing blog posts, doing Kaggle competitions, reading & implementing research papers. 
+
+- Don’t just read papers or consume information, you have to put it in practice and also you have to keep your skills sharp.
+(Oh wait that sounds a lot like what we are doing here at Fastai)
+
+- As a result of doing all this, you are sending signals to others that you have the skills they need. Other people won’t know what you know unless you show them.
+
+- Whenever you don’t understand something, mapping it back to the domain you know and understanding it from first principles always helps.
+
+- Even super-confident people sometimes do not know what they’re talking about. It just means they know a few things about something, certainly not in its entirety but most importantly they are quick to course-correct incase they see a mistake in their understanding.
+
+- Get a lot of feedback. Why do you think the greatest of the athletes / teams have coaches? Because, it just works. Feedback is the most important experience in learning something. (We Machine Learning guys surely know the value of feedback)
+
+- Ability and humility to ask.
+
+- Have a growth mindset instead of a fixed mindset. (Growth is always dx everyday, however it always amounts to something really valuable over time)
+
+- Getting a job is a marketing exercise. Write blogs, GitHub is your best friend, create your own portfolio. More importantly, be authentic.
+
+- Be an excellent story teller. They recruiters are not trained to connect your dots. So, figure out your story and present it in the best way possible.
+
+- Shorten the distance to your dream company: Figure out the engineering blogs, identify the team members on Twitter, talk to them about any interesting insights you found on their blogs, and establish meaningful conversations. Don’t blindly run behind recruiters.
+
+- Evaluate the work and team you are dreaming of. Be critical.
+
+
 ## Yoobin Ray
 
 ### Learning Resources for "Cracked" DL Practitioners

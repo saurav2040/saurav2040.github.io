@@ -545,3 +545,63 @@ Parts 2-5 come from a great speech towards the end of the lesson. I’d highly r
 -   \*Other languages are important, and there is a strong belief in starting with C++ or Java as your first language, but I usually reserve that for if you're actually a CS major or don't know where to start (which you are Social Sciences learning ML, so that's okay!)
 -   That's my take on it from my own perspective and belief, I hope some others might be able to chime in on this! HTH :)
 
+
+
+## Lessons from the Masters: How Jeremy Howard and Top Students Approach Fast.ai
+
+I am actually quite overwhelmed by the content of Fastai course.
+**How can I improve my understanding about what is happening and what will happen?**
+
+- No rush, just step by step get into every formula and every concept used.
+- Slow down to a comfortable pace and make sure you understand key ideas before moving on to more complex ideas.
+- Most of these ideas have taken years, even decades to come together. So, don’t sweat it, if you don’t get all of it right away within a 3 hour lecture. (I for one, surely don’t.)
+- The lectures, notebooks, papers etc. are available for free, so take your time and read the papers, rewatch the lectures, search for more info online, hand-on practice/experiments etc. until the ‘big picture understanding’ emerges.
+
+### Radek's reply
+
+- When a true master of a discipline performs an action, it seems effortless. Consider great pianists - oh how easy it seems to just sit in front of a piano, close your eyes, sway a bit and the music just flows. But then we go home and it doesn’t seem to be that easy.
+
+- Same with watching Jeremy. We see those outstanding notebooks incorporating research findings from many, many years and we think: ‘oh, this is cool and Jeremy makes it seem simple, nice!’.
+
+- What we don’t see is how much effort Jeremy - being an absolutely out of this world practitioner and teacher - put into creating the notebooks. I can only guess there have been a lot of set_trace calls involved and other development practices that we don’t see. And it is not like Jeremy has been doing this for a couple of months nor that fastai is the first library that he authored.
+
+- We see notebooks shared on the forums by students but we don’t see how much has been copied over nor how long it took us to piece things together.
+
+- Just to put things in perspective, I don’t get much of this either and I have given all this my best since last October. I’ve put countless hours into the fastai courses. This is from my last coding session:
+
+- I had to read how broadcasting works in numpy since I didn’t quite get it. BTW I think this comes from the book you shared on Twitter
+- I noticed in a notebook I worked on some time ago that I didn’t include a relu activation after every second layer! And I completely missed it. I spent good 20 minutes trying to figure out if it really wasn’t there and whether it should be there as the model is somewhat performing in line with expectations. 
+- For the trillionth time in my life, googling for how to disable the axes when plotting images.
+
+My other recent claims to glory involve:
+
+- Having to write an article so that I could semi-comfortable figure out how to use Twitter.
+- Having to write an article to convince myself to start using samples instead of training on the whole dataset and starting like a zombie at the computer screen.
+- There are a couple of things that could be happening. Maybe I am just not smart enough. Could be. Maybe I spend to much time on the forums instead of doing actual work. Could be.
+
+- We see the results of work of other people but we don’t see how much they struggle. And if they struggle even 1/4th as much as I struggle, than they struggle a lot. And I don’t think even people who perform - in my eyes - on a superhuman level place such emphasis on debugging because all of this comes easy. Don’t think it does even to them.
+
+- All I wanted to say is that if you find this overwhelming you are not alone.
+
+- I find that for that what works best for me is playing with toy problems. If I can figure out how to train a fully connected network consisting of a layer or two on MNIST, maybe I can figure out how to train a conv net. And from that maybe I can figure out how to create a resnet.
+
+- As long as I have not given up and I am moving forward even if at what seems to be as a snail’s pace, I think I am doing good. 
+
+
+### Jeremy's Reply
+
+- It took me months to create this notebook. Not months of progress, but months of continuous failure. The difference between those who succeed and those who don’t is the ones that succeed didn’t give up! 🙂
+
+- Part of confidence is failing - A lot.
+(99% of the time the code doesn’t work but after a while, you’re sure of what works and what doesn’t and understand the concept well.)
+
+- Also, I spend at least 50% of every day learning and/or practicing new things, and have done so since I made that commitment at the age of 18.
+
+- I don’t watch TV or play computer games or get lost in social media so I maximize the time I spend on things I care about. So over time I’ve gotten faster at doing stuff, since I’ve been practicing and learning lots.
+
+- One of our MOOC students, Louis Monier, is known as the “father of internet search” - he was the CTO of the first big web search company (Alta Vista). He’s a pretty smart guy! He told me he had watched the part 1 (2017) videos so many times that he knew much of them off by heart. He also practiced on a home deep learning project whilst watching the videos, and IIRC he spent something like 6 months working on that. If Louis needs to study this much, then the rest of us should probably expect to work even harder if we want to master the material.
+
+    - Today, Louis is the head of the AI Lab at AirBnB. So I guess the hard work can pay off… 😉
+
+
+

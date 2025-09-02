@@ -1,15 +1,15 @@
 [
   {
-    "listing": "/tils.html",
-    "items": [
-      "/tils/new_til/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/posts/mle-guide/index.html",
       "/posts/fastai-guide/index.html"
+    ]
+  },
+  {
+    "listing": "/tils.html",
+    "items": [
+      "/tils/new_til/index.html"
     ]
   }
 ]

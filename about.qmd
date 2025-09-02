@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: profile.jpg
+image: pfp.jpeg
 about:
   template: jolla
   links:
@@ -15,26 +15,6 @@ about:
       href: https://github.com/saurav2040
 
 ---
-
-<style>
-body {
-    background-image: url('background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-/* Optional: Add overlay for better text readability */
-.quarto-container {
-    background-color: rgba(260, 260, 260, 0.79);
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
-}
-</style>
-
-
 
 Hi! I am Saurav.
 
