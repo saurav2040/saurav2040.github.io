@@ -2,3 +2,34 @@
 .navbar {
   background-color: #2e2e2e !important;  /* Change this to your preferred color */
 }
+
+/* Import a font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Apply to the whole body */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: var(#118671);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(#0c5f50);
+}
+
+figcaption {
+
+  text-align: center;
+
+  font-style: italic;
+
+  font-size: smaller;
+
+  margin-left: 4rem;
+
+  margin-right: 4rem;
+
+}

@@ -52,5 +52,29 @@
   },
   "tils/quotes/quotes.qmd": {
     "quotes.html": "1cc8431d"
+  },
+  "essay.qmd": {
+    "essay.html": "8381dee3"
+  },
+  "essay/ithaka/index.qmd": {
+    "index.html": "10f13b7e"
+  },
+  "notes.qmd": {
+    "notes.html": "bde51e35"
+  },
+  "notes/fastai-guide/index.qmd": {
+    "index.html": "67fad231"
+  },
+  "notes/mle-guide/index.qmd": {
+    "index.html": "9dce9553"
+  },
+  "notes/index.qmd": {
+    "index.html": "d37fce26"
+  },
+  "notes/mle-guide.qmd": {
+    "mle-guide.html": "72ab32dc"
+  },
+  "notes/fastai-guide.qmd": {
+    "fastai-guide.html": "1bc937a3"
   }
 }

@@ -1,9 +1,19 @@
 [
   {
     "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/notes/index.html",
     "items": [
-      "/posts/mle-guide/index.html",
-      "/posts/fastai-guide/index.html"
+      "/notes/fastai-guide.html"
+    ]
+  },
+  {
+    "listing": "/notes.html",
+    "items": [
+      "/notes/index.html",
+      "/notes/fastai-guide.html"
     ]
   },
   {

@@ -1,0 +1,13 @@
+---
+title: "Notes"
+page-layout: article
+toc: false
+listing:
+  contents:
+    - "*.qmd"
+  type: table
+  fields: [title, description]
+  sort: "title"
+---
+
+This is a place where I share some of my notes.

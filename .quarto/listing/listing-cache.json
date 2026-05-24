@@ -1,7 +1,13 @@
 {
   "listingMap": {
+    "notes/index.qmd": [
+      "*.qmd"
+    ],
     "index.qmd": [
       "posts"
+    ],
+    "notes.qmd": [
+      "notes/**/*.{qmd}"
     ],
     "tils.qmd": [
       "tils/**/*.{qmd,ipynb}"

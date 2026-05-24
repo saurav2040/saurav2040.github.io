@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  
+
 
 website:
   title: "Saurav"
@@ -13,6 +13,8 @@ website:
         href: index.qmd
       - text: "TILs"
         href: tils.qmd
+      - text: "Notes"
+        href: notes/index.qmd
 
     right:
       - icon: github
@@ -20,15 +22,27 @@ website:
       - icon: twitter
         href: https://x.com/Saurav2023
     listing-pages: true
+  sidebar:
+      - id: notes-sidebar
+        style: "floating"
+        contents:
+          - section: "Notes"
+            contents:
+              - text: "How to study fastai"
+                href: "notes/fastai-guide.qmd"
+              - text: "The Cracked MLE Guide"
+                href: "notes/mle-guide.qmd"
+
+
 format:
   html:
     css: custom.css
-    theme: sandstone  # cerulean, yeti
+    theme: flatly
     toc: true
     toc-depth: 3
-    toc-title: Contents
+    toc-title: "On this page"
     toc-location: right
-    
-
-
-
+    grid:
+          sidebar-width: 250px
+          body-width: 800px
+          margin-width: 250px   # Reserves distinct space for your TOC

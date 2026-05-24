@@ -1,0 +1,13 @@
+---
+title: "Notes"
+listing:
+  contents: notes/**/*.{qmd}
+  type: default
+  sort: 'date desc'
+  categories: true
+  sort-ui: false
+  filter-ui: false
+
+page-layout: article
+title-block-banner: false
+---
