@@ -119,7 +119,7 @@ When the time comes to get back into the swing of things, it’s much easier to 
 ## Action
 
 
-## Action Brings Results!
+### Action Brings Results!
 
 The magic you are looking for - **_is in the work you are avoiding._**
 - You sit and wonder why you aren’t seeing success.
@@ -131,7 +131,7 @@ The magic you are looking for ; is in **_just doing things_**.
 - **Advanced ideas can be extremely simple and effective when put in practice.**  ~ Jeremy
 
 
-## "Depth-First Procrastination"  vs "Learning just in time"
+### "Depth-First Procrastination"  vs "Learning just in time"
 
 I want to train a neural network.
 
