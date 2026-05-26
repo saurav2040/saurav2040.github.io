@@ -6,13 +6,15 @@
   {
     "listing": "/notes/index.html",
     "items": [
-      "/notes/fastai-guide.html"
+      "/notes/fastai-guide.html",
+      "/notes/mle-guide.html"
     ]
   },
   {
     "listing": "/notes.html",
     "items": [
       "/notes/index.html",
+      "/notes/mle-guide.html",
       "/notes/fastai-guide.html"
     ]
   },

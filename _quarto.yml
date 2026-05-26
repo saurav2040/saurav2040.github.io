@@ -5,6 +5,7 @@ project:
 
 website:
   title: "Saurav"
+  reader-mode: true
   navbar:
     left:
       - text: "About Me"
@@ -22,6 +23,7 @@ website:
       - icon: twitter
         href: https://x.com/Saurav2023
     listing-pages: true
+
   sidebar:
       - id: notes-sidebar
         style: "floating"

@@ -6,18 +6,127 @@ date: "2025-06-16"
 categories: [mle,guide]
 image: "image.jpg"
 sidebar: true
-draft: true
 ---
 
 > **One good decision will compensate for all previous failures like they’re nothing.**
 
-> **you need just one win to outgrow all your previous failures**
+## CONSISTENCY
+
+### You're Not Lazy, You Just Lack a Habit
+
+If you’re struggling to stick with demanding forms of practice, then temporarily forget about efficiency and just build a habit with some less effective but more enjoyable form of practice. Although the ultimate goal is to train efficiently and get the largest possible performance gain out of your limited training time, that’s going to feel taxing, and you might not want to work that hard at first – not because you’re inherently lazy, but because you haven’t built a habit. You eventually want to get to the point where performance improvement is your primary focus and fun is a second-order optimization, but it’s okay to optimize for fun at the beginning to help you build a habit.
+
+Consider strength training, for example. If you’re just starting out, but you’re not looking forward to lifting heavy-ass weights, then that’s okay! You don’t have to lift them yet. Your #1 focus should be just getting your ass into the gym and doing some kind of activity that loosely qualifies as exercise. After a week of, say, shooting hoops, you might be motivated to try some bodyweight exercises – and then the following week maybe some light weightlifting, and maybe the week after that you’ll be ready to challenge yourself by putting some serious weight on the bar.
+
+It’s the same way with anything else – for instance, learning Deep Learning. If you don’t feel motivated to solve a high volume of problems that are challenging enough to make you mentally sweat, that’s okay. You can start off watching Deep Learning edutainment videos and exploring Wikipedia. The next week, maybe try to solve some “Deep Learning meme” problems each day (and look at the comments to check if you got it right), and the following week, maybe work out some easy arithmetic or algebra problems each day (stuff that you still remember fairly well but haven’t done in a while). By that point you’ve gotten yourself into the metaphorical weight room, you’ve done some light lifting, and you’re ready to put some serious weight on the bar. And that’s when you start working through a structured curriculum that engages you in taxing practice to pack the maximum possible learning into your practice time.
+
+Once you get to that point, you’ve built a habit, and you need to do everything in your power to maintain it. If you want to take a day off, just do a quick 10 minutes – something that feels negligible but keeps the habit going. The habit is a psychological force field that protects you from all sorts of negative feelings that try to dissuade you from training.
+
+In summary: you’re not lazy, you just lack a habit. So start simple, whatever gets the ball rolling. (But if you know this and you’re still unwilling to build a habit… then yeah, you’re lazy.)
+
+### Don’t have a passion? Go create one.
+
+Be disciplined, set up a habit, compound compound compound. Develop a relationship with it, put in extra time when you’re bored, come to it when you need an emotional outlet. Trust that it will grow on you and seep into your identity as the days turn into weeks, months, years of practicing and developing serious expertise.
+
+It’s just like developing a close human relationship. You might not have a strong bond with the person initially, but you get along “enough” at the beginning, and over time you get to know each other so well, you go through so much shit together, that you are inseparable.
+
+And don’t worry about the long-term too much. The person who became your best friend, you probably didn’t know it the day you met them. You probably got to know them better and better, week by week, month by month, until at some point you realized you couldn’t imagine life without them. It’s the same way with creating a passion. If you keep on making short-term progress then the long-term will sort itself out.
+
+
+### Make the Habit Easily Repeatable
+
+When you start a new routine, don’t make it such a “big thing” that you do it one day and dread doing it the next day. You know what happens to people who start off their New Year’s weight loss resolution with 3 hours at the gym every day? They come for one day and then don’t come back! So don’t do that. Instead, start out with a volume of work that’s small enough that you don’t dread doing it again the next day.
+
+At the beginning, it doesn’t matter if the volume of daily work is too small to achieve your long-term goals in the timeframe you want. Eventually, as you build up a habit and your mind and body adapt to whatever it is you’re doing, it will feel easier to ramp up the volume of work until you’re moving at a pace that puts you on track to accomplish your long-term goals.
+
+So don’t worry about the total volume of work at the beginning. Just focus on consistency. As the habit sets in and you adapt, you’ll find it easier to increase your volume of work. And as the habit settles into your identity, you’ll actually want to increase that volume of work.
+
+
+### The Hardest Part is Just Getting Started
+
+Most skills can be trained. But serious training usually isn’t pleasant, so most people don’t do it. That doesn’t mean there’s little benefit to training. It just means lots of people aren’t willing to put in the work to capitalize on said benefit.
+
+But the thing is, the hardest part is always just getting started. If you suck at writing, then just sit down and write for 15 minutes each day. It might be unpleasant fishing for cohesive thoughts in your brain stew, pulling them out, and translating them into text. But that doesn’t mean it will always feel that way.
+
+As you practice again and again, it will feel easier over time. And as it feels easier you’ll free up more and more mental bandwidth to notice areas for improvement. And you’ll get better. Will you become a world-class writer? Who knows. Probably not. But will you open up opportunities that were previously closed to you? Probably.
+
+And who’s to say the training will actually be unpleasant? When you’re not looking forward to training, you might think that negative feeling is going to intensify during your (physical or intellectual) workout, but often it just dissipates and you feel great 5 minutes in. Procrastinating builds up the dread but just getting started often makes it dissipate.
+
+### How to Overcome the Suck
+
+It gets easier to motivate yourself to work out once you start seeing results (e.g., clothes fit different, you can lift heavier weights or do calisthenics moves that you previously couldn’t).
+
+But what really, really makes a difference is when other people start noticing your results, complimenting you, sometimes even asking for your advice. You hear “damn you’re strong/buff, what’s your workout, any advice for me” enough times and it just seeps into your identity that you are a strong/buff person. And it’s very easy to find motivation to do training activities that help you maintain what you perceive to be a part of your identity.
+
+By the way, this applies to all skill domains, not just physical exercise. You can do this with Deep Learning, coding, music, whatever the heck you want.
+
+But the hardest part is the beginning, before you’ve kicked off the virtuous cycle. Unless you have a ridiculous amount of intrinsic motivation, it’s just a lot of suck at the beginning.
+
+The way you overcome the suck is by setting a reasonable training schedule that you can actually stick to. At the beginning you need to focus on consistency, not training volume. You need to build a habit. As you build that habit, you’ll not only find it easier to stick to your schedule, but you’ll also find it easier to increase your volume, eventually up to a level that will put you on pace to reach your goals in a reasonable timeframe.
+
+### If You Struggle to Train Consistently, Do It Immediately After Waking Up
+
+If you struggle to train consistently, then the #1 remedy is to do it immediately after waking up. Here are several reasons why morning training works so well:
+
+First, it shields you from those unexpected events that demolish whatever schedule you had planned for the day. Those unexpected events happen to everyone, even people who manage to train consistently, and they are not an excuse for inconsistency. If you’re serious about training, you have to build chaos tolerance into your training schedule.
+
+Second, there’s no time to even consider skipping the training session. By the time you shake off the initial grogginess and become fully conscious of what you’re doing, you’ve already started training. “I couldn’t make myself do it” is not an excuse for inconsistency. If your conscious brain steers you away from training, then get the wheels rolling before your conscious brain even has a chance to take the wheel.
+
+Third, there’s a clear habit trigger and reward: waking up means it’s time to train, and after you train you get your shower, meal, whatever other morning amenities you enjoy, and you get to feel good about yourself all day. And if you skip the training, then there’s the punishment of feeling bad about yourself all day. It’s basically operant conditioning. You have every right, and every responsibility, to be blatantly and maximally manipulative with yourself.
+
+### Training Sessions Should be Short and Frequent as Opposed to Long and Sparse
+
+Suppose you’re budgeting 3 hours per week to train. It would be better to train for 30 minutes six days per week, as opposed to 90 minutes twice a week. Below are several reasons why.
+
+First, you want to form a habit. The more consistently you study Deep Learning, the more it will become a habit that you naturally do each day without thinking, just like (hopefully!) taking a shower and brushing your teeth. That habit is what will carry you through the long game once the initial adrenaline wears off.
+
+Second, you want to operate at peak productivity during your session. It’s easy to maintain high levels of focus and intensity throughout a short 30-minute session. However, during a long 90-minute session, you’ll become significantly less productive as fatigue sets in.
+
+Third, you want to minimize the amount you forget between sessions. When you have multi-day gaps between sessions, you’ll have to spend more time revisiting material you covered previously.‌ (Just ask any teacher how much their students forget over weekends, and how much valuable class time they have to spend on Monday re-teaching the things that they covered on Thursday and Friday.)
+
+However, there are also some caveats to consider.‌
+
+Whenever you switch to a different cognitive activity, it may take a few minutes for your brain to spin up on the new context. Likewise, whenever you switch to a new physical activity, it may take a few minutes (or longer) to get set up. This is called “context switching cost,” and if you make your sessions too short, then the proportion of training time that is wasted on context switching will outweigh the other benefits of daily practice. While it’s good to spread out your practice, each session should be long enough that the context-switching cost is proportionally negligible.
+
+Additionally, if you have a hectic schedule and “six days per week” in theory ends up being just “three days per week” in practice, then you’ll obviously need longer sessions just to achieve the same volume of practice.
+
+### A Little Extra Consistency × A Little Extra Time = A Massive Increase in Volume and Progress
+
+A little extra consistency and a little extra time per training session can compound into a massive increase in volume and progress.
+
+You know what the difference is between 20 minutes 3 days per week and 30 minutes 4 days per week? Progressing twice as fast. That’s 60 versus 120 minutes every week. Up that to 40 minutes 5 days per week and you’re nearly doubling again at 200 minutes per week.
+
+### Don’t Overreact to Bad Days
+
+Even if you’re making the right decisions, you can still have bad days. Even if you play your cards in the statistically optimal way, you will not win every hand. So it’s important to stay consistent and not let a single bad outcome derail a good overall trend.
+
+Yes, that can be difficult psychologically. We tend to be risk-averse and overreact to negative outcomes. But it can help to zoom out and look at your progress on a longer timescale. The long game is the only game that matters – short games only matter insofar as their contribution to the long game.
+
+At the same time, though, you can’t use that as an excuse to avoid measuring progress and thinking critically about it. Bad days don’t matter if you’re making statistically optimal decisions, but they sure as hell do if you’re not. Every time there’s a bad outcome, you have to ask whether there’s anything you can learn from it to carry into the future.
+
+Sometimes there’s a flaw in your reasoning. Other times there’s a flaw in your assumptions. Perhaps you didn’t have all the key information to begin with and you should have done better due diligence. Or perhaps some information was revealed or changed after you made a decision and you were too slow to react.
+
+It’s not worth beating yourself up over mistakes, unless they’re mistakes you’re repeating over again. One-and-done mistakes won’t keep you from making progress in the long-term, but repeated mistakes will.
+
+
+### Protect The Habit
+
+If I’ve learned anything about habit formation and maintenance, it’s that you’ve absolutely got to stay consistent, even (and especially) during those times when you need to dial back the total volume. Obviously you’ll move slower when you throttle the volume, but at least you’ll protect the habit. Yes, the wagon will be moving slowly, but you’ll still be solidly on it.
+
+When someone gets derailed from their journey to get better at writing, programming, coding, an instrument, a sport, or whatever it may be, it’s almost always the same story: at some point they fell off the wagon entirely and never managed to get back on.
+
+When the time comes to get back into the swing of things, it’s much easier to speed up a slow wagon that you’re on, than to get back on a wagon that you’ve completely fallen off of. Every time you fall off the wagon, there’s a chance you might not get back on. Don’t compound that chance into a certainty. Once you’ve got a good habit going, do everything you can to protect it.
+
+
+
+
+
+
 
 What is that One good decision for me right now ?
 - Finish the Fastai part 1  & part 2
 - Full Stack DL
 - Implement Papers from scratch
--
 
 ## How to become expert at thing :
 
@@ -155,7 +264,7 @@ callout - `Spend 10,000 hrs on deliberate effort and work, form a daily habit, a
 ### The three great virtues of a programmer
 ![[Pasted image 20260521205424.png]]
 
-### Tips on becoming a better programmer (as an MLE)
+## Tips on becoming a better programmer (as an MLE)
 
 - I now don’t see it as learning syntax, learning about programming paradigms or design patterns. For me, becoming better as a programmer now always starts with what I already know, even if it is very little, and learning on top of it via iteration / trying things out. Maybe 
 
@@ -167,9 +276,10 @@ callout - `Spend 10,000 hrs on deliberate effort and work, form a daily habit, a
 
 # How to become good MLE
 
-`zach Mueller`
-- If you were starting out today what would you focus on and you wished you knew earlier in this DL journey ?
-	- Get. Good. Software. Engineering. Skills.
+If you were starting out today what would you focus on and you wished you knew earlier in this DL journey ?
+
+`Zach Mueller` -
+    - **Get. Good. Software. Engineering. Skills.**
 	- Same with math, strong code skills helps everything much easier in this space.
 	- Do the Fastai courses. Follow Jeremy’s advice precisely.
 	- Read all of Stas’ Book end to end, and watch all the DL from Foundations (fastai 2019 course)
