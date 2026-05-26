@@ -1,7 +1,7 @@
 ---
 title: "The Cracked MLE Guide"
 author: "Saurav"
-description: "MLE Advices from Jeremy , Karpathy, AndrewNg, YoobinRay, Radek , Zach, Trybackprop, Rohan, Vicky, Sairam , Chipro"
+description: "How to become a world class Deep Learning Practitioner"
 date: "2025-06-16"
 categories: [mle,guide]
 ---
