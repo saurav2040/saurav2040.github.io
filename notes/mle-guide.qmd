@@ -4,8 +4,6 @@ author: "Saurav"
 description: "MLE Advices from Jeremy , Karpathy, AndrewNg, YoobinRay, Radek , Zach, Trybackprop, Rohan, Vicky, Sairam , Chipro"
 date: "2025-06-16"
 categories: [mle,guide]
-image: "image.jpg"
-sidebar: true
 ---
 
 > **One good decision will compensate for all previous failures like they’re nothing.**
