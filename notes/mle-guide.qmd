@@ -116,7 +116,81 @@ When someone gets derailed from their journey to get better at writing, programm
 When the time comes to get back into the swing of things, it’s much easier to speed up a slow wagon that you’re on, than to get back on a wagon that you’ve completely fallen off of. Every time you fall off the wagon, there’s a chance you might not get back on. Don’t compound that chance into a certainty. Once you’ve got a good habit going, do everything you can to protect it.
 
 
+## Action
 
+
+## Action Brings Results!
+
+The magic you are looking for - **_is in the work you are avoiding._**
+- You sit and wonder why you aren’t seeing success.
+- Whilst there is a pile of difficult tasks that you are avoiding that will push you closer to your goals.
+
+
+The magic you are looking for ; is in **_just doing things_**.
+- **You gain so much more data by doing the thing than by thinking about doing the thing.**  ~ Radek
+- **Advanced ideas can be extremely simple and effective when put in practice.**  ~ Jeremy
+
+
+## "Depth-First Procrastination"  vs "Learning just in time"
+
+I want to train a neural network.
+
+So first I must learn the theory—read a textbook, [ankify it](https://borretti.me/article/effective-spaced-repetition). But to understand the math I must first learn probability and statistics in depth. Frequentism or Bayesianism? I heard really good things about [Jaynes](https://www.cambridge.org/core/books/probability-theory/9CA08E224FF30123304E6D8935CF1A99). Do I have the mathematical maturity? Maybe I should revise, say, set theory. The proofs in this textbook are very hard to read, so I rewrite them and make them more formal and refactor them into lemmas small enough to put into spaced repetition. They’re starting to look like [Fitch notation](https://en.wikipedia.org/wiki/Fitch_notation). Maybe I can write my proofs in first-order logic? Learning logic might give me a stronger foundation for doing proofs. But what is logic, really?
+
+Somewhere in another Everett branch, a more sensible version of me is doing a PyTorch tutorial while I read [Quine](https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine) on what is or isn’t an ontological commitment in a first-order theory. I have six [SEP](https://plato.stanford.edu/) tabs open, and I still don’t know what a ReLU is.
+
+I call it depth-first procrastination. You start with a high-level goal, and rather than taking the optimal route, a combination of intellectual curiosity and anxiety about standing on shaky foundations leads you to spawn subgoal after subgoal after subgoal, until you hit rock bottom and you find yourself doing some task so distantly related to the original goal you’re in another universe entirely. See also: [yak shaving](https://projects.csail.mit.edu/gsb/old-archive/gsb-archive/gsb2000-02-11.html), [OCD](https://medlineplus.gov/obsessivecompulsivedisorder.html).
+
+I do this all the time: I learned to program because I wanted to write a program to write novels in. And while I never did do that, I did [invent my own programming language](https://austral-lang.org/). In college I spent more time [writing note-taking software](https://borretti.me/article/unbundling-tools-for-thought) than taking notes.
+
+The upside of this is you learn self-reliance, and you learn foundational knowledge others might not. The downside is by the time you pop the stack back up to the top you’re old and dead.
+
+And it’s always bullshit. Labouring in obscurity on some grandiose scheme for years is overrated. Tighten the feedback loop: trim the fat, ship, react, iterate. Do or die.
+
+***
+
+
+### **Things that aren’t doing the thing**
+
+- Preparing to do the thing isn't doing the thing.
+- Scheduling time to do the thing isn't doing the thing.
+- Making a to-do list for the thing isn't doing the thing.
+- Telling people you're going to do the thing isn't doing the thing.
+- Messaging friends who may or may not be doing the thing isn't doing the thing.
+- Writing a banger tweet about how you're going to do the thing isn't doing the thing.
+- Hating on yourself for not doing the thing isn't doing the thing.
+
+- Hating on other people who have done the thing isn't doing the thing. 
+- Hating on the obstacles in the way of doing the thing isn't doing the thing.
+- Fantasizing about all of the adoration you'll receive once you do the thing isn't doing the thing.
+- Reading about how to do the thing isn't doing the thing.
+
+- Reading about how other people did the thing isn't doing the thing. 
+- Reading this essay isn't doing the thing.
+- **The only thing that is doing the thing is doing the thing.**
+
+One of my favorite lessons I’ve learnt from working with smart people:
+
+- **Action produces information.** 
+- **If you’re unsure of what to do, just do anything, even if it’s the wrong thing. This will give you information about what you should actually be doing.
+- **Sounds simple on the surface - the hard part is making it part of your every day working process.**
+---
+
+Motivation isn’t the key — Action is. You need action to get motivated, not the other way around. Sitting around and waiting for something to happen never got me.
+
+**You should focus on systems (what you are doing to get the job) rather than goals (getting the job). The former is within your control, the latter is not.**
+
+- Just Finish what you started. Finish the Fastai courses + Andrej’s NNs zero to hero + build projects. This is in your control. This will get you a job (not sitting and overthinking.)
+
+---
+
+### How to shut the inner voice
+
+**Things I learnt by teaching others**  ~ Umar Jamil
+- Most people struggle to learn not because they lack intellectual capacity. But because their inner voice keeps telling them they’re not smart enough.
+- **How to shut the inner voice : Work on Hard things and build confidence.** No other way.
+
+---
 
 
 
@@ -297,24 +371,6 @@ If you were starting out today what would you focus on and you wished you knew e
 
 # How to Learn
 
-## "Depth-First Procrastination"  vs "Learning just in time"
-
-I want to train a neural network.
-
-So first I must learn the theory—read a textbook, [ankify it](https://borretti.me/article/effective-spaced-repetition). But to understand the math I must first learn probability and statistics in depth. Frequentism or Bayesianism? I heard really good things about [Jaynes](https://www.cambridge.org/core/books/probability-theory/9CA08E224FF30123304E6D8935CF1A99). Do I have the mathematical maturity? Maybe I should revise, say, set theory. The proofs in this textbook are very hard to read, so I rewrite them and make them more formal and refactor them into lemmas small enough to put into spaced repetition. They’re starting to look like [Fitch notation](https://en.wikipedia.org/wiki/Fitch_notation). Maybe I can write my proofs in first-order logic? Learning logic might give me a stronger foundation for doing proofs. But what is logic, really?
-
-Somewhere in another Everett branch, a more sensible version of me is doing a PyTorch tutorial while I read [Quine](https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine) on what is or isn’t an ontological commitment in a first-order theory. I have six [SEP](https://plato.stanford.edu/) tabs open, and I still don’t know what a ReLU is.
-
-I call it depth-first procrastination. You start with a high-level goal, and rather than taking the optimal route, a combination of intellectual curiosity and anxiety about standing on shaky foundations leads you to spawn subgoal after subgoal after subgoal, until you hit rock bottom and you find yourself doing some task so distantly related to the original goal you’re in another universe entirely. See also: [yak shaving](https://projects.csail.mit.edu/gsb/old-archive/gsb-archive/gsb2000-02-11.html), [OCD](https://medlineplus.gov/obsessivecompulsivedisorder.html).
-
-I do this all the time: I learned to program because I wanted to write a program to write novels in. And while I never did do that, I did [invent my own programming language](https://austral-lang.org/). In college I spent more time [writing note-taking software](https://borretti.me/article/unbundling-tools-for-thought) than taking notes.
-
-The upside of this is you learn self-reliance, and you learn foundational knowledge others might not. The downside is by the time you pop the stack back up to the top you’re old and dead.
-
-And it’s always bullshit. Labouring in obscurity on some grandiose scheme for years is overrated. Tighten the feedback loop: trim the fat, ship, react, iterate. Do or die.
-
-***
-
 
 ## Devoted to Reading and Learning
 
@@ -339,58 +395,7 @@ And it’s always bullshit. Labouring in obscurity on some grandiose scheme for 
 
 
 
-## Action Brings Results!
 
-The magic you are looking for - **_is in the work you are avoiding._**
-- You sit and wonder why you aren’t seeing success.
-- Whilst there is a pile of difficult tasks that you are avoiding that will push you closer to your goals.
-
-
-The magic you are looking for ; is in **_just doing things_**.
-- **You gain so much more data by doing the thing than by thinking about doing the thing.**  ~ Radek
-- **Advanced ideas can be extremely simple and effective when put in practice.**  ~ Jeremy
-
-### **Things that aren’t doing the thing**
-
-- Preparing to do the thing isn't doing the thing.
-- Scheduling time to do the thing isn't doing the thing.
-- Making a to-do list for the thing isn't doing the thing.
-- Telling people you're going to do the thing isn't doing the thing.
-- Messaging friends who may or may not be doing the thing isn't doing the thing.
-- Writing a banger tweet about how you're going to do the thing isn't doing the thing.
-- Hating on yourself for not doing the thing isn't doing the thing.
-
-- Hating on other people who have done the thing isn't doing the thing. 
-- Hating on the obstacles in the way of doing the thing isn't doing the thing.
-- Fantasizing about all of the adoration you'll receive once you do the thing isn't doing the thing.
-- Reading about how to do the thing isn't doing the thing.
-
-- Reading about how other people did the thing isn't doing the thing. 
-- Reading this essay isn't doing the thing.
-- **The only thing that is doing the thing is doing the thing.**
-
-One of my favorite lessons I’ve learnt from working with smart people:
-
-- **Action produces information.** 
-- **If you’re unsure of what to do, just do anything, even if it’s the wrong thing. This will give you information about what you should actually be doing.
-- **Sounds simple on the surface - the hard part is making it part of your every day working process.**
----
-
-Motivation isn’t the key — Action is. You need action to get motivated, not the other way around. Sitting around and waiting for something to happen never got me.
-
-**You should focus on systems (what you are doing to get the job) rather than goals (getting the job). The former is within your control, the latter is not.**
-
-- Just Finish what you started. Finish the Fastai courses + Andrej’s NNs zero to hero + build projects. This is in your control. This will get you a job (not sitting and overthinking.)
-
----
-
-### How to shut the inner voice
-
-**Things I learnt by teaching others**  ~ Umar Jamil
-- Most people struggle to learn not because they lack intellectual capacity. But because their inner voice keeps telling them they’re not smart enough.
-- **How to shut the inner voice : Work on Hard things and build confidence.** No other way.
-
----
 
 
 
@@ -1838,7 +1843,3 @@ Soumith's story is one of resilience and he's living proof that no matter how do
 - [The different types of MLEs](https://raymondyoo.com/blog/the-different-types-of-mles/)
 - [Don't waste time like I did in my ML career](https://raymondyoo.com/blog/dont-waste-time-like-i-did-in-my-ml-career/)
 - Chip's MLE interview book
-
-
-
-[^1]:
