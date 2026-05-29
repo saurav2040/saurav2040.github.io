@@ -6,7 +6,12 @@ date: "2025-06-16"
 categories: [mle,guide]
 ---
 
-> **One good decision will compensate for all previous failures like they’re nothing.**
+**One good decision will compensate for all previous failures like they’re nothing.**
+
+![](images/start.png)
+
+**Just start. The journey to success often begins with a single step, but that first step can be the hardest to take. It's easy to get caught up in the fear of failure or the desire for perfection.**
+
 
 ## CONSISTENCY
 

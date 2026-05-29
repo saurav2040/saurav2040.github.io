@@ -3,11 +3,11 @@
     "notes/index.qmd": [
       "*.qmd"
     ],
-    "index.qmd": [
-      "posts"
-    ],
     "notes.qmd": [
       "notes/**/*.{qmd}"
+    ],
+    "index.qmd": [
+      "posts"
     ],
     "tils.qmd": [
       "tils/**/*.{qmd,ipynb}"
