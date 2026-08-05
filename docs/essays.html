@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>My Blogs – Saurav</title>
+<title>My Essays – Saurav</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -85,9 +85,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -160,7 +160,7 @@ window.Quarto = {
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
@@ -172,7 +172,7 @@ window.Quarto = {
 <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./essays.html"> 
+    <a class="nav-link active" href="./essays.html" aria-current="page"> 
 <span class="menu-text">Essays</span></a>
   </li>  
 </ul>
@@ -205,13 +205,13 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2lzZG9t">wisdom <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Blogs</h1>
+<h1 class="title">My Essays</h1>
 </div>
 
 
@@ -234,7 +234,36 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="d2lzZG9t" data-listing-date-sort="1767205800000" data-listing-file-modified-sort="1780481525789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
+<div class="thumbnail"><a href="./essays/ithaka/index.html" class="no-external">
 
+<img loading="lazy" src="./essays/ithaka/ithaka_poem.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./essays/ithaka/index.html" class="no-external">Ithaka - The journey of Life <em>(explained)</em></a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2lzZG9t'); return false;">wisdom</div>
+
+</div>
+<div class="delink listing-description"><a href="./essays/ithaka/index.html" class="no-external">
+Link to my article on medium. Move its content here. - https://medium.com/p/74fded3bfc9f/edit
+</a></div>
+</div>
+<div class="metadata">
+<a href="./essays/ithaka/index.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2026
+</div>
+<div class="listing-author">
+Saurav
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->

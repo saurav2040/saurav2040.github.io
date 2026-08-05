@@ -76,5 +76,11 @@
   },
   "notes/fastai-guide.qmd": {
     "fastai-guide.html": "1bc937a3"
+  },
+  "essays/ithaka/index.qmd": {
+    "index.html": "40cc2e29"
+  },
+  "essays.qmd": {
+    "essays.html": "99af81bc"
   }
 }

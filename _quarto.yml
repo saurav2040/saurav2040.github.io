@@ -16,6 +16,9 @@ website:
         href: tils.qmd
       - text: "Notes"
         href: notes/index.qmd
+      - text: "Essays"
+        href: "essays.qmd"
+
 
     right:
       - icon: github

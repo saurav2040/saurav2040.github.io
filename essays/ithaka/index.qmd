@@ -1,0 +1,17 @@
+---
+title: "Ithaka - The journey of Life *(explained)*"
+date: 2026-01-01
+categories: [wisdom]
+image: "ithaka_poem.png"
+author: "Saurav"
+---
+
+
+
+Link to my article on medium. Move its content here.
+- https://medium.com/p/74fded3bfc9f/edit
+
+---
+
+end with this pic as looking at it in hindsight
+![](ithaka_poem.png)

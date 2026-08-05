@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/essays.html",
+    "items": [
+      "/essays/ithaka/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": []
   },
