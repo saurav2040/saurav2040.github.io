@@ -82,5 +82,11 @@
   },
   "essays.qmd": {
     "essays.html": "99af81bc"
+  },
+  "notes/resources.qmd": {
+    "resources.html": "102e15a8"
+  },
+  "resources.qmd": {
+    "resources.html": "cfcea4ae"
   }
 }

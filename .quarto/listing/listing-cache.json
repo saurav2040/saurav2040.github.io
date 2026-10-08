@@ -10,7 +10,6 @@
       "notes/**/*.{qmd}"
     ],
     "essays.qmd": [
-      "tils/**/*.{qmd,ipynb}",
       "essays/**/*.{qmd,ipynb}"
     ],
     "tils.qmd": [

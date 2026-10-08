@@ -6,8 +6,12 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": []
+    "listing": "/notes.html",
+    "items": [
+      "/notes/index.html",
+      "/notes/mle-guide.html",
+      "/notes/fastai-guide.html"
+    ]
   },
   {
     "listing": "/notes/index.html",
@@ -17,12 +21,8 @@
     ]
   },
   {
-    "listing": "/notes.html",
-    "items": [
-      "/notes/index.html",
-      "/notes/mle-guide.html",
-      "/notes/fastai-guide.html"
-    ]
+    "listing": "/index.html",
+    "items": []
   },
   {
     "listing": "/tils.html",
